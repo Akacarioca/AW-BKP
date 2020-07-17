@@ -6,10 +6,6 @@
                 <name>collapsed</name>
                 <value>false</value>
             </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>hideChatterActions</name>
-                <value>false</value>
-            </componentInstanceProperties>
             <componentName>force:highlightsPanel</componentName>
         </componentInstances>
         <componentInstances>
@@ -96,22 +92,7 @@
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <componentInstances>
-            <componentInstanceProperties>
-                <name>relatedListComponentOverride</name>
-                <value>ADVGRID</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>rowsToDisplay</name>
-                <value>10</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>showActionBar</name>
-                <value>true</value>
-            </componentInstanceProperties>
-            <componentName>force:relatedListContainer</componentName>
-        </componentInstances>
-        <name>Facet-6611d45c-b5e3-489e-a62e-595676d0922c</name>
+        <name>Facet-aac50992-bf47-4f6e-afc3-e5b7414cc5a2</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -159,11 +140,11 @@
         <componentInstances>
             <componentInstanceProperties>
                 <name>body</name>
-                <value>Facet-6611d45c-b5e3-489e-a62e-595676d0922c</value>
+                <value>Facet-aac50992-bf47-4f6e-afc3-e5b7414cc5a2</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>title</name>
-                <value>Test</value>
+                <value>Field Set</value>
             </componentInstanceProperties>
             <componentName>flexipage:tab</componentName>
         </componentInstances>

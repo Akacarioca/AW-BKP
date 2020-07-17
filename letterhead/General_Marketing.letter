@@ -18,7 +18,6 @@
         <backgroundColor>#FFFFFF</backgroundColor>
         <height>100</height>
         <horizontalAlignment>Left</horizontalAlignment>
-        <logo>SharedDocuments/AW_Computing_logo.png</logo>
         <verticalAlignment>Top</verticalAlignment>
     </header>
     <middleLine>

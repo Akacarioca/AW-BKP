@@ -10,7 +10,6 @@
     </actionOverrides>
     <brand>
         <headerColor>#0070D2</headerColor>
-        <logo>AWComputing</logo>
         <logoVersion>1</logoVersion>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
     </brand>
@@ -102,7 +101,5 @@
     <tabs>Test__c</tabs>
     <tabs>Appointment__c</tabs>
     <tabs>Doctor__c</tabs>
-    <tabs>Bicycle__c</tabs>
     <uiType>Lightning</uiType>
-    <utilityBar>AW_Computing_UtilityBar</utilityBar>
 </CustomApplication>

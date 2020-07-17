@@ -5,7 +5,6 @@
         <actionButtonLabel>Tell Me More</actionButtonLabel>
         <actionButtonLink>https://help.salesforce.com/articleView?id=lex_find_help.htm</actionButtonLink>
         <body>To open the Help Menu, click the question mark. Find resources related to your work or search for answers to questions.</body>
-        <customApplication>02u0P0000002FIV</customApplication>
         <delayDays>1</delayDays>
         <dismissButtonLabel>Dismiss</dismissButtonLabel>
         <displayPosition>TopRight</displayPosition>
@@ -13,7 +12,6 @@
         <endDate>2020-10-15</endDate>
         <isPublished>true</isPublished>
         <masterLabel>Get Help Anywhere in the App</masterLabel>
-        <publishedByUser>0050P000008FjN4</publishedByUser>
         <publishedDate>2019-10-30</publishedDate>
         <shouldDisplayActionButton>true</shouldDisplayActionButton>
         <shouldIgnoreGlobalDelay>false</shouldIgnoreGlobalDelay>

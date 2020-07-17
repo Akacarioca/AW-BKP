@@ -173,10 +173,6 @@
         <name>AltavistaNews</name>
     </webLinks>
     <webLinks>
-        <label><!-- Conta_Nova --></label>
-        <name>Conta_Nova</name>
-    </webLinks>
-    <webLinks>
         <label><!-- GoogleMaps --></label>
         <name>GoogleMaps</name>
     </webLinks>

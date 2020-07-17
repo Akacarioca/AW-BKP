@@ -20,5 +20,4 @@
     <tabs>Test__c</tabs>
     <tabs>Appointment__c</tabs>
     <tabs>Doctor__c</tabs>
-    <tabs>Bicycle__c</tabs>
 </CustomApplication>

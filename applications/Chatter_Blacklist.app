@@ -5,7 +5,6 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Chatter Blacklist</label>
-    <logo>ButtonsLogosImages/Blacklist_Logo2.gif</logo>
     <tabs>AboutBlacklist</tabs>
     <tabs>Blacklisted_Word__c</tabs>
     <tabs>Blacklist_Audit__c</tabs>

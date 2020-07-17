@@ -5,7 +5,6 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Recruiting</label>
-    <logo>SharedDocuments/AW_Computing_logo.png</logo>
     <tabs>standard-Chatter</tabs>
     <tabs>standard-File</tabs>
     <tabs>Applicant__c</tabs>

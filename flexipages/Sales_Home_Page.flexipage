@@ -164,16 +164,10 @@
             </componentInstanceProperties>
             <componentName>flexipage:accordion</componentName>
         </componentInstances>
-        <componentInstances>
-            <componentName>home:heroChart</componentName>
-        </componentInstances>
         <name>bottomRight</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <componentInstances>
-            <componentName>az0:orgLimits</componentName>
-        </componentInstances>
         <componentInstances>
             <componentInstanceProperties>
                 <name>entityNames</name>
@@ -199,6 +193,9 @@
                 <value>To view the Salesforce Trust website &lt;a href=&quot;http://trust.salesforce.com&quot;&gt;click here&lt;/a&gt;</value>
             </componentInstanceProperties>
             <componentName>flexipage:richText</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentName>home:heroChart</componentName>
         </componentInstances>
         <name>sidebar</name>
         <type>Region</type>

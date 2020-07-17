@@ -1572,22 +1572,6 @@
         <url>http://news.altavista.com/search?nc=0&amp;q={!Account_Name}</url>
     </webLinks>
     <webLinks>
-        <fullName>Conta_Nova</fullName>
-        <availability>online</availability>
-        <displayType>button</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <height>600</height>
-        <linkType>url</linkType>
-        <masterLabel>Conta Nova</masterLabel>
-        <openType>sidebar</openType>
-        <protected>false</protected>
-        <url>/lightning/o/Account/new?defaultFieldValues=
-    Name={!URLENCODE(Account.Name)},
-    OwnerId={!Account.OwnerId},
-    AccountNumber={!Account.AccountNumber},
-    NumberOfEmployees=35000}</url>
-    </webLinks>
-    <webLinks>
         <fullName>GoogleMaps</fullName>
         <availability>online</availability>
         <displayType>link</displayType>
