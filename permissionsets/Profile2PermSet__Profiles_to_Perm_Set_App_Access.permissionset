@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>Profile2PermSet__Profiles_to_Permission_Sets</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <classAccesses>
+        <apexClass>Profile2PermSet__permissionSetGroupsList</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Profile2PermSet__psgAgregatedPermissions</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Profile2PermSet__tst_permissionSetGroups</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <description>Grant access to the the Profiles to Permission Set app on a per-user basis with this permission set. Additional user permissions like Customize Application and Manage Profiles &amp; Permission Sets may be required.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Permission Set Helper App Access</label>
+</PermissionSet>
