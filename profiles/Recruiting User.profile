@@ -5211,10 +5211,6 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-Console</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-Contact</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
