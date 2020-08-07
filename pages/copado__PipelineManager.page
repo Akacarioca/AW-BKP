@@ -42,10 +42,10 @@
         };
         function togglePipelineMode() {
             lockScreen();
-            if ('{!pipelineMode}' === '{!MANAGER}') {
+            if ('{!JSENCODE(pipelineMode)}' === '{!JSENCODE(MANAGER)}') {
                 changePipelineMode();
             } else if ({!NOT(CheckPipelineStepsAuthenticated) }) {
-                addWarningToPage("{!$Label.Pipeline_Activate_Pipeline_Prompt}");
+                addWarningToPage("{!JSENCODE($Label.Pipeline_Activate_Pipeline_Prompt)}");
                 unlockScreen();
             } else if ({!NOT(currentPipeline.Active__c) }) {
                 openWarningModal();
@@ -56,7 +56,7 @@
         };
         var defineVariables = () => {
             ccd.config.ns = copadoApp.ns;
-            ccd.config.mode = '{!pipelineMode}';
+            ccd.config.mode = '{!JSENCODE(pipelineMode)}';
             ccd.config.currentUserId = '{!$User.Id}';
         };
         $copado(document).ready(() => {
@@ -67,7 +67,7 @@
             defineVariables();
             try {
                 if({!currentPipeline.Active__c}) {
-                    var streamingSettingsMap = JSON.parse('{!streamingSettingsJSON}');
+                    var streamingSettingsMap = JSON.parse('{!JSENCODE(streamingSettingsJSON)}');
                     var environmentStreamSettings = streamingSettingsMap[ccdStream.config.pushTopicName];
                     if(environmentStreamSettings && environmentStreamSettings[copadoApp.ns + 'Enabled__c']) {
                         console.info('Pipeline streaming is enabled.');
@@ -81,7 +81,7 @@
                             ccdStream.config.duration = ccdStream.config.timeout = environmentStreamSettings[copadoApp.ns + 'Timeout__c'];
                         }
                         ccdStream.config.ns = copadoApp.ns;
-                        ccdStream.config.sobjectAccessError = '{!$Label.SObject_Access_Error}';
+                        ccdStream.config.sobjectAccessError = '{!JSENCODE($Label.SObject_Access_Error)}';
                         ccdStream.initStreaming();
                     }
                     var storyStreamSettings = streamingSettingsMap[ccdStoryStream.config.pushTopicName];
@@ -91,7 +91,7 @@
                             ccdStoryStream.config.duration = ccdStoryStream.config.timeout = storyStreamSettings[copadoApp.ns + 'Timeout__c'];
                         }
                         ccdStoryStream.config.ns = copadoApp.ns;
-                        ccdStoryStream.config.sobjectAccessError = '{!$Label.SObject_Access_Error}';
+                        ccdStoryStream.config.sobjectAccessError = '{!JSENCODE($Label.SObject_Access_Error)}';
                         updateStoryStreamVariables();
                         ccdStoryStream.initStreaming();
                     }
@@ -253,7 +253,7 @@
                                                                 <div class="slds-form-element {!IF(condition.fieldType == 'BOOLEAN', 'checkbox', '')}"
                                                                      style="{!IF(condition.fieldType != 'MULTIPICKLIST' && !condition.isReadOnly, 'width: 44%;', '')}">
                                                                     <apex:repeat value="{!fieldOptions}" var="filterOption">
-                                                                        <apex:outputPanel layout="block" styleClass="slds-form-element__control {!IF(condition.fieldType == 'MULTIPICKLIST', 'dueling-picklist', '')}" rendered="{!condition.fieldApiName == filterOption.value}">
+                                                                        <apex:outputPanel layout="block" styleClass="slds-form-element__control" rendered="{!condition.fieldApiName == filterOption.value}">
                                                                             <apex:outputPanel layout="none" rendered="{!condition.fieldApiName != ''}">
                                                                                 <apex:inputField styleClass="{!IF(condition.fieldType != 'BOOLEAN', 'slds-input', 'slds-checkbox')}" rendered="{!!condition.isReadOnly}"
                                                                                                  type="{!IF(condition.fieldType == 'INTEGER' || condition.fieldType == 'DOUBLE' || condition.fieldType == 'LONG', 'number', '')}"
@@ -406,7 +406,7 @@
             <apex:actionFunction action="{!recalculate}" name="refreshPipeline" reRender="pipelineWrapper" onComplete="ccd.reRenderFunction();" />
             <apex:actionFunction name="reRenderPipelineWrapper" reRender="filterModalForm, pipelineWrapper" onComplete="ccd.reRenderFunction();" />
             <apex:actionFunction name="closeToastMessage" action="{!closeToastMessage}" reRender="notify" />
-            <apex:actionFunction action="{!populateFlowGridMap}" name="calculateFlowSteps" onComplete="repositionBoxes();ccd.isManagerRunning('{!pipelineMode}');updateStoryStreamVariables();" reRender="calculatedStepsPanel,notify" />
+            <apex:actionFunction action="{!populateFlowGridMap}" name="calculateFlowSteps" onComplete="repositionBoxes();ccd.isManagerRunning('{!JSINHTMLENCODE(pipelineMode)}');updateStoryStreamVariables();" reRender="calculatedStepsPanel,notify" />
             <apex:actionFunction name="prepareUserStoriesForPromotion" action="{!getPromotableBackPromotableUserStoriesList}" reRender="operationModal,notify" onComplete="showModal();switchToUserStory();">
                 <apex:param name="fromId" value="" />
                 <apex:param name="toId" value="" />
@@ -601,7 +601,7 @@
                                         var returnErrorMessage = $copado('[Id$=theErrorMessage]');
                                         if(!returnErrorMessage || returnErrorMessage.text() === "") {
                                             closeWarningModal();
-                                        } 
+                                        }
                                         unlockScreen();
                                         return false;
                                     }
@@ -818,7 +818,7 @@
                                                             <div class="connection-info" onmouseover="ccd.toggleNewConnectionIcon(this); return true;" onmouseout="ccd.toggleNewConnectionIcon(this); return true;">
                                                                     <div class="{!CASE(pipelineMode, "manager", "commits", "diagram", "connection-behaviour-override", "")} hide">
                                                                         <div>
-                                                                            <div onclick="lockScreen();createNewConnectionBehaviorAndBind('{!envWrapper.currentStep.Id}', '', '{!IF(envWrapper.currentStep.Source_Environment__r.Name != null, envWrapper.currentStep.Source_Environment__r.Name, envWrapper.currentStep.Branch__c)}', '{!IF(envWrapper.currentStep.Destination_Environment__r.Name != null, envWrapper.currentStep.Destination_Environment__r.Name, envWrapper.currentStep.Destination_Branch__c)}');">
+                                                                            <div onclick="lockScreen();createNewConnectionBehaviorAndBind('{!envWrapper.currentStep.Id}', '', '{!JSINHTMLENCODE(IF(envWrapper.currentStep.Source_Environment__r.Name != null, envWrapper.currentStep.Source_Environment__r.Name, envWrapper.currentStep.Branch__c))}', '{!JSINHTMLENCODE(IF(envWrapper.currentStep.Destination_Environment__r.Name != null, envWrapper.currentStep.Destination_Environment__r.Name, envWrapper.currentStep.Destination_Branch__c))}');">
                                                                                 <img class="new" src="{!URLFOR($Resource.SetupDashboardIcons, 'PipelineSvgIcons/new-connection.png')}" title="Create new connection" />
                                                                             </div>
                                                                         </div>
@@ -828,10 +828,10 @@
                                                             <apex:outputPanel rendered="{!pipelineMode == DIAGRAM}">
                                                                 <div class="create-env-btn">
                                                                     <apex:outputPanel rendered="{!envWrapper.currentEnvironment.Id == NULL}" layout="none">
-                                                                        <input type="button" onclick="ccd.createOrg('{!envWrapper.currentStep.Id}', '{!envWrapper.currentEnvironment.Id}', '{!envWrapper.currentEnvironment.Name}', false);" data-branch="undefined" data-parentselector="box_undefined" class="noCreateEnv" value="+" title="{!$Label.Pipeline_Environment_Setup_Should_Be_Complete}" disabled="true" />
+                                                                        <input type="button" onclick="ccd.createOrg('{!envWrapper.currentStep.Id}', '{!envWrapper.currentEnvironment.Id}', '{!JSINHTMLENCODE(envWrapper.currentEnvironment.Name)}', false);" data-branch="undefined" data-parentselector="box_undefined" class="noCreateEnv" value="+" title="{!$Label.Pipeline_Environment_Setup_Should_Be_Complete}" disabled="true" />
                                                                     </apex:outputPanel>
                                                                     <apex:outputPanel rendered="{!envWrapper.currentEnvironment.Id != NULL}" layout="none">
-                                                                        <input type="button" onclick="ccd.createOrg('{!envWrapper.currentStep.Id}', '{!envWrapper.currentEnvironment.Id}', '{!envWrapper.currentEnvironment.Name}', false);" data-branch="undefined" data-parentselector="box_undefined" class="createEnv" value="+" title="{!$Label.Create_new_Environment_Connection}" />
+                                                                        <input type="button" onclick="ccd.createOrg('{!envWrapper.currentStep.Id}', '{!envWrapper.currentEnvironment.Id}', '{!JSINHTMLENCODE(envWrapper.currentEnvironment.Name)}', false);" data-branch="undefined" data-parentselector="box_undefined" class="createEnv" value="+" title="{!$Label.Create_new_Environment_Connection}" />
                                                                     </apex:outputPanel>
 
                                                                 </div>
@@ -943,7 +943,7 @@
                                                                             </div>
                                                                         </apex:outputPanel>
                                                                         <apex:outputPanel layout="none" rendered="{!AND(envWrapper.currentEnvironment.Connection_Behavior__c == null, envWrapper.currentEnvironment.Id != null, envWrapper.isDestinationEnv)}">
-                                                                            <div class="env-connection-info" onclick="lockScreen();createNewConnectionBehaviorAndBind('','{!envWrapper.currentEnvironment.Id}', '{!envWrapper.currentEnvironment.Name}','');">
+                                                                            <div class="env-connection-info" onclick="lockScreen();createNewConnectionBehaviorAndBind('','{!envWrapper.currentEnvironment.Id}', '{!JSINHTMLENCODE(envWrapper.currentEnvironment.Name)}','');">
                                                                                 <div title="Click here to create a connection behavior" class="env-connection-behaviour-override" style="filter: grayscale(100%);opacity:60%;">
                                                                                     <div class="icon">
                                                                                         <div style="height:11px;">
@@ -972,7 +972,7 @@
                                                                     </apex:outputPanel>
                                                                     <div class="authenticate-icon" style="{!IF(CONTAINS($User.UIThemeDisplayed, 'Theme4'), '', 'margin-top:-15px;')}">
                                                                         <apex:outputPanel layout="none" rendered="{!AND(envWrapper.needsOauth, pipelineMode == DIAGRAM)}">
-                                                                            <div onclick="doOauth('{!envWrapper.currentStep.Id}','{!envWrapper.currentEnvironment.Id}', '{!envWrapper.currentEnvironment.Name}', '{!envWrapper.currentStep.Branch__c}');">
+                                                                            <div onclick="doOauth('{!envWrapper.currentStep.Id}','{!envWrapper.currentEnvironment.Id}', '{!JSINHTMLENCODE(envWrapper.currentEnvironment.Name)}', '{!JSINHTMLENCODE(envWrapper.currentStep.Branch__c)}');">
                                                                                 <apex:commandButton title="{!$Label.copado__add_oauth}" styleClass="btn slds-button" style="color:#3593c6;" status="loadingScreen">
                                                                                     <img src="{!URLFOR($Resource.SetupDashboardIcons, 'PipelineSvgIcons/pipeline-authenticate.png')}" />
                                                                                 </apex:commandButton>
@@ -1025,16 +1025,16 @@
                             ccd.data.connections = $copado('[id$="allEnvJSONMap"]').val();
                         }
                         function updateStoryStreamVariables() {
-                            var streamingSettingsMap = JSON.parse('{!streamingSettingsJSON}');
+                            var streamingSettingsMap = JSON.parse('{!JSENCODE(streamingSettingsJSON)}');
                             var storyStreamSettings = streamingSettingsMap[ccdStoryStream.config.pushTopicName];
                             if(storyStreamSettings && storyStreamSettings[copadoApp.ns + 'Enabled__c']) {
                                 ccdStoryStream.params.pipelineId = '{!currentPipeline.Id}';
-                                ccdStoryStream.params.sourceIds = '{!allSourceIdsSet}';
-                                ccdStoryStream.params.destinationIds = '{!allDestinationIdsSet}';
-                                ccdStoryStream.params.filterJSON = '{!selectedFilterJSON}';
-                                ccdStoryStream.params.flowStepToEnvJSON = '{!flowStepToEnvironmentJSON}';
-                                ccdStoryStream.params.allEnvironmentKeyJSON = '{!allEnvironmentsKeysetJSON}';
-                                ccdStoryStream.params.allEnvironmentToStageJSON = '{!allEnvironmentsToStageGroupKeysetJSON}';
+                                ccdStoryStream.params.sourceIds = JSON.parse('{!JSENCODE(allSourceIdsJSON)}');
+                                ccdStoryStream.params.destinationIds = JSON.parse('{!JSENCODE(allDestinationIdsJSON)}');
+                                ccdStoryStream.params.filterJSON = '{!JSENCODE(selectedFilterJSON)}';
+                                ccdStoryStream.params.flowStepToEnvJSON = '{!JSENCODE(flowStepToEnvironmentJSON)}';
+                                ccdStoryStream.params.allEnvironmentKeyJSON = '{!JSENCODE(allEnvironmentsKeysetJSON)}';
+                                ccdStoryStream.params.allEnvironmentToStageJSON = '{!JSENCODE(allEnvironmentsToStageGroupKeysetJSON)}';
                             }
                         }
 

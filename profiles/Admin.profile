@@ -352,6 +352,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>copado__ADD_DependencyHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__AbstractTestData</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__AddCCHRuleCriteriaExt</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -469,6 +477,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>copado__BurndownItem</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__CCDFullCycleTestDefaults</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -624,11 +636,31 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>copado__CopadoCommitChangesTestDefaults</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__CopadoDeploymentWizardTestDefaults</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__CopadoLicensesComponentController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>copado__CopadoMassBackPromotionTestDefaults</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__CopadoNotificationHelper</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__CopadoPipelineWizardTestDefaults</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__CopadoPromotionTestDefaults</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -640,7 +672,15 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>copado__CopadoSetupTestDefaults</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__CopadoSmartHelpController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__CopadoUserStoryTestDefaults</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -665,6 +705,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>copado__DW_IntermediaryExtension</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__DW_OverrideFiltersExtension</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -1008,6 +1052,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>copado__ITestDefaults</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__ITrigger</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -1128,6 +1176,18 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>copado__NewApexTestResultEmailController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__NewBuildTaskEmailController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__NewDeploymentEmailController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__NewEnvironmentServiceController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -1181,6 +1241,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>copado__OrgTriggerHelper</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__OverrideFiltersComponentController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__OverrideTemplateFiltersController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -1684,6 +1752,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>copado__TestCopadoSetup</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__TestCopadoSetupController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -1757,6 +1829,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>copado__TestDeploymentWizardFailures</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__TestDeploymentWizardUseCases</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -1844,6 +1920,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>copado__TestGitSnapshot</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__TestGlobalUtilities</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -1912,11 +1992,27 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>copado__TestMassBackPromotion</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__TestMetadataTypesHelper</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>copado__TestMetadataselectorExtension</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__TestNewApexTestResultEmail</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__TestNewBuildTaskEmailController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__TestNewDeploymentEmailController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -1944,6 +2040,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>copado__TestPipelineWizard</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__TestPostInstallClass</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -1961,6 +2061,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>copado__TestPromotionTriggerHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__TestPromotionUseCases</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -2096,6 +2200,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>copado__TestUserStoryManagement</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__TestUserStoryMetadataExt</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -2156,6 +2264,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>copado__Test_CMUtilities</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__Test_CliProxy</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -2185,6 +2297,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>copado__Test_DW_IntermediaryExtension</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__Test_DW_OverrideFiltersExtension</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -2257,6 +2373,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>copado__Test_OrgAuthenticationController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__Test_OverrideTemplateFiltersController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -7303,6 +7423,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>copado__AuxiliaryObject__c.copado__Package_Version__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>copado__AuxiliaryObject__c.copado__Promotion__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -8949,6 +9074,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>copado__Promotion__c.copado__Exclude_From_Auto_Resolve__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>copado__Promotion__c.copado__Merge_Conflict__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -13366,6 +13496,10 @@
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
+        <apexPage>copado__DW_OverrideFilters</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>copado__DW_Overview</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
@@ -13599,6 +13733,10 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>copado__OrgDiffDeployment</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>copado__OverrideTemplateFilters</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
