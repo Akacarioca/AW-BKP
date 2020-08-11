@@ -36,6 +36,7 @@
         <userHierarchyField>Manager</userHierarchyField>
     </nextAutomatedApprover>
     <postTemplate>Post_approval</postTemplate>
+    <processOrder>1</processOrder>
     <recordEditability>AdminOnly</recordEditability>
     <showApprovalHistory>true</showApprovalHistory>
 </ApprovalProcess>
