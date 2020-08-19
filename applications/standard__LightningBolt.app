@@ -33,5 +33,7 @@
     <tabs>Test__c</tabs>
     <tabs>Appointment__c</tabs>
     <tabs>Doctor__c</tabs>
+    <tabs>Language_Course__c</tabs>
+    <tabs>Language_Course_Designer__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

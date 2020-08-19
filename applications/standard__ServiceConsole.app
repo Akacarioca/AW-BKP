@@ -185,6 +185,8 @@
     <tabs>Test__c</tabs>
     <tabs>Appointment__c</tabs>
     <tabs>Doctor__c</tabs>
+    <tabs>Language_Course__c</tabs>
+    <tabs>Language_Course_Designer__c</tabs>
     <workspaceConfig>
         <mappings>
             <tab>Appointment__c</tab>
@@ -197,6 +199,12 @@
         </mappings>
         <mappings>
             <tab>Knowledge_Check_Manager</tab>
+        </mappings>
+        <mappings>
+            <tab>Language_Course_Designer__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Language_Course__c</tab>
         </mappings>
         <mappings>
             <tab>Test__c</tab>

@@ -23,4 +23,6 @@
     <tabs>copado__External_CI_Setting__c</tabs>
     <tabs>copado__External_CI_Job__c</tabs>
     <tabs>copado__Data_Template__c</tabs>
+    <tabs>Language_Course__c</tabs>
+    <tabs>Language_Course_Designer__c</tabs>
 </CustomApplication>

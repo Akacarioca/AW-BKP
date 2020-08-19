@@ -17,4 +17,6 @@
     <tabs>copado__Git_Backup__c</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
+    <tabs>Language_Course__c</tabs>
+    <tabs>Language_Course_Designer__c</tabs>
 </CustomApplication>

@@ -10,4 +10,6 @@
     <tabs>Blacklisted_Word__c</tabs>
     <tabs>Blacklist_Audit__c</tabs>
     <tabs>TODO__c</tabs>
+    <tabs>Language_Course__c</tabs>
+    <tabs>Language_Course_Designer__c</tabs>
 </CustomApplication>

@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <assignmentRule>
-        <fullName>Standard Case Assignment</fullName>
+        <fullName>Recruiter</fullName>
         <active>true</active>
+        <ruleEntry>
+            <assignedTo>admin@aw81503.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>User.UserRoleId</field>
+                <operation>equals</operation>
+                <value>Recruiter</value>
+            </criteriaItems>
+        </ruleEntry>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>Standard Case Assignment</fullName>
+        <active>false</active>
         <ruleEntry>
             <assignedTo>Product_Support_Tier_1_Queue</assignedTo>
             <assignedToType>Queue</assignedToType>
