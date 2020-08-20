@@ -20,6 +20,4 @@
     <tabs>copado__Artifact__c</tabs>
     <tabs>copado__Account_Summary</tabs>
     <tabs>standard-report</tabs>
-    <tabs>Language_Course__c</tabs>
-    <tabs>Language_Course_Designer__c</tabs>
 </CustomApplication>

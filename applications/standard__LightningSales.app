@@ -103,8 +103,6 @@
     <tabs>Appointment__c</tabs>
     <tabs>Doctor__c</tabs>
     <tabs>Bicycle__c</tabs>
-    <tabs>Language_Course__c</tabs>
-    <tabs>Language_Course_Designer__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>AW_Computing_UtilityBar</utilityBar>
 </CustomApplication>

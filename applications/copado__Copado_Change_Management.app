@@ -14,6 +14,4 @@
     <tabs>copado__Deployment__c</tabs>
     <tabs>copado__Promotion__c</tabs>
     <tabs>copado__Pipeline_Manager</tabs>
-    <tabs>Language_Course__c</tabs>
-    <tabs>Language_Course_Designer__c</tabs>
 </CustomApplication>

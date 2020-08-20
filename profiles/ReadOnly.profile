@@ -11260,12 +11260,6 @@
         <layout>Job_Application__c-Job Application Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Language_Course_Designer__c-Language Course Designer Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Language_Course__c-Language Course Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Lead-Lead Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -12480,14 +12474,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Knowledge_Check_Manager</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Language_Course_Designer__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Language_Course__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
