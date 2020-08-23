@@ -4282,6 +4282,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Opportunity.FormulaOpptRecordType__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Opportunity.IsPrivate</field>
         <readable>false</readable>
     </fieldPermissions>

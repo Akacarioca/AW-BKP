@@ -7,9 +7,9 @@
             <assignedTo>admin@aw81503.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
-                <field>User.UserRoleId</field>
+                <field>Case.RecordType__c</field>
                 <operation>equals</operation>
-                <value>Recruiter</value>
+                <value>Inquiry</value>
             </criteriaItems>
         </ruleEntry>
     </assignmentRule>

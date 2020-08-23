@@ -46,6 +46,10 @@
                 <behavior>Edit</behavior>
                 <field>Text__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>FormulaOpptRecordType__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

@@ -276,6 +276,10 @@
             <label>Discount Percentage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qI6j</field>
+            <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
             <label>Purchase Order No.</label>
         </opportunityListFieldsLabelMappings>
@@ -344,6 +348,7 @@
             <field>00N0P000007MDVS</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
+            <field>00N4U000006qI6j</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -558,6 +563,10 @@
             <label>Discount Percentage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qI6j</field>
+            <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
             <label>Purchase Order No.</label>
         </opportunityListFieldsLabelMappings>
@@ -627,6 +636,7 @@
             <field>00N0P000007MDVS</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
+            <field>00N4U000006qI6j</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -841,6 +851,10 @@
             <label>Discount Percentage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qI6j</field>
+            <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
             <label>Purchase Order No.</label>
         </opportunityListFieldsLabelMappings>
@@ -910,6 +924,7 @@
             <field>00N0P000007MDVS</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
+            <field>00N4U000006qI6j</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -1120,6 +1135,10 @@
             <label>Discount Percentage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qI6j</field>
+            <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
             <label>Purchase Order No.</label>
         </opportunityListFieldsLabelMappings>
@@ -1188,6 +1207,7 @@
             <field>00N0P000007MDVS</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
+            <field>00N4U000006qI6j</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -1402,6 +1422,10 @@
             <label>Discount Percentage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qI6j</field>
+            <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
             <label>Purchase Order No.</label>
         </opportunityListFieldsLabelMappings>
@@ -1471,6 +1495,7 @@
             <field>00N0P000007MDVS</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
+            <field>00N4U000006qI6j</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -1681,6 +1706,10 @@
             <label>Discount Percentage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qI6j</field>
+            <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
             <label>Purchase Order No.</label>
         </opportunityListFieldsLabelMappings>
@@ -1749,6 +1778,7 @@
             <field>00N0P000007MDVS</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
+            <field>00N4U000006qI6j</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -1959,6 +1989,10 @@
             <label>Discount Percentage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qI6j</field>
+            <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
             <label>Purchase Order No.</label>
         </opportunityListFieldsLabelMappings>
@@ -2027,6 +2061,7 @@
             <field>00N0P000007MDVS</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
+            <field>00N4U000006qI6j</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -2237,6 +2272,10 @@
             <label>Discount Percentage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qI6j</field>
+            <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
             <label>Purchase Order No.</label>
         </opportunityListFieldsLabelMappings>
@@ -2305,6 +2344,7 @@
             <field>00N0P000007MDVS</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
+            <field>00N4U000006qI6j</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -2511,6 +2551,10 @@
             <label>Discount Percentage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qI6j</field>
+            <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
             <label>Purchase Order No.</label>
         </opportunityListFieldsLabelMappings>
@@ -2582,6 +2626,7 @@
             <field>00N0P000007MDVS</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
+            <field>00N4U000006qI6j</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -2788,6 +2833,10 @@
             <label>Discount Percentage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qI6j</field>
+            <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
             <label>Purchase Order No.</label>
         </opportunityListFieldsLabelMappings>
@@ -2859,6 +2908,7 @@
             <field>00N0P000007MDVS</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
+            <field>00N4U000006qI6j</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -3069,6 +3119,10 @@
             <label>Discount Percentage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qI6j</field>
+            <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
             <label>Purchase Order No.</label>
         </opportunityListFieldsLabelMappings>
@@ -3141,6 +3195,7 @@
             <field>00N0P000007MDVS</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
+            <field>00N4U000006qI6j</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -3347,6 +3402,10 @@
             <label>Discount Percentage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qI6j</field>
+            <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
             <label>Purchase Order No.</label>
         </opportunityListFieldsLabelMappings>
@@ -3418,6 +3477,7 @@
             <field>00N0P000007MDVS</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
+            <field>00N4U000006qI6j</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -3628,6 +3688,10 @@
             <label>Discount Percentage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qI6j</field>
+            <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
             <label>Purchase Order No.</label>
         </opportunityListFieldsLabelMappings>
@@ -3700,6 +3764,7 @@
             <field>00N0P000007MDVS</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
+            <field>00N4U000006qI6j</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -3906,6 +3971,10 @@
             <label>Discount Percentage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qI6j</field>
+            <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
             <label>Purchase Order No.</label>
         </opportunityListFieldsLabelMappings>
@@ -3977,6 +4046,7 @@
             <field>00N0P000007MDVS</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
+            <field>00N4U000006qI6j</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -4187,6 +4257,10 @@
             <label>Discount Percentage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qI6j</field>
+            <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
             <label>Purchase Order No.</label>
         </opportunityListFieldsLabelMappings>
@@ -4259,6 +4333,7 @@
             <field>00N0P000007MDVS</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
+            <field>00N4U000006qI6j</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -4465,6 +4540,10 @@
             <label>Discount Percentage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qI6j</field>
+            <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
             <label>Purchase Order No.</label>
         </opportunityListFieldsLabelMappings>
@@ -4536,6 +4615,7 @@
             <field>00N0P000007MDVS</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
+            <field>00N4U000006qI6j</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -4746,6 +4826,10 @@
             <label>Discount Percentage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qI6j</field>
+            <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
             <label>Purchase Order No.</label>
         </opportunityListFieldsLabelMappings>
@@ -4818,6 +4902,7 @@
             <field>00N0P000007MDVS</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
+            <field>00N4U000006qI6j</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -5024,6 +5109,10 @@
             <label>Discount Percentage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qI6j</field>
+            <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
             <label>Purchase Order No.</label>
         </opportunityListFieldsLabelMappings>
@@ -5095,6 +5184,7 @@
             <field>00N0P000007MDVS</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
+            <field>00N4U000006qI6j</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -5305,6 +5395,10 @@
             <label>Discount Percentage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qI6j</field>
+            <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
             <label>Purchase Order No.</label>
         </opportunityListFieldsLabelMappings>
@@ -5377,6 +5471,7 @@
             <field>00N0P000007MDVS</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
+            <field>00N4U000006qI6j</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -5583,6 +5678,10 @@
             <label>Discount Percentage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qI6j</field>
+            <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
             <label>Purchase Order No.</label>
         </opportunityListFieldsLabelMappings>
@@ -5654,6 +5753,7 @@
             <field>00N0P000007MDVS</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
+            <field>00N4U000006qI6j</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
