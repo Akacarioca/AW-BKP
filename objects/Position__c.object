@@ -227,6 +227,15 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Job_Applications__c</fullName>
+        <externalId>false</externalId>
+        <label>Job Applications</label>
+        <summaryForeignKey>Job_Application__c.Position__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
         <fullName>Job_Description__c</fullName>
         <externalId>false</externalId>
         <label>Job Description</label>
