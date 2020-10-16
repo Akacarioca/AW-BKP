@@ -2843,6 +2843,30 @@
         <apexClass>mdv__ToolingApiMock</apexClass>
         <enabled>false</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>mockcomp__ltng_MockupController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>mockcomp__ltng_MockupControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>mockcomp__ltng_StaticResourceHelperCtrlTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>mockcomp__ltng_mockupFileCtrl</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>mockcomp__ltng_mockupFileCtrlTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>mockcomp__ltng_staticResourceHelperCtrl</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>false</editable>
@@ -12676,6 +12700,22 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>mdv__Metadata_Visualizer</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>mockcomp__ltng_FileHelper</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>mockcomp__ltng_MockupComponentOverview</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>mockcomp__ltng_MockupExampleAppPage</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>mockcomp__ltng_MockupExampleRecordPage</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
