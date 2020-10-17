@@ -5,6 +5,7 @@
         <actionButtonLabel>Tell Me More</actionButtonLabel>
         <actionButtonLink>https://help.salesforce.com/articleView?id=user_userdisplay_favorites.htm</actionButtonLink>
         <body>To bookmark a page, click the star icon. You can use the dropdown from any page to access your favorites.</body>
+        <customApplication>standard__LightningSales</customApplication>
         <delayDays>1</delayDays>
         <dismissButtonLabel>Dismiss</dismissButtonLabel>
         <displayPosition>TopRight</displayPosition>
@@ -16,8 +17,6 @@
         <shouldDisplayActionButton>true</shouldDisplayActionButton>
         <shouldIgnoreGlobalDelay>false</shouldIgnoreGlobalDelay>
         <startDate>2019-10-15</startDate>
-        <targetAppDeveloperName>LightningSales</targetAppDeveloperName>
-        <targetAppNamespacePrefix>standard</targetAppNamespacePrefix>
         <targetPageKey1>Account</targetPageKey1>
         <targetPageKey2>list</targetPageKey2>
         <targetPageType>standard__objectPage</targetPageType>
