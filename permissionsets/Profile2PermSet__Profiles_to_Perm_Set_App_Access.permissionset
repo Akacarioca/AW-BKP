@@ -5,7 +5,15 @@
         <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
+        <apexClass>Profile2PermSet__permAnalyzer</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>Profile2PermSet__permissionSetGroupsList</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Profile2PermSet__profileConverter</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -13,10 +21,22 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>Profile2PermSet__tst_permissionSetGroups</apexClass>
+        <apexClass>Profile2PermSet__strike_lookupController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Profile2PermSet__userMode</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <description>Grant access to the the Profiles to Permission Set app on a per-user basis with this permission set. Additional user permissions like Customize Application and Manage Profiles &amp; Permission Sets may be required.</description>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Permission Set Helper App Access</label>
+    <tabSettings>
+        <tab>Profile2PermSet__Converter</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Profile2PermSet__Permissions_Analyzer</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
 </PermissionSet>
