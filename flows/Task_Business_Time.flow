@@ -292,6 +292,7 @@
             </value>
         </inputParameters>
     </actionCalls>
+    <apiVersion>49.0</apiVersion>
     <decisions>
         <name>isChangedDecision7_myRule_6_Priority</name>
         <label>isChangedDecision7_myRule_6_Priority</label>
@@ -603,6 +604,7 @@
         <label>Due Date == Today</label>
         <locationX>100</locationX>
         <locationY>200</locationY>
+        <filterLogic>and</filterLogic>
         <filters>
             <processMetadataValues>
                 <name>implicit</name>
