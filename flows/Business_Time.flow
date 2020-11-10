@@ -27,6 +27,7 @@
             <name>output</name>
         </outputParameters>
     </actionCalls>
+    <apiVersion>49.0</apiVersion>
     <assignments>
         <name>Assign_Minutes_and_Hours</name>
         <label>Assign Minutes and Hours</label>
@@ -162,6 +163,7 @@
         <connector>
             <targetReference>Assign_Minutes_and_Hours</targetReference>
         </connector>
+        <filterLogic>and</filterLogic>
         <filters>
             <field>Label</field>
             <operator>EqualTo</operator>
@@ -184,6 +186,7 @@
         <connector>
             <targetReference>Add_Business_Time</targetReference>
         </connector>
+        <filterLogic>and</filterLogic>
         <filters>
             <field>Label</field>
             <operator>EqualTo</operator>
@@ -205,6 +208,7 @@
         <connector>
             <targetReference>Add_Business_Time</targetReference>
         </connector>
+        <filterLogic>and</filterLogic>
         <filters>
             <field>Label</field>
             <operator>EqualTo</operator>
@@ -226,6 +230,7 @@
         <connector>
             <targetReference>Add_Business_Time</targetReference>
         </connector>
+        <filterLogic>and</filterLogic>
         <filters>
             <field>Label</field>
             <operator>EqualTo</operator>

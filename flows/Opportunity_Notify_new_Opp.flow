@@ -164,6 +164,7 @@ Please follow up before the Close Date  ({!myVariable_current.CloseDate} - 2)</s
             </value>
         </inputParameters>
     </actionCalls>
+    <apiVersion>49.0</apiVersion>
     <assignments>
         <name>myAssignment_myRule_1_A3</name>
         <label>myAssignment_myRule_1_A3</label>
