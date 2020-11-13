@@ -33,6 +33,7 @@
         <members>EmailAdministration</members>
         <members>EmailIntegration</members>
         <members>EmailTemplate</members>
+        <members>EmployeeUser</members>
         <members>EncryptionKey</members>
         <members>EnhancedNotes</members>
         <members>Essentials</members>
