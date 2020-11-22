@@ -236,6 +236,7 @@
         <fields>Industry</fields>
         <fields>AnnualRevenue</fields>
         <fields>RecordTypeId</fields>
+        <fields>CreatedById</fields>
         <label>Account Compact</label>
     </compactLayouts>
     <enableEnhancedLookup>true</enableEnhancedLookup>
