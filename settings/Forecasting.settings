@@ -268,6 +268,22 @@
             <label>Credit Card No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKq</field>
+            <label>Date1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKv</field>
+            <label>Date2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL0</field>
+            <label>Date3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL5</field>
+            <label>Date4</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4U000006qHlL</field>
             <label>DB Competitor</label>
         </opportunityListFieldsLabelMappings>
@@ -278,6 +294,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N4U000006qI6j</field>
             <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTLA</field>
+            <label>Minimun Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
@@ -346,9 +366,14 @@
             <field>00N0P000006N3mg</field>
             <field>00N0P000006N3mv</field>
             <field>00N0P000007MDVS</field>
+            <field>00N4U000006qTKq</field>
+            <field>00N4U000006qTKv</field>
+            <field>00N4U000006qTL0</field>
+            <field>00N4U000006qTL5</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
             <field>00N4U000006qI6j</field>
+            <field>00N4U000006qTLA</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -555,6 +580,22 @@
             <label>Credit Card No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKq</field>
+            <label>Date1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKv</field>
+            <label>Date2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL0</field>
+            <label>Date3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL5</field>
+            <label>Date4</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4U000006qHlL</field>
             <label>DB Competitor</label>
         </opportunityListFieldsLabelMappings>
@@ -565,6 +606,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N4U000006qI6j</field>
             <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTLA</field>
+            <label>Minimun Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
@@ -634,9 +679,14 @@
             <field>00N0P000006N3mg</field>
             <field>00N0P000006N3mv</field>
             <field>00N0P000007MDVS</field>
+            <field>00N4U000006qTKq</field>
+            <field>00N4U000006qTKv</field>
+            <field>00N4U000006qTL0</field>
+            <field>00N4U000006qTL5</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
             <field>00N4U000006qI6j</field>
+            <field>00N4U000006qTLA</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -843,6 +893,22 @@
             <label>Credit Card No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKq</field>
+            <label>Date1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKv</field>
+            <label>Date2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL0</field>
+            <label>Date3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL5</field>
+            <label>Date4</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4U000006qHlL</field>
             <label>DB Competitor</label>
         </opportunityListFieldsLabelMappings>
@@ -853,6 +919,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N4U000006qI6j</field>
             <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTLA</field>
+            <label>Minimun Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
@@ -922,9 +992,14 @@
             <field>00N0P000006N3mg</field>
             <field>00N0P000006N3mv</field>
             <field>00N0P000007MDVS</field>
+            <field>00N4U000006qTKq</field>
+            <field>00N4U000006qTKv</field>
+            <field>00N4U000006qTL0</field>
+            <field>00N4U000006qTL5</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
             <field>00N4U000006qI6j</field>
+            <field>00N4U000006qTLA</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -1127,6 +1202,22 @@
             <label>Credit Card No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKq</field>
+            <label>Date1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKv</field>
+            <label>Date2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL0</field>
+            <label>Date3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL5</field>
+            <label>Date4</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4U000006qHlL</field>
             <label>DB Competitor</label>
         </opportunityListFieldsLabelMappings>
@@ -1137,6 +1228,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N4U000006qI6j</field>
             <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTLA</field>
+            <label>Minimun Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
@@ -1205,9 +1300,14 @@
             <field>00N0P000006N3mg</field>
             <field>00N0P000006N3mv</field>
             <field>00N0P000007MDVS</field>
+            <field>00N4U000006qTKq</field>
+            <field>00N4U000006qTKv</field>
+            <field>00N4U000006qTL0</field>
+            <field>00N4U000006qTL5</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
             <field>00N4U000006qI6j</field>
+            <field>00N4U000006qTLA</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -1414,6 +1514,22 @@
             <label>Credit Card No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKq</field>
+            <label>Date1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKv</field>
+            <label>Date2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL0</field>
+            <label>Date3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL5</field>
+            <label>Date4</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4U000006qHlL</field>
             <label>DB Competitor</label>
         </opportunityListFieldsLabelMappings>
@@ -1424,6 +1540,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N4U000006qI6j</field>
             <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTLA</field>
+            <label>Minimun Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
@@ -1493,9 +1613,14 @@
             <field>00N0P000006N3mg</field>
             <field>00N0P000006N3mv</field>
             <field>00N0P000007MDVS</field>
+            <field>00N4U000006qTKq</field>
+            <field>00N4U000006qTKv</field>
+            <field>00N4U000006qTL0</field>
+            <field>00N4U000006qTL5</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
             <field>00N4U000006qI6j</field>
+            <field>00N4U000006qTLA</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -1698,6 +1823,22 @@
             <label>Credit Card No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKq</field>
+            <label>Date1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKv</field>
+            <label>Date2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL0</field>
+            <label>Date3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL5</field>
+            <label>Date4</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4U000006qHlL</field>
             <label>DB Competitor</label>
         </opportunityListFieldsLabelMappings>
@@ -1708,6 +1849,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N4U000006qI6j</field>
             <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTLA</field>
+            <label>Minimun Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
@@ -1776,9 +1921,14 @@
             <field>00N0P000006N3mg</field>
             <field>00N0P000006N3mv</field>
             <field>00N0P000007MDVS</field>
+            <field>00N4U000006qTKq</field>
+            <field>00N4U000006qTKv</field>
+            <field>00N4U000006qTL0</field>
+            <field>00N4U000006qTL5</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
             <field>00N4U000006qI6j</field>
+            <field>00N4U000006qTLA</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -1981,6 +2131,22 @@
             <label>Credit Card No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKq</field>
+            <label>Date1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKv</field>
+            <label>Date2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL0</field>
+            <label>Date3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL5</field>
+            <label>Date4</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4U000006qHlL</field>
             <label>DB Competitor</label>
         </opportunityListFieldsLabelMappings>
@@ -1991,6 +2157,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N4U000006qI6j</field>
             <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTLA</field>
+            <label>Minimun Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
@@ -2059,9 +2229,14 @@
             <field>00N0P000006N3mg</field>
             <field>00N0P000006N3mv</field>
             <field>00N0P000007MDVS</field>
+            <field>00N4U000006qTKq</field>
+            <field>00N4U000006qTKv</field>
+            <field>00N4U000006qTL0</field>
+            <field>00N4U000006qTL5</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
             <field>00N4U000006qI6j</field>
+            <field>00N4U000006qTLA</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -2264,6 +2439,22 @@
             <label>Credit Card No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKq</field>
+            <label>Date1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKv</field>
+            <label>Date2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL0</field>
+            <label>Date3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL5</field>
+            <label>Date4</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4U000006qHlL</field>
             <label>DB Competitor</label>
         </opportunityListFieldsLabelMappings>
@@ -2274,6 +2465,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N4U000006qI6j</field>
             <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTLA</field>
+            <label>Minimun Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
@@ -2342,9 +2537,14 @@
             <field>00N0P000006N3mg</field>
             <field>00N0P000006N3mv</field>
             <field>00N0P000007MDVS</field>
+            <field>00N4U000006qTKq</field>
+            <field>00N4U000006qTKv</field>
+            <field>00N4U000006qTL0</field>
+            <field>00N4U000006qTL5</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
             <field>00N4U000006qI6j</field>
+            <field>00N4U000006qTLA</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -2543,6 +2743,22 @@
             <label>Credit Card No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKq</field>
+            <label>Date1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKv</field>
+            <label>Date2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL0</field>
+            <label>Date3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL5</field>
+            <label>Date4</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4U000006qHlL</field>
             <label>DB Competitor</label>
         </opportunityListFieldsLabelMappings>
@@ -2553,6 +2769,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N4U000006qI6j</field>
             <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTLA</field>
+            <label>Minimun Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
@@ -2624,9 +2844,14 @@
             <field>00N0P000006N3mg</field>
             <field>00N0P000006N3mv</field>
             <field>00N0P000007MDVS</field>
+            <field>00N4U000006qTKq</field>
+            <field>00N4U000006qTKv</field>
+            <field>00N4U000006qTL0</field>
+            <field>00N4U000006qTL5</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
             <field>00N4U000006qI6j</field>
+            <field>00N4U000006qTLA</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -2825,6 +3050,22 @@
             <label>Credit Card No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKq</field>
+            <label>Date1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKv</field>
+            <label>Date2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL0</field>
+            <label>Date3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL5</field>
+            <label>Date4</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4U000006qHlL</field>
             <label>DB Competitor</label>
         </opportunityListFieldsLabelMappings>
@@ -2835,6 +3076,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N4U000006qI6j</field>
             <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTLA</field>
+            <label>Minimun Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
@@ -2906,9 +3151,14 @@
             <field>00N0P000006N3mg</field>
             <field>00N0P000006N3mv</field>
             <field>00N0P000007MDVS</field>
+            <field>00N4U000006qTKq</field>
+            <field>00N4U000006qTKv</field>
+            <field>00N4U000006qTL0</field>
+            <field>00N4U000006qTL5</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
             <field>00N4U000006qI6j</field>
+            <field>00N4U000006qTLA</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -3111,6 +3361,22 @@
             <label>Credit Card No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKq</field>
+            <label>Date1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKv</field>
+            <label>Date2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL0</field>
+            <label>Date3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL5</field>
+            <label>Date4</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4U000006qHlL</field>
             <label>DB Competitor</label>
         </opportunityListFieldsLabelMappings>
@@ -3121,6 +3387,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N4U000006qI6j</field>
             <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTLA</field>
+            <label>Minimun Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
@@ -3193,9 +3463,14 @@
             <field>00N0P000006N3mg</field>
             <field>00N0P000006N3mv</field>
             <field>00N0P000007MDVS</field>
+            <field>00N4U000006qTKq</field>
+            <field>00N4U000006qTKv</field>
+            <field>00N4U000006qTL0</field>
+            <field>00N4U000006qTL5</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
             <field>00N4U000006qI6j</field>
+            <field>00N4U000006qTLA</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -3394,6 +3669,22 @@
             <label>Credit Card No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKq</field>
+            <label>Date1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKv</field>
+            <label>Date2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL0</field>
+            <label>Date3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL5</field>
+            <label>Date4</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4U000006qHlL</field>
             <label>DB Competitor</label>
         </opportunityListFieldsLabelMappings>
@@ -3404,6 +3695,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N4U000006qI6j</field>
             <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTLA</field>
+            <label>Minimun Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
@@ -3475,9 +3770,14 @@
             <field>00N0P000006N3mg</field>
             <field>00N0P000006N3mv</field>
             <field>00N0P000007MDVS</field>
+            <field>00N4U000006qTKq</field>
+            <field>00N4U000006qTKv</field>
+            <field>00N4U000006qTL0</field>
+            <field>00N4U000006qTL5</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
             <field>00N4U000006qI6j</field>
+            <field>00N4U000006qTLA</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -3680,6 +3980,22 @@
             <label>Credit Card No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKq</field>
+            <label>Date1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKv</field>
+            <label>Date2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL0</field>
+            <label>Date3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL5</field>
+            <label>Date4</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4U000006qHlL</field>
             <label>DB Competitor</label>
         </opportunityListFieldsLabelMappings>
@@ -3690,6 +4006,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N4U000006qI6j</field>
             <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTLA</field>
+            <label>Minimun Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
@@ -3762,9 +4082,14 @@
             <field>00N0P000006N3mg</field>
             <field>00N0P000006N3mv</field>
             <field>00N0P000007MDVS</field>
+            <field>00N4U000006qTKq</field>
+            <field>00N4U000006qTKv</field>
+            <field>00N4U000006qTL0</field>
+            <field>00N4U000006qTL5</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
             <field>00N4U000006qI6j</field>
+            <field>00N4U000006qTLA</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -3963,6 +4288,22 @@
             <label>Credit Card No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKq</field>
+            <label>Date1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKv</field>
+            <label>Date2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL0</field>
+            <label>Date3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL5</field>
+            <label>Date4</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4U000006qHlL</field>
             <label>DB Competitor</label>
         </opportunityListFieldsLabelMappings>
@@ -3973,6 +4314,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N4U000006qI6j</field>
             <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTLA</field>
+            <label>Minimun Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
@@ -4044,9 +4389,14 @@
             <field>00N0P000006N3mg</field>
             <field>00N0P000006N3mv</field>
             <field>00N0P000007MDVS</field>
+            <field>00N4U000006qTKq</field>
+            <field>00N4U000006qTKv</field>
+            <field>00N4U000006qTL0</field>
+            <field>00N4U000006qTL5</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
             <field>00N4U000006qI6j</field>
+            <field>00N4U000006qTLA</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -4249,6 +4599,22 @@
             <label>Credit Card No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKq</field>
+            <label>Date1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKv</field>
+            <label>Date2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL0</field>
+            <label>Date3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL5</field>
+            <label>Date4</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4U000006qHlL</field>
             <label>DB Competitor</label>
         </opportunityListFieldsLabelMappings>
@@ -4259,6 +4625,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N4U000006qI6j</field>
             <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTLA</field>
+            <label>Minimun Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
@@ -4331,9 +4701,14 @@
             <field>00N0P000006N3mg</field>
             <field>00N0P000006N3mv</field>
             <field>00N0P000007MDVS</field>
+            <field>00N4U000006qTKq</field>
+            <field>00N4U000006qTKv</field>
+            <field>00N4U000006qTL0</field>
+            <field>00N4U000006qTL5</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
             <field>00N4U000006qI6j</field>
+            <field>00N4U000006qTLA</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -4532,6 +4907,22 @@
             <label>Credit Card No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKq</field>
+            <label>Date1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKv</field>
+            <label>Date2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL0</field>
+            <label>Date3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL5</field>
+            <label>Date4</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4U000006qHlL</field>
             <label>DB Competitor</label>
         </opportunityListFieldsLabelMappings>
@@ -4542,6 +4933,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N4U000006qI6j</field>
             <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTLA</field>
+            <label>Minimun Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
@@ -4613,9 +5008,14 @@
             <field>00N0P000006N3mg</field>
             <field>00N0P000006N3mv</field>
             <field>00N0P000007MDVS</field>
+            <field>00N4U000006qTKq</field>
+            <field>00N4U000006qTKv</field>
+            <field>00N4U000006qTL0</field>
+            <field>00N4U000006qTL5</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
             <field>00N4U000006qI6j</field>
+            <field>00N4U000006qTLA</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -4818,6 +5218,22 @@
             <label>Credit Card No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKq</field>
+            <label>Date1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKv</field>
+            <label>Date2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL0</field>
+            <label>Date3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL5</field>
+            <label>Date4</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4U000006qHlL</field>
             <label>DB Competitor</label>
         </opportunityListFieldsLabelMappings>
@@ -4828,6 +5244,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N4U000006qI6j</field>
             <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTLA</field>
+            <label>Minimun Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
@@ -4900,9 +5320,14 @@
             <field>00N0P000006N3mg</field>
             <field>00N0P000006N3mv</field>
             <field>00N0P000007MDVS</field>
+            <field>00N4U000006qTKq</field>
+            <field>00N4U000006qTKv</field>
+            <field>00N4U000006qTL0</field>
+            <field>00N4U000006qTL5</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
             <field>00N4U000006qI6j</field>
+            <field>00N4U000006qTLA</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -5101,6 +5526,22 @@
             <label>Credit Card No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKq</field>
+            <label>Date1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKv</field>
+            <label>Date2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL0</field>
+            <label>Date3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL5</field>
+            <label>Date4</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4U000006qHlL</field>
             <label>DB Competitor</label>
         </opportunityListFieldsLabelMappings>
@@ -5111,6 +5552,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N4U000006qI6j</field>
             <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTLA</field>
+            <label>Minimun Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
@@ -5182,9 +5627,14 @@
             <field>00N0P000006N3mg</field>
             <field>00N0P000006N3mv</field>
             <field>00N0P000007MDVS</field>
+            <field>00N4U000006qTKq</field>
+            <field>00N4U000006qTKv</field>
+            <field>00N4U000006qTL0</field>
+            <field>00N4U000006qTL5</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
             <field>00N4U000006qI6j</field>
+            <field>00N4U000006qTLA</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -5387,6 +5837,22 @@
             <label>Credit Card No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKq</field>
+            <label>Date1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKv</field>
+            <label>Date2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL0</field>
+            <label>Date3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL5</field>
+            <label>Date4</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4U000006qHlL</field>
             <label>DB Competitor</label>
         </opportunityListFieldsLabelMappings>
@@ -5397,6 +5863,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N4U000006qI6j</field>
             <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTLA</field>
+            <label>Minimun Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
@@ -5469,9 +5939,14 @@
             <field>00N0P000006N3mg</field>
             <field>00N0P000006N3mv</field>
             <field>00N0P000007MDVS</field>
+            <field>00N4U000006qTKq</field>
+            <field>00N4U000006qTKv</field>
+            <field>00N4U000006qTL0</field>
+            <field>00N4U000006qTL5</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
             <field>00N4U000006qI6j</field>
+            <field>00N4U000006qTLA</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
@@ -5670,6 +6145,22 @@
             <label>Credit Card No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKq</field>
+            <label>Date1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTKv</field>
+            <label>Date2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL0</field>
+            <label>Date3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTL5</field>
+            <label>Date4</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N4U000006qHlL</field>
             <label>DB Competitor</label>
         </opportunityListFieldsLabelMappings>
@@ -5680,6 +6171,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N4U000006qI6j</field>
             <label>FormulaOpptRecordType</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N4U000006qTLA</field>
+            <label>Minimun Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000007MDVR</field>
@@ -5751,9 +6246,14 @@
             <field>00N0P000006N3mg</field>
             <field>00N0P000006N3mv</field>
             <field>00N0P000007MDVS</field>
+            <field>00N4U000006qTKq</field>
+            <field>00N4U000006qTKv</field>
+            <field>00N4U000006qTL0</field>
+            <field>00N4U000006qTL5</field>
             <field>00N4U000006qHlL</field>
             <field>00N0P000007MDVq</field>
             <field>00N4U000006qI6j</field>
+            <field>00N4U000006qTLA</field>
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>

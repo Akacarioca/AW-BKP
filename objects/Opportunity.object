@@ -475,6 +475,46 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Date1__c</fullName>
+        <externalId>false</externalId>
+        <label>Date1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date2__c</fullName>
+        <externalId>false</externalId>
+        <label>Date2</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date3__c</fullName>
+        <externalId>false</externalId>
+        <label>Date3</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date4__c</fullName>
+        <externalId>false</externalId>
+        <label>Date4</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -530,6 +570,27 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Minimun__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+  (ISBLANK( Date1__c ) &amp;&amp; ISBLANK( Date2__c )&amp;&amp; ISBLANK( Date3__c ) &amp;&amp;  ISBLANK( Date4__c ) ),
+   NULL,
+   (TODAY()-
+    MAX(
+        if(isnull( TODAY() - Date1__c ),365,TODAY()-Date1__c),
+        if(isnull( TODAY() - Date2__c ),365,TODAY()-Date2__c),
+        if(isnull( TODAY() - Date3__c ),365,TODAY()-Date3__c),
+        if(isnull( TODAY() - Date4__c ),365,TODAY()-Date4__c))
+      )
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Minimun Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
     </fields>
     <fields>
         <fullName>Name</fullName>
@@ -652,6 +713,7 @@
         <fullName>AllOpportunities</fullName>
         <columns>OPPORTUNITY.NAME</columns>
         <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.RECORDTYPE</columns>
         <columns>OPPORTUNITY.AMOUNT</columns>
         <columns>OPPORTUNITY.CLOSE_DATE</columns>
         <columns>OPPORTUNITY.STAGE_NAME</columns>
