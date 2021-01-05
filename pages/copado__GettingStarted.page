@@ -410,13 +410,13 @@
                                                     </div>
                                                 </div>
                                                 <div class="slds-no-flex">
-                                                    <apex:outputLink value="{!URLFOR($Page.copado__appHome)}" target="_blank" styleClass="slds-button slds-button--neutral slds-col--bump-left">
-                                                        {!$Label.copado__create_or_reset}
-                                                    </apex:outputLink>
+                                                    <a onclick="navigateTo('/apex/{!JSINHTMLENCODE(namespace)}appHome');" Class="slds-button slds-button--neutral slds-col--bump-left">
+                                                        {!$Label.CREATE_OR_RESET}
+                                                    </a>
                                                 </div>
                                             </header>
                                             <div class="slds-card__body slds-card__body_inner">
-                                                {!$Label.copado__pesonal_api_key} {!$User.FirstName} {!$User.LastName}
+                                                {!$Label.PESONAL_API_KEY} {!$User.FirstName} {!$User.LastName}
                                                 <br/>
                                                 <apex:outputPanel layout="none" rendered="{!APIKey != null}">
                                                     API key: {!APIKey}
