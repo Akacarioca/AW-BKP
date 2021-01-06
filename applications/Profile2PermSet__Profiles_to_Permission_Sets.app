@@ -14,5 +14,6 @@
     <navType>Standard</navType>
     <tabs>Profile2PermSet__Permissions_Analyzer</tabs>
     <tabs>Profile2PermSet__Converter</tabs>
+    <tabs>Profile2PermSet__Report</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

@@ -196,6 +196,22 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>Profile2PermSet__report</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Profile2PermSet__reportByPermissionDependency</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Profile2PermSet__reportByPermissionSet</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Profile2PermSet__reportByUser</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>Profile2PermSet__responseData</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -222,6 +238,22 @@
     <classAccesses>
         <apexClass>Profile2PermSet__tst_profileCoverter</apexClass>
         <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Profile2PermSet__tst_report</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Profile2PermSet__tst_reportByPermissionDependency</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Profile2PermSet__tst_reportByPermissionSet</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Profile2PermSet__tst_reportByUser</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>Profile2PermSet__tst_userMode</apexClass>
