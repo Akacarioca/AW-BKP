@@ -16,7 +16,6 @@
     </networkAccess>
     <passwordPolicies>
         <complexity>AlphaNumeric</complexity>
-        <enableSetPasswordInApi>true</enableSetPasswordInApi>
         <expiration>Never</expiration>
         <historyRestriction>0</historyRestriction>
         <lockoutInterval>FifteenMinutes</lockoutInterval>
