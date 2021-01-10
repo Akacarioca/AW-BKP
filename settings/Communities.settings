@@ -14,7 +14,7 @@
     <enableGuvSecurityOptOutPref>false</enableGuvSecurityOptOutPref>
     <enableInviteChatterGuestEnabled>true</enableInviteChatterGuestEnabled>
     <enableNetworksEnabled>true</enableNetworksEnabled>
-    <enableOotbProfExtUserOpsEnable>false</enableOotbProfExtUserOpsEnable>
+    <enableOotbProfExtUserOpsEnable>true</enableOotbProfExtUserOpsEnable>
     <enablePRMAccRelPref>false</enablePRMAccRelPref>
     <enableRelaxPartnerAccountFieldPref>false</enableRelaxPartnerAccountFieldPref>
     <enableUnsupportedBrowserModalPref>true</enableUnsupportedBrowserModalPref>
