@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>50.0</apiVersion>
+    <decisions>
+        <description>Decide on SUM</description>
+        <name>Decision</name>
+        <label>Decision</label>
+        <locationX>861</locationX>
+        <locationY>430</locationY>
+        <defaultConnector>
+            <targetReference>LT_100_Result_0</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>LT 100</defaultConnectorLabel>
+        <rules>
+            <name>GT_100</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>SumOf2Fields</leftValueReference>
+                <operator>GreaterThan</operator>
+                <rightValue>
+                    <numberValue>100.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>GT_100_Result</targetReference>
+            </connector>
+            <label>GT 100</label>
+        </rules>
+        <rules>
+            <name>X100</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>SumOf2Fields</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <numberValue>100.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>X100Display</targetReference>
+            </connector>
+            <label>= 100</label>
+        </rules>
+    </decisions>
+    <description>Description</description>
+    <formulas>
+        <description>SUM of 2 fields</description>
+        <name>SumOf2Fields</name>
+        <dataType>Number</dataType>
+        <expression>{!First_Number} + {!Second_Number}</expression>
+        <scale>0</scale>
+    </formulas>
+    <interviewLabel>SumOf2Fields {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>SumOf2Fields</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <screens>
+        <name>Display_SUM</name>
+        <label>Display SUM</label>
+        <locationX>858</locationX>
+        <locationY>69</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Decision</targetReference>
+        </connector>
+        <fields>
+            <name>SUMofFields</name>
+            <fieldText>&lt;p&gt;SUM = {!SumOf2Fields}&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Enter2Fields</name>
+        <label>Enter2Fields</label>
+        <locationX>617</locationX>
+        <locationY>69</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Display_SUM</targetReference>
+        </connector>
+        <fields>
+            <name>First_Number</name>
+            <dataType>Number</dataType>
+            <fieldText>First Number</fieldText>
+            <fieldType>InputField</fieldType>
+            <helpText>&lt;p&gt;Please enter First Number&lt;/p&gt;</helpText>
+            <isRequired>true</isRequired>
+            <scale>0</scale>
+        </fields>
+        <fields>
+            <name>Second_Number</name>
+            <dataType>Number</dataType>
+            <fieldText>Second Number</fieldText>
+            <fieldType>InputField</fieldType>
+            <helpText>&lt;p&gt;Please enter Second Number&lt;/p&gt;</helpText>
+            <isRequired>true</isRequired>
+            <scale>0</scale>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <description>GT 100</description>
+        <name>GT_100_Result</name>
+        <label>GT 100 Result</label>
+        <locationX>1161</locationX>
+        <locationY>637</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>DisplayGT100</name>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>GT100Display</name>
+            <fieldText>&lt;p&gt;The SUM is greater than 100&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <description>LT 100</description>
+        <name>LT_100_Result_0</name>
+        <label>LT 100 Result</label>
+        <locationX>657</locationX>
+        <locationY>694</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>DisplayLT100_0</name>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>LT100Display_0</name>
+            <fieldText>&lt;p&gt;The SUM is less than 100&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <description>=00</description>
+        <name>X100Display</name>
+        <label>=100Display</label>
+        <locationX>870</locationX>
+        <locationY>640</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>SUM100</name>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>SUMeq100</name>
+            <fieldText>&lt;p&gt;SUM is = 100&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Enter2Fields</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+</Flow>
