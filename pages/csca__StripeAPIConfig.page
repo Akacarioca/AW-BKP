@@ -1,0 +1,25 @@
+<!--
+ - Created by ericalexander on 7/24/18.
+ -->
+
+<apex:page id="StripeAPIConfig" controller="csca.Utilities" cache="false">
+    <apex:slds />
+    <div class="slds-align_absolute-center">
+        <apex:pageMessages id="msgs"/>
+    </div>
+    <apex:form html-autocomplete="new-password">
+        <div class="slds-grid slds-align_absolute-center slds-grid_vertical-stretch slds-m-top_large">
+            <div class="slds-form-element">
+                <label class="slds-form-element__label" for="api-key">Stripe API Key</label>
+                <div class="slds-form-element__control">
+                    <apex:inputSecret html-data-lpignore="true" id="api-key" styleClass="slds-input"
+                                      html-placeholder="{!if(ISBLANK(cfg.csca__Stripe_API_Key__c),'Enter ','Update ')} Stripe API Key"
+                                      value="{!cfg.csca__Stripe_API_Key__c}"/>
+                </div>
+            </div>
+        </div>
+        <div class="slds-grid slds-align_absolute-center slds-m-top_medium">
+            <apex:commandButton styleClass="slds-button slds-button_success" value="Store Key" action="{!storeKey}" rerender="msgs"/>
+        </div>
+    </apex:form>
+</apex:page>
