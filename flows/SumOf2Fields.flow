@@ -5,8 +5,8 @@
         <description>Decide on SUM</description>
         <name>Decision</name>
         <label>Decision</label>
-        <locationX>861</locationX>
-        <locationY>430</locationY>
+        <locationX>776</locationX>
+        <locationY>446</locationY>
         <defaultConnector>
             <targetReference>LT_100_Result_0</targetReference>
         </defaultConnector>
@@ -44,6 +44,13 @@
     </decisions>
     <description>Description</description>
     <formulas>
+        <description>Desc</description>
+        <name>MonthlyPayment</name>
+        <dataType>Currency</dataType>
+        <expression>({!Mortgage_Amount} + ({!Mortgage_Amount} / 100 * {!Interest})) / {!Total_month_of_payments}</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
         <description>SUM of 2 fields</description>
         <name>SumOf2Fields</name>
         <dataType>Number</dataType>
@@ -51,7 +58,7 @@
         <scale>0</scale>
     </formulas>
     <interviewLabel>SumOf2Fields {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>SumOf2Fields</label>
+    <label>SumOf2FieldsMortage</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -74,8 +81,8 @@
     <screens>
         <name>Display_SUM</name>
         <label>Display SUM</label>
-        <locationX>858</locationX>
-        <locationY>69</locationY>
+        <locationX>776</locationX>
+        <locationY>326</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
@@ -93,8 +100,8 @@
     <screens>
         <name>Enter2Fields</name>
         <label>Enter2Fields</label>
-        <locationX>617</locationX>
-        <locationY>69</locationY>
+        <locationX>776</locationX>
+        <locationY>206</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -126,11 +133,14 @@
         <description>GT 100</description>
         <name>GT_100_Result</name>
         <label>GT 100 Result</label>
-        <locationX>1161</locationX>
-        <locationY>637</locationY>
+        <locationX>512</locationX>
+        <locationY>566</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Mortgage</targetReference>
+        </connector>
         <fields>
             <name>DisplayGT100</name>
             <fieldType>DisplayText</fieldType>
@@ -147,11 +157,14 @@
         <description>LT 100</description>
         <name>LT_100_Result_0</name>
         <label>LT 100 Result</label>
-        <locationX>657</locationX>
-        <locationY>694</locationY>
+        <locationX>1040</locationX>
+        <locationY>566</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Mortgage</targetReference>
+        </connector>
         <fields>
             <name>DisplayLT100_0</name>
             <fieldType>DisplayText</fieldType>
@@ -165,14 +178,86 @@
         <showHeader>true</showHeader>
     </screens>
     <screens>
-        <description>=00</description>
-        <name>X100Display</name>
-        <label>=100Display</label>
-        <locationX>870</locationX>
-        <locationY>640</locationY>
+        <name>Mortgage</name>
+        <label>Mortgage</label>
+        <locationX>776</locationX>
+        <locationY>782</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Show_Monthly_Payments</targetReference>
+        </connector>
+        <fields>
+            <name>Mortgage_Amount</name>
+            <dataType>Currency</dataType>
+            <fieldText>Mortgage Amount</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+            <scale>0</scale>
+        </fields>
+        <fields>
+            <name>Interest</name>
+            <dataType>Number</dataType>
+            <fieldText>Interest</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+            <scale>2</scale>
+        </fields>
+        <fields>
+            <name>Total_month_of_payments</name>
+            <dataType>Number</dataType>
+            <fieldText>Total month of payments</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+            <scale>0</scale>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Show_Monthly_Payments</name>
+        <label>Show Monthly Payments</label>
+        <locationX>776</locationX>
+        <locationY>902</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>OriginalMortgage</name>
+            <fieldText>&lt;p&gt;Original Mortgage: {!Mortgage_Amount}&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>OriginalInterest</name>
+            <fieldText>&lt;p&gt;Original Interest: {!Interest}&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>NumberOfPayments</name>
+            <fieldText>&lt;p&gt;Total number of months: {!Total_month_of_payments}&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>FinalMonthlyPayment</name>
+            <fieldText>&lt;p&gt;Monthly Payment: {!MonthlyPayment}&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <description>=00</description>
+        <name>X100Display</name>
+        <label>=100Display</label>
+        <locationX>776</locationX>
+        <locationY>566</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Mortgage</targetReference>
+        </connector>
         <fields>
             <name>SUM100</name>
             <fieldType>DisplayText</fieldType>
@@ -186,11 +271,11 @@
         <showHeader>true</showHeader>
     </screens>
     <start>
-        <locationX>50</locationX>
-        <locationY>50</locationY>
+        <locationX>650</locationX>
+        <locationY>48</locationY>
         <connector>
             <targetReference>Enter2Fields</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
 </Flow>

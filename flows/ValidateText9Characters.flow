@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>50.0</apiVersion>
+    <description>Desc</description>
+    <interviewLabel>ValidateText9Characters {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>ValidateText9Characters</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <screens>
+        <description>Desc</description>
+        <name>Validate_Text_Field_with_9_characters</name>
+        <label>Validate Text Field with 9 characters</label>
+        <locationX>265</locationX>
+        <locationY>282</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>Name</name>
+            <dataType>String</dataType>
+            <fieldText>Name</fieldText>
+            <fieldType>InputField</fieldType>
+            <helpText>&lt;p&gt;Please enter only &lt;u&gt;9 characters&lt;/u&gt;&lt;/p&gt;</helpText>
+            <isRequired>true</isRequired>
+            <validationRule>
+                <errorMessage>&lt;p&gt;Please enter only &lt;b&gt;9 characters&lt;/b&gt;&lt;/p&gt;</errorMessage>
+                <formulaExpression> LEN({!Name}) &lt;= 9</formulaExpression>
+            </validationRule>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Validate_Text_Field_with_9_characters</targetReference>
+        </connector>
+    </start>
+    <status>Draft</status>
+</Flow>
