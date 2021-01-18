@@ -28,7 +28,7 @@
         <name>X1st_Char_is_not_A</name>
         <label>1st Char is notA</label>
         <locationX>516</locationX>
-        <locationY>227</locationY>
+        <locationY>226</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -40,7 +40,8 @@
             <isRequired>true</isRequired>
             <validationRule>
                 <errorMessage>&lt;p&gt;1st char must not be &quot;A&quot;&lt;/p&gt;</errorMessage>
-                <formulaExpression>(REGEX({!Name},&quot;[A]{1}&quot;))</formulaExpression>
+                <formulaExpression>MID({!Name},1,1) &lt;&gt; &apos;A&apos; &amp;&amp;
+MID({!Name},1,1) &lt;&gt; &apos;a&apos;</formulaExpression>
             </validationRule>
         </fields>
         <showFooter>true</showFooter>

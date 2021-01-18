@@ -28,7 +28,7 @@
         <name>X3rd_Char_is_not_X</name>
         <label>3rd Char is not X</label>
         <locationX>516</locationX>
-        <locationY>227</locationY>
+        <locationY>223</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -40,7 +40,10 @@
             <isRequired>true</isRequired>
             <validationRule>
                 <errorMessage>&lt;p&gt;3rd char must not be &quot;X&quot;&lt;/p&gt;</errorMessage>
-                <formulaExpression>(REGEX({!Name},&quot;[X]{3}&quot;))</formulaExpression>
+                <formulaExpression>
+
+MID({!Name},3,1) &lt;&gt; &apos;X&apos; &amp;&amp;
+MID({!Name},3,1) &lt;&gt; &apos;x&apos;</formulaExpression>
             </validationRule>
         </fields>
         <showFooter>true</showFooter>
