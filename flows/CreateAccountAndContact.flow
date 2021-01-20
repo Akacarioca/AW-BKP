@@ -200,7 +200,7 @@
             <targetReference>Create_Account_Contact</targetReference>
         </connector>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <description>Desc</description>
         <name>varRAccount</name>

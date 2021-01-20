@@ -176,6 +176,19 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentInstanceProperties>
+                    <name>flowLayout</name>
+                    <value>twoColumn</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>flowName</name>
+                    <value>CreateAccountAndContact</value>
+                </componentInstanceProperties>
+                <componentName>flowruntime:interview</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentName>runtime_sales_activities:todayTaskContainer</componentName>
             </componentInstance>
         </itemInstances>
