@@ -34,6 +34,10 @@
                 <behavior>Edit</behavior>
                 <field>PO_Box__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Number_of_Opportunities__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

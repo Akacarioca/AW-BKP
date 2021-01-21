@@ -26,6 +26,10 @@
         <name>Has_Support_Plan__c</name>
     </fields>
     <fields>
+        <label><!-- Number of Opportunities --></label>
+        <name>Number_of_Opportunities__c</name>
+    </fields>
+    <fields>
         <label><!-- PO Box --></label>
         <name>PO_Box__c</name>
     </fields>

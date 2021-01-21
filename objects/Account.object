@@ -347,6 +347,19 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>Number_of_Opportunities__c</fullName>
+        <description>Desc</description>
+        <externalId>false</externalId>
+        <label>Number of Opportunities</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>OwnerId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <trackHistory>true</trackHistory>

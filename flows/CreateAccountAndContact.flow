@@ -53,17 +53,17 @@
             </value>
         </assignmentItems>
         <assignmentItems>
-            <assignToReference>varRContact.LastName</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>ContactName.lastName</elementReference>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
             <assignToReference>varRContact.Email</assignToReference>
             <operator>Assign</operator>
             <value>
                 <elementReference>ContactEmail.value</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>varRContact.LastName</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>ContactName.lastName</elementReference>
             </value>
         </assignmentItems>
         <connector>
@@ -116,6 +116,9 @@
         <label>Create Contact</label>
         <locationX>984</locationX>
         <locationY>480</locationY>
+        <faultConnector>
+            <targetReference>Debug_Message</targetReference>
+        </faultConnector>
         <inputReference>varRContact</inputReference>
     </recordCreates>
     <recordCreates>
@@ -127,6 +130,9 @@
         <connector>
             <targetReference>Map_Contact</targetReference>
         </connector>
+        <faultConnector>
+            <targetReference>Debug_Message</targetReference>
+        </faultConnector>
         <inputReference>varRAccount</inputReference>
     </recordCreates>
     <screens>
@@ -193,6 +199,22 @@
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
     </screens>
+    <screens>
+        <name>Debug_Message</name>
+        <label>Debug Message</label>
+        <locationX>395</locationX>
+        <locationY>447</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>Message</name>
+            <fieldText>&lt;p&gt;Here is the reason ----- &lt;b&gt;{!$Flow.FaultMessage}&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Please reach out to rockstar Carlos&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
     <start>
         <locationX>18</locationX>
         <locationY>59</locationY>
@@ -200,7 +222,7 @@
             <targetReference>Create_Account_Contact</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
     <variables>
         <description>Desc</description>
         <name>varRAccount</name>

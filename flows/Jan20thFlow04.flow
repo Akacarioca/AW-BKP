@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>50.0</apiVersion>
-    <assignments>
-        <description>Desc</description>
-        <name>Update_Description</name>
-        <label>Update Description</label>
-        <locationX>175</locationX>
-        <locationY>602</locationY>
-        <assignmentItems>
-            <assignToReference>$Record.Description</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <stringValue>Chemical</stringValue>
-            </value>
-        </assignmentItems>
-    </assignments>
     <description>Desc</description>
-    <interviewLabel>AccountTriggedFlow {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>AccountTriggedFlow</label>
+    <interviewLabel>Jan20thFlow04 {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Jan20thFlow04</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -37,23 +23,32 @@
         </value>
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
+    <recordDeletes>
+        <description>Desc</description>
+        <name>Delete_Closed_Lost_Oppt</name>
+        <label>Delete Closed Lost Oppt</label>
+        <locationX>242</locationX>
+        <locationY>367</locationY>
+        <inputReference>$Record</inputReference>
+    </recordDeletes>
     <start>
-        <locationX>53</locationX>
-        <locationY>208</locationY>
+        <locationX>50</locationX>
+        <locationY>50</locationY>
         <connector>
-            <targetReference>Update_Description</targetReference>
+            <targetReference>Delete_Closed_Lost_Oppt</targetReference>
         </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
         <filterLogic>and</filterLogic>
         <filters>
-            <field>Industry</field>
+            <field>StageName</field>
             <operator>EqualTo</operator>
             <value>
-                <stringValue>Chemicals</stringValue>
+                <stringValue>Closed Lost</stringValue>
             </value>
         </filters>
-        <object>Account</object>
-        <recordTriggerType>Create</recordTriggerType>
-        <triggerType>RecordBeforeSave</triggerType>
+        <object>Opportunity</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
     </start>
     <status>Active</status>
 </Flow>
