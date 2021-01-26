@@ -5,8 +5,8 @@
         <description>Desc</description>
         <name>Map_Oppt_Fields</name>
         <label>Map Oppt Fields</label>
-        <locationX>232</locationX>
-        <locationY>351</locationY>
+        <locationX>233</locationX>
+        <locationY>350</locationY>
         <assignmentItems>
             <assignToReference>NewOppt.AccountId</assignToReference>
             <operator>Assign</operator>
@@ -40,6 +40,13 @@
             <operator>Assign</operator>
             <value>
                 <numberValue>12000.0</numberValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>NewOppt.OwnerId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>0050P000008FjN4QAK</stringValue>
             </value>
         </assignmentItems>
         <connector>
@@ -105,8 +112,8 @@
         <object>Account</object>
         <schedule>
             <frequency>Daily</frequency>
-            <startDate>2021-01-23</startDate>
-            <startTime>23:45:00.000Z</startTime>
+            <startDate>2021-01-25</startDate>
+            <startTime>23:47:00.000Z</startTime>
         </schedule>
         <triggerType>Scheduled</triggerType>
     </start>

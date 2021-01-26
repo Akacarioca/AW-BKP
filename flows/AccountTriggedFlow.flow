@@ -5,8 +5,8 @@
         <description>Desc</description>
         <name>Update_Description</name>
         <label>Update Description</label>
-        <locationX>175</locationX>
-        <locationY>602</locationY>
+        <locationX>776</locationX>
+        <locationY>301</locationY>
         <assignmentItems>
             <assignToReference>$Record.Description</assignToReference>
             <operator>Assign</operator>
@@ -38,8 +38,8 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <start>
-        <locationX>53</locationX>
-        <locationY>208</locationY>
+        <locationX>650</locationX>
+        <locationY>48</locationY>
         <connector>
             <targetReference>Update_Description</targetReference>
         </connector>
@@ -55,5 +55,5 @@
         <recordTriggerType>Create</recordTriggerType>
         <triggerType>RecordBeforeSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
 </Flow>

@@ -90,11 +90,11 @@
     </recordCreates>
     <start>
         <locationX>60</locationX>
-        <locationY>50</locationY>
+        <locationY>49</locationY>
         <connector>
             <targetReference>Create_Opportunity</targetReference>
         </connector>
-        <filterLogic>and</filterLogic>
+        <filterLogic>or</filterLogic>
         <filters>
             <field>Number_of_Opportunities__c</field>
             <operator>EqualTo</operator>
@@ -102,11 +102,18 @@
                 <numberValue>0.0</numberValue>
             </value>
         </filters>
+        <filters>
+            <field>Number_of_Opportunities__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
         <object>Account</object>
         <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Obsolete</status>
+    <status>Active</status>
     <variables>
         <description>Desc</description>
         <name>NewOpportunity</name>
