@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DummyCMDT Type</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>DummyCMDT Types</value>
+    </caseValues>
+    <fields>
+        <label><!-- BooleanField --></label>
+        <name>BooleanField__c</name>
+    </fields>
+    <fields>
+        <label><!-- DateField --></label>
+        <name>DateField__c</name>
+    </fields>
+    <fields>
+        <label><!-- DateTimeField --></label>
+        <name>DateTimeField__c</name>
+    </fields>
+    <fields>
+        <label><!-- EmailField --></label>
+        <name>EmailField__c</name>
+    </fields>
+    <fields>
+        <label><!-- NumberField --></label>
+        <name>NumberField__c</name>
+    </fields>
+    <fields>
+        <label><!-- PhoneField --></label>
+        <name>PhoneField__c</name>
+    </fields>
+    <fields>
+        <label><!-- PicklistField --></label>
+        <name>PicklistField__c</name>
+        <picklistValues>
+            <masterLabel>Value1</masterLabel>
+            <translation><!-- Value1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value2</masterLabel>
+            <translation><!-- Value2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value3</masterLabel>
+            <translation><!-- Value3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- TextField --></label>
+        <name>TextField__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

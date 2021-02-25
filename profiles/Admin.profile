@@ -144,6 +144,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>CSVToCMDTRecordsController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CSVToCMDTRecordsControllerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>EmailError</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -3240,6 +3248,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <custom>false</custom>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>DummyCMDTType__mdt</name>
+    </customMetadataTypeAccesses>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.AccountNumber</field>
@@ -4311,6 +4323,41 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>DummyCMDTType__mdt.BooleanField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>DummyCMDTType__mdt.DateField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>DummyCMDTType__mdt.DateTimeField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>DummyCMDTType__mdt.EmailField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>DummyCMDTType__mdt.NumberField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>DummyCMDTType__mdt.PhoneField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>DummyCMDTType__mdt.PicklistField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>EngagementChannelType.ContactPointType</field>
         <readable>false</readable>
@@ -4618,6 +4665,26 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Lead.Website</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>MetadataDeploymentResult__e.DummyField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>MetadataDeploymentResult__e.JobId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>MetadataDeploymentResult__e.Payload__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>MetadataDeploymentResult__e.Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -12040,6 +12107,9 @@
         <layout>Doctor__c-Doctor Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>DummyCMDTType__mdt-DummyCMDT Type Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>DuplicateRecordSet-Duplicate Record Set Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -12535,6 +12605,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Macro</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>MetadataDeploymentResult__e</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>

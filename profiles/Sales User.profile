@@ -144,6 +144,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>CSVToCMDTRecordsController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CSVToCMDTRecordsControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>EmailError</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -4316,6 +4324,41 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>DummyCMDTType__mdt.BooleanField__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>DummyCMDTType__mdt.DateField__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>DummyCMDTType__mdt.DateTimeField__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>DummyCMDTType__mdt.EmailField__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>DummyCMDTType__mdt.NumberField__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>DummyCMDTType__mdt.PhoneField__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>DummyCMDTType__mdt.PicklistField__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>EngagementChannelType.ContactPointType</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -4623,6 +4666,26 @@
         <editable>true</editable>
         <field>Lead.Website</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>MetadataDeploymentResult__e.DummyField__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>MetadataDeploymentResult__e.JobId__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>MetadataDeploymentResult__e.Payload__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>MetadataDeploymentResult__e.Status__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -12050,6 +12113,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Doctor__c-Doctor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DummyCMDTType__mdt-DummyCMDT Type Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>DuplicateRecordSet-Duplicate Record Set Layout</layout>
