@@ -576,6 +576,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>copado__BranchManagementExtTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__BranchManagementExtension</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -716,6 +720,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>copado__ComplianceRuleCriteriaSelector</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__ComplianceRuleCriteriaTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -724,7 +732,19 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>copado__ComplianceRuleManagerCtrl</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__ComplianceRuleManagerCtrlTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__ComplianceRuleTriggerHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__ComplianceRulesSelector</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -960,11 +980,11 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DependencyHandler</apexClass>
+        <apexClass>copado__DeployAPI</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DeployAPI</apexClass>
+        <apexClass>copado__DeployAPITest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -985,6 +1005,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>copado__DeploymentExt</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__DeploymentExtTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -1060,6 +1084,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>copado__DxEmptyClassesCodeCoverage</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__DxOperationCtrlTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__DynamicDatatableController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -1097,6 +1129,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>copado__EditSeleniumSettingOverride</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__EditSeleniumSettingOverrideTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -1253,6 +1289,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>copado__GlobalUtilities</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__GlobalUtilitiesTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__GlobalUtilitiesUSBehindTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -1608,6 +1652,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>copado__PromoteChangesExtTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__PromoteChangesExtension</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -1661,6 +1709,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>copado__RelatedListController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__RelatedListControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -1732,6 +1784,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>copado__RunTestGroupBatchTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__RunTestGroupsBatch</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -1800,6 +1856,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>copado__ScratchOrgMetadataController_t</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__ScratchOrgOpen</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -1840,6 +1900,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>copado__SeleniumGroupTriggersTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__SeleniumTestCasePerSuite</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -1848,11 +1912,19 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>copado__SeleniumTestCasePromoteRollbackTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__SeleniumTestCaseTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>copado__SeleniumTestCaseViewEdit</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__SeleniumTestCaseViewEditTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -1880,6 +1952,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>copado__SeleniumTestQuickRunTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__SeleniumTestResult</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -1888,7 +1964,15 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>copado__SeleniumTestResultsTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__SeleniumTestRunResults</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__SeleniumTestRunResultsTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -1900,11 +1984,19 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>copado__SeleniumTestRunTriggerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__SeleniumTestSuiteTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>copado__Settings</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__SettingsTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -1965,6 +2057,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>copado__TeamCityAPI</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__TestAbstractArtifact</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -2096,10 +2192,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestDeployAPI</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>copado__TestDeployCommits</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -2109,10 +2201,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>copado__TestDeploymentEmailController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__TestDeploymentExt</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -2156,10 +2244,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestDxOperationController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>copado__TestDxPackaging</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -2169,6 +2253,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>copado__TestDynamicDatatableController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__TestDynamicScratchOrg</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -2185,10 +2273,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>copado__TestEditOrg</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__TestEditSeleniumSettingOverride</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -2249,14 +2333,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>copado__TestGitSnapshot</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__TestGlobalUtilities</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__TestGlobalUtilities_US_Behind</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -2384,10 +2460,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestPromoteChangesExtension</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>copado__TestPromotionEditExtension</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -2424,10 +2496,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestRunTestGroupBatch</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>copado__TestRunTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -2445,38 +2513,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>copado__TestScratchOrgSettings</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__TestSeleniumGroupTriggers</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__TestSeleniumTestCasePromoteRollback</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__TestSeleniumTestCaseViewEdit</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__TestSeleniumTestQuickRun</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__TestSeleniumTestResults</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__TestSeleniumTestRunResults</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__TestSeleniumTestRunTrigger</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__TestSettings</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -2528,10 +2564,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestUserStoryComplianceScan</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>copado__TestUserStoryExt</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -2564,14 +2596,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestValidateOrg</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__TestViewDeploymentExtension</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>copado__TestViewOrgDiffCSV</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -2580,15 +2604,7 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestWebhookLookupController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>copado__Test_AutomationTemplate</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__Test_BranchManagementExtension</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -2852,6 +2868,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>copado__UserStoryComplianceScanTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__UserStoryCounter</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -2884,11 +2904,19 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>copado__UsersStepControllerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__Utilities</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>copado__ValidateOrgExtension</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__ValidateOrgTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -2900,7 +2928,15 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>copado__ViewDeploymentExtensionTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__WebhookAPI</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__WebhookLookupControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -2981,6 +3017,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>copado__fflib_SObjectDescribe</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>copado__fflib_SObjectDescribeTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -8189,6 +8229,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>copado__Bundled_UserStory__c.copado__Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>copado__Bundled_UserStory__c.copado__User_Story_Bundle__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>copado__Bundled_UserStory__c.copado__User_Story__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>copado__Burndown_Item__c.copado__Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -11364,6 +11419,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>copado__User_Story_Bundle__c.copado__Org_Credential__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>copado__User_Story_Bundle__c.copado__Status_Notes__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>copado__User_Story_Bundle__c.copado__User_Story__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>copado__User_Story_Commit__c.copado__External_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -11561,6 +11631,11 @@
         <editable>true</editable>
         <field>copado__User_Story__c.copado__Has_Apex_Code__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__User_Story__c.copado__Is_Bundle__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -13621,6 +13696,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>copado__Bundled_UserStory__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>copado__Burndown_Item__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -14333,6 +14417,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>copado__User_Persona_Assignment__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>copado__User_Story_Bundle__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>

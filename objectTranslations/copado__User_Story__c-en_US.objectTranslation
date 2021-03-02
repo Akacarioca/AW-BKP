@@ -223,6 +223,10 @@
         <name>copado__Has_Apex_Code__c</name>
     </fields>
     <fields>
+        <label><!-- Is Bundle --></label>
+        <name>copado__Is_Bundle__c</name>
+    </fields>
+    <fields>
         <help><!-- Latest Compliance Scan execution date. --></help>
         <label><!-- Last Compliance Scan Date --></label>
         <name>copado__Last_Compliance_Scan_Date__c</name>

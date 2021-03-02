@@ -229,6 +229,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>copado__ComplianceRuleManagerCtrl</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__ConnectionBehaviorUsageInfoController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -1209,10 +1213,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestDeployAPI</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>copado__TestDeployCommits</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -1222,10 +1222,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>copado__TestDeploymentEmailController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__TestDeploymentExt</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -1246,10 +1242,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>copado__TestDeploymentWizard</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__TestDxOperationController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -1306,10 +1298,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>copado__TestGitRepositoryTrigger</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__TestGlobalUtilities</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -1393,10 +1381,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestPromoteChangesExtension</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>copado__TestPromotionEditExtension</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -1413,10 +1397,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestRunTestGroupBatch</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>copado__TestRunTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -1426,38 +1406,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>copado__TestScheduledJobs</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__TestSeleniumGroupTriggers</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__TestSeleniumTestCasePromoteRollback</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__TestSeleniumTestCaseViewEdit</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__TestSeleniumTestQuickRun</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__TestSeleniumTestResults</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__TestSeleniumTestRunResults</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__TestSeleniumTestRunTrigger</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__TestSettings</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -1522,18 +1470,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>copado__TestUtilities</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__TestValidateOrg</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__TestViewDeploymentExtension</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__TestWebhookLookupController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -2136,6 +2072,21 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>copado__Build_Task__c.copado__Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>copado__Bundled_UserStory__c.copado__Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>copado__Bundled_UserStory__c.copado__User_Story_Bundle__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>copado__Bundled_UserStory__c.copado__User_Story__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -5255,6 +5206,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>copado__User_Story_Bundle__c.copado__Org_Credential__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>copado__User_Story_Bundle__c.copado__Status_Notes__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>copado__User_Story_Bundle__c.copado__User_Story__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>copado__User_Story_Commit__c.copado__External_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -5441,6 +5407,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>copado__User_Story__c.copado__Has_Apex_Code__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>copado__User_Story__c.copado__Is_Bundle__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -5734,6 +5705,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>copado__Build_Task__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>copado__Bundled_UserStory__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -6445,6 +6425,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>copado__User_Persona_Assignment__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>copado__User_Story_Bundle__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
