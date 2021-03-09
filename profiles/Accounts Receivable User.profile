@@ -5237,6 +5237,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Bicycle__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Blacklist_Audit__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
