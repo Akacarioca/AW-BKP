@@ -3,7 +3,6 @@
     <enableAccessCheckCrucPref>true</enableAccessCheckCrucPref>
     <enableApiUserLtngOutAccessPref>false</enableApiUserLtngOutAccessPref>
     <enableAuraCDNPref>true</enableAuraCDNPref>
-    <enableAuraDepAccessChksCRUCPref xsi:nil="true"/>
     <enableAuraSecStaticResCRUCPref>false</enableAuraSecStaticResCRUCPref>
     <enableFeedbackInMobile>true</enableFeedbackInMobile>
     <enableIE11DeprecationMsgHidden>false</enableIE11DeprecationMsgHidden>
