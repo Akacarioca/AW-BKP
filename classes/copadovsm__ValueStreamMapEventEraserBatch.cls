@@ -9,6 +9,9 @@ global class ValueStreamMapEventEraserBatch implements Database.Batchable<Id>, D
     global ValueStreamMapEventEraserBatch(List<Id> workItemIds, List<Id> stageIds, List<Id> blockIds) {
 
     }
+    global ValueStreamMapEventEraserBatch(List<Id> workItemIds, List<Id> stageIds, List<Id> blockIds, List<copadovsm__Value_Stream_Map__c> valueStreamMaps) {
+
+    }
     global void execute(Database.BatchableContext bc, List<Id> scope) {
 
     }

@@ -219,6 +219,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>copadovsm__Stage__c.copadovsm__Active__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>copadovsm__Stage__c.copadovsm__Description__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -288,6 +293,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>copadovsm__Value_Stream_Map_Event__c.copadovsm__Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>copadovsm__Value_Stream_Map_Event__c.copadovsm__Type__c</field>
         <readable>true</readable>
@@ -340,6 +350,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>copadovsm__Value_Stream_Map__c.copadovsm__Object__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>copadovsm__Value_Stream_Map__c.copadovsm__Operator_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
