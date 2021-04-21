@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <assignmentRule>
-        <fullName>Recruiter</fullName>
+        <fullName>Cases to Carlos</fullName>
         <active>true</active>
+        <ruleEntry>
+            <assignedTo>dgarcia@aw81503.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>User.UserRoleId</field>
+                <operation>equals</operation>
+                <value>CEO</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordType__c</field>
+                <operation>equals</operation>
+                <value>Inquiry</value>
+            </criteriaItems>
+        </ruleEntry>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>Recruiter</fullName>
+        <active>false</active>
         <ruleEntry>
             <assignedTo>admin@aw81503.com</assignedTo>
             <assignedToType>User</assignedToType>
@@ -10,6 +28,15 @@
                 <field>Case.RecordType__c</field>
                 <operation>equals</operation>
                 <value>Inquiry</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Inquiry_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.CMDT1__c</field>
+                <operation>equals</operation>
+                <value>ABC</value>
             </criteriaItems>
         </ruleEntry>
     </assignmentRule>
