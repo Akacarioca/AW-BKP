@@ -13,7 +13,7 @@
         <name>copado__Destination_Id__c</name>
     </fields>
     <fields>
-        <label><!-- Destination Org --></label>
+        <label><!-- Destination Credential --></label>
         <name>copado__Destination_Org__c</name>
         <relationshipLabel><!-- Deployment Jobs --></relationshipLabel>
     </fields>
@@ -93,7 +93,7 @@
         <relationshipLabel><!-- Deployment Jobs --></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- To Org Name --></label>
+        <label><!-- To Credential Name --></label>
         <name>copado__To_Org_Name__c</name>
     </fields>
     <fields>

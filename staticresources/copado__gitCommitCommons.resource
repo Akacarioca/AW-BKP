@@ -393,7 +393,8 @@ var operationTypeAttachmentName;
         app.extension.getVlocityDependencies();
     };
 
-    app.autoSelectMetadata = function (usId, orgId, usOrgId, selectedOption, commitNotPresentLabel, noAutoSelectLabel, currentUserFirstName, currentUserLastName){
+    app.autoSelectMetadata = function (usId, orgId, usOrgId, selectedOption, commitNotPresentLabel, nameNotPresentMsg, noAutoSelectDataMsg, currentUserFirstName, currentUserLastName){
+        var nameToMatch = currentUserFirstName ? currentUserFirstName + ' ' + currentUserLastName : currentUserLastName;
         if (usId) {
             orgId = usOrgId;
         }
@@ -412,7 +413,7 @@ var operationTypeAttachmentName;
         }
 
         selectedDate.setHours(0, 0, 0, 0);
-        setAutoSelectedDataToGrid(selectedDate, currentUserFirstName+' '+currentUserLastName, noAutoSelectLabel);
+        setAutoSelectedDataToGrid(selectedDate, nameToMatch, nameNotPresentMsg, noAutoSelectDataMsg);
     };
 
     getLastCommitDate = function (usId, orgId, commitNotPresentLabel) {
@@ -449,11 +450,13 @@ var operationTypeAttachmentName;
 
     }
 
-    setAutoSelectedDataToGrid = function (selectedDate, createByName, noAutoSelectLabel) {
+    setAutoSelectedDataToGrid = function (selectedDate, createByName, nameNotPresentMsg, noAutoSelectDataMsg) {
         var compDate;
         var autoSelectedItems = [];
         var metadataDateMatched;
         var nameMatched;
+        var namePresent;
+        var alertMessage;
 
         app.grid.allMetaData.forEach((metadataItem) => {
             compDate = new Date(metadataItem.d);
@@ -465,9 +468,19 @@ var operationTypeAttachmentName;
             } else {
                 metadataItem.s = false;
             }
+
+            if(nameMatched && !namePresent){
+                namePresent = true;
+            }
         });
-        if (!autoSelectedItems.length) {
-            alert(noAutoSelectLabel);
+        if(!namePresent){
+            alertMessage = nameNotPresentMsg;
+        }
+        else if (!autoSelectedItems.length) {
+            alertMessage = noAutoSelectDataMsg;
+        }
+        if (alertMessage) {
+            alert(alertMessage);
             $copado('#autooption').toggleClass("slds-hide");
             return;
         }
