@@ -202,6 +202,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>Profile2PermSet__permissionManager</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>Profile2PermSet__permissionSetGroupsList</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -247,6 +251,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>Profile2PermSet__tst_permAnalyzer</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Profile2PermSet__tst_permissionManager</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
