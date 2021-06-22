@@ -71,11 +71,15 @@ var operationTypeAttachmentName;
             var gitMetadataAttachment = dw.u.getAttach(app.conf.data.userStoryId, 'Git MetaData');
             var gitMetadataItems = Base64.decode(gitMetadataAttachment[0].Body);
             allMetadataItems.push(...JSON.parse(gitMetadataItems));
-
+            
+            var retrieveOnlyMetaDataAttachment = dw.u.getAttach(app.conf.data.userStoryId, 'RetrieveOnly MetaData');
+            var retrieveOnlyMetaDataItems = Base64.decode(retrieveOnlyMetaDataAttachment[0].Body);
+            allMetadataItems.push(...JSON.parse(retrieveOnlyMetaDataItems));
+            
             var commitedMetadataItems = getCommitedMetadata(app.conf.data.userStoryId);
             allMetadataItems.push(...commitedMetadataItems);
             var reCommitItems = processRetrieveOnly(allMetadataItems);
-
+            
             setWithoutRebinding(app.userStoryMD, reCommitItems);
         }
         app.grid.reloadSelectionsJSON(app.userStoryMD, 1);
@@ -308,7 +312,13 @@ var operationTypeAttachmentName;
             }
             reRenderHeader();
             unlockScreen();
-            app.resetGrid();
+            const selectedMdt = app.grid.selectedMetadata;
+            app.selectDx = false;
+            app.grid.resetGrid(app.conf);
+            app.grid.selectedMetadata = selectedMdt;
+            app.grid.render();
+            app.grid.loadMetaData();
+            app.grid._reapplyFilters(0);
         })
 
     };
@@ -457,11 +467,12 @@ var operationTypeAttachmentName;
         var nameMatched;
         var namePresent;
         var alertMessage;
+        var userTimezoneOffset;
 
         app.grid.allMetaData.forEach((metadataItem) => {
             compDate = new Date(metadataItem.d);
-            compDate.setHours(0, 0, 0, 0);
-            metadataDateMatched = compDate.getTime() >= selectedDate.getTime();
+            userTimezoneOffset = compDate.getTimezoneOffset() * 60000;
+            metadataDateMatched = (compDate.getTime() + userTimezoneOffset) >= selectedDate.getTime();
             nameMatched = metadataItem.b && (dw.u.removeDiacritics(metadataItem.b.toUpperCase()) == dw.u.removeDiacritics(createByName.toUpperCase()));
             if (metadataDateMatched && nameMatched) {
                 autoSelectedItems.push(metadataItem);
