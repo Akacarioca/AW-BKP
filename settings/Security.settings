@@ -60,6 +60,7 @@
         <referrerPolicy>true</referrerPolicy>
         <requireHttpOnly>true</requireHttpOnly>
         <sessionTimeout>TwoHours</sessionTimeout>
+        <useLocalStorageForLogoutUrl>false</useLocalStorageForLogoutUrl>
     </sessionSettings>
     <singleSignOnSettings>
         <enableCaseInsensitiveFederationID>false</enableCaseInsensitiveFederationID>
