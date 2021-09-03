@@ -200,4 +200,12 @@
         <label><!-- YahooMaps --></label>
         <name>YahooMaps</name>
     </webLinks>
+    <webLinks>
+        <label><!-- Send_to_Slack --></label>
+        <name>slackv2__Send_to_Slack</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Slack_Alerts --></label>
+        <name>slackv2__Slack_Alerts</name>
+    </webLinks>
 </CustomObjectTranslation>
