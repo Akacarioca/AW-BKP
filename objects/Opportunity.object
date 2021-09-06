@@ -718,7 +718,7 @@
         <columns>OPPORTUNITY.CLOSE_DATE</columns>
         <columns>OPPORTUNITY.STAGE_NAME</columns>
         <columns>OPPORTUNITY.FORECAST_CATEGORY</columns>
-        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
         <filterScope>Everything</filterScope>
         <label>All Opportunities</label>
     </listViews>
