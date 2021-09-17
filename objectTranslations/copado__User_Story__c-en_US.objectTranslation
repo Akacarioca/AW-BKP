@@ -33,6 +33,10 @@
         <name>copado__PromotionRelatedList</name>
     </fieldSets>
     <fieldSets>
+        <label><!-- Promotion Related List Datatable --></label>
+        <name>copado__Promotion_Related_List_Datatable</name>
+    </fieldSets>
+    <fieldSets>
         <label><!-- SprintWall_MassUpdate --></label>
         <name>copado__SprintWall_MassUpdate</name>
     </fieldSets>

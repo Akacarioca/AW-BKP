@@ -235,6 +235,7 @@
         <members>copado__ConvertAutomationToDeployment</members>
         <members>copado__ConvertTypes</members>
         <members>copado__CopadoAPI</members>
+        <members>copado__CopadoAlert</members>
         <members>copado__CopadoCommitChangesTestDefaults</members>
         <members>copado__CopadoDeploymentWizardTestDefaults</members>
         <members>copado__CopadoEventCheckpoint</members>
@@ -243,6 +244,7 @@
         <members>copado__CopadoEventGeneratorTest</members>
         <members>copado__CopadoFunctionException</members>
         <members>copado__CopadoLicensesComponentController</members>
+        <members>copado__CopadoLicensesSelector</members>
         <members>copado__CopadoMassBackPromotionTestDefaults</members>
         <members>copado__CopadoNotificationHelper</members>
         <members>copado__CopadoNotificationsSelector</members>
@@ -256,8 +258,14 @@
         <members>copado__CountryPicklistValues</members>
         <members>copado__CreateDefaultOrg</members>
         <members>copado__CreateDefaultOrgTest</members>
+        <members>copado__CreateExecution</members>
+        <members>copado__CreateExecutionTest</members>
+        <members>copado__CreateExtensionTestCtrl</members>
+        <members>copado__CreateExtensionTestCtrlTest</members>
         <members>copado__CreateLocalConnection</members>
         <members>copado__CreateLocalConnectionTest</members>
+        <members>copado__CreatePromotedUserStories</members>
+        <members>copado__CreatePromotions</members>
         <members>copado__CreateRegularConnection</members>
         <members>copado__CreateStandardRecordCtrl</members>
         <members>copado__CreateStandardRecordCtrlTest</members>
@@ -304,6 +312,8 @@
         <members>copado__DataFiltersConfiguration</members>
         <members>copado__DataFiltersCtrl</members>
         <members>copado__DataFiltersCtrlTest</members>
+        <members>copado__DataSetAlertsCtrl</members>
+        <members>copado__DataSetAlertsCtrlTest</members>
         <members>copado__DataSetExecutionHistoryCtrl</members>
         <members>copado__DataSetExecutionHistoryCtrlTest</members>
         <members>copado__DataSetValidator</members>
@@ -321,6 +331,8 @@
         <members>copado__DataTemplateDeploymentValidatorTest</members>
         <members>copado__DataTemplateDetail</members>
         <members>copado__DataTemplateImportExtension</members>
+        <members>copado__DataTemplateInformationsCtrl</members>
+        <members>copado__DataTemplateInformationsCtrlTest</members>
         <members>copado__DataTemplateObjectResultController</members>
         <members>copado__DataTemplateSetupExtension</members>
         <members>copado__DataTemplateTaskComponentController</members>
@@ -328,19 +340,25 @@
         <members>copado__DataTemplatesService</members>
         <members>copado__DatabaseOperationType</members>
         <members>copado__DefineProductionOrgServiceController</members>
+        <members>copado__DefinitionOfDoneCtrl</members>
+        <members>copado__DefinitionOfDoneCtrlTest</members>
         <members>copado__DeleteDataCommitDeploymentTask</members>
         <members>copado__DeleteDataCommitDeploymentTaskTest</members>
         <members>copado__DeleteOldContentVersionsAction</members>
         <members>copado__DeleteOldContentVersionsActionTest</members>
         <members>copado__DeleteSensitiveProperties</members>
+        <members>copado__DeleteUnusedLicenses</members>
         <members>copado__DeployAPI</members>
         <members>copado__DeployAPITest</members>
+        <members>copado__DeployCallback</members>
         <members>copado__DeployCommits</members>
         <members>copado__DeployDataAction</members>
         <members>copado__DeployDataActionTest</members>
         <members>copado__DeployJobHelper</members>
+        <members>copado__DeployJobTemplateHelper</members>
         <members>copado__DeployLater</members>
         <members>copado__DeploymentEmailController</members>
+        <members>copado__DeploymentExecutionService</members>
         <members>copado__DeploymentExt</members>
         <members>copado__DeploymentExtTest</members>
         <members>copado__DeploymentFlowStepTriggerHandler</members>
@@ -404,6 +422,7 @@
         <members>copado__ExternalCIJobsExtension</members>
         <members>copado__FeatureAccessHelper</members>
         <members>copado__FeatureHelper</members>
+        <members>copado__Flow</members>
         <members>copado__FormatFunctions</members>
         <members>copado__Function</members>
         <members>copado__FunctionCallout</members>
@@ -463,6 +482,7 @@
         <members>copado__ImportAutomationTemplate</members>
         <members>copado__ImportAutomationTemplateTest</members>
         <members>copado__IndexMetadataJob</members>
+        <members>copado__IndexMetadataJobTest</members>
         <members>copado__InitializeNotifications</members>
         <members>copado__InvalidExpression</members>
         <members>copado__InvokableMethods_Test</members>
@@ -470,6 +490,15 @@
         <members>copado__InvokeComplianceScanForCredential</members>
         <members>copado__InvokeStaticCodeAnalysisForCredential</members>
         <members>copado__JenkinsAPI</members>
+        <members>copado__JobExecutionCallback</members>
+        <members>copado__JobExecutionsSelector</members>
+        <members>copado__JobStepTrigger</members>
+        <members>copado__JobStepTriggerHandler</members>
+        <members>copado__JobStepsSelector</members>
+        <members>copado__JobTemplatePromoteAndDeployTest</members>
+        <members>copado__JobTemplateService</members>
+        <members>copado__JobTemplateTrigger</members>
+        <members>copado__JobTemplatesSelector</members>
         <members>copado__JobWaitingExtension</members>
         <members>copado__JobsManager</members>
         <members>copado__JsRemotingController</members>
@@ -496,6 +525,8 @@
         <members>copado__ManageRepositoryBranchesController</members>
         <members>copado__ManageSeleniumTestingExt</members>
         <members>copado__ManualDeploymentTaskExecutionTest</members>
+        <members>copado__ManualStepCtrl</members>
+        <members>copado__ManualStepCtrlTest</members>
         <members>copado__ManualTaskComponentController</members>
         <members>copado__MassAddDestOrgs</members>
         <members>copado__MassAddRunsToGroup</members>
@@ -520,9 +551,10 @@
         <members>copado__NewDeploymentEmailController</members>
         <members>copado__NewEnvironmentServiceController</members>
         <members>copado__NewPipelineExtension</members>
-        <members>copado__NonSalesforceOperationServiceTest</members>
         <members>copado__NonSalesforcePipelineOperationService</members>
         <members>copado__Notifications</members>
+        <members>copado__OnJobStepComplete</members>
+        <members>copado__OnJobStepCompleteTest</members>
         <members>copado__OperatorTypeCodes</members>
         <members>copado__OrgApexTestResultsSummaryEmailController</members>
         <members>copado__OrgAuthenticationComponentController</members>
@@ -575,14 +607,22 @@
         <members>copado__ProjectArtifact</members>
         <members>copado__ProjectTriggerHandler</members>
         <members>copado__ProjectTriggerHelper</members>
+        <members>copado__PromoteAndDeployCallback</members>
         <members>copado__PromoteBetatoReleasedController</members>
         <members>copado__PromoteBundledChildStories</members>
         <members>copado__PromoteBundledChildStoriesTest</members>
+        <members>copado__PromoteCallback</members>
         <members>copado__PromoteChangesExtTest</members>
         <members>copado__PromoteChangesExtension</members>
+        <members>copado__PromotedUserStoriesDatatableController</members>
+        <members>copado__PromotedUserStoriesDatatableCtrlTest</members>
+        <members>copado__PromotedUserStoriesOperations</members>
         <members>copado__PromotedUserStoriesSelector</members>
         <members>copado__PromotionChangeEventTriggerHandler</members>
         <members>copado__PromotionEditExtension</members>
+        <members>copado__PromotionExecutionService</members>
+        <members>copado__PromotionInvocableTest</members>
+        <members>copado__PromotionOperations</members>
         <members>copado__PromotionTriggerHandler</members>
         <members>copado__PromotionTriggerHelper</members>
         <members>copado__PromotionsSelector</members>
@@ -611,21 +651,46 @@
         <members>copado__ReleasesSelector</members>
         <members>copado__RepositoryExpression</members>
         <members>copado__ResolveConflictsController</members>
+        <members>copado__RestrictStandardStepModification</members>
+        <members>copado__RestrictStandardStepModificationTest</members>
+        <members>copado__RestrictStandardTemplateModification</members>
+        <members>copado__RestrictStandardTemplateModificationTest</members>
+        <members>copado__ResultDetailService</members>
         <members>copado__ResultMonitor</members>
         <members>copado__ResultMonitorTest</members>
+        <members>copado__ResultStatusContainerLWCHelper</members>
+        <members>copado__ResultStatusContainerLWCHelperTest</members>
+        <members>copado__ResultStatusDetail</members>
+        <members>copado__ResultStatusHelper</members>
+        <members>copado__ResultStatusLWCInterface</members>
+        <members>copado__ResultsSelector</members>
         <members>copado__ReturnObject</members>
         <members>copado__RunAllOrgApexTests</members>
         <members>copado__RunContinuousIntegration</members>
         <members>copado__RunCopadoFunction</members>
         <members>copado__RunCopadoFunctionTest</members>
+        <members>copado__RunDeployJobTemplateHandler</members>
+        <members>copado__RunDeployJobTemplateHandlerTest</members>
         <members>copado__RunDeployPromotion</members>
+        <members>copado__RunJob</members>
+        <members>copado__RunJobTest</members>
         <members>copado__RunOrgComplianceScan</members>
         <members>copado__RunOrgStaticCodeAnalysis</members>
+        <members>copado__RunPromoteAndDeployHandlerTest</members>
+        <members>copado__RunPromoteAndDeployJobTemplateHandler</members>
+        <members>copado__RunPromoteJobTemplateHandler</members>
+        <members>copado__RunPromoteJobTemplateHandlerTest</members>
         <members>copado__RunSeleniumTest</members>
         <members>copado__RunSeleniumTestGroup</members>
         <members>copado__RunSnapshotComplianceScan</members>
+        <members>copado__RunTestAction</members>
+        <members>copado__RunTestActionTest</members>
         <members>copado__RunTestGroupBatchTest</members>
         <members>copado__RunTestGroupsBatch</members>
+        <members>copado__RunTestsAsAutomation</members>
+        <members>copado__RunTestsAsAutomationTest</members>
+        <members>copado__RunTestsInExtension</members>
+        <members>copado__RunTestsInExtensionTest</members>
         <members>copado__RunUserStoryComplianceScan</members>
         <members>copado__RunUserStoryStaticCodeAnalysis</members>
         <members>copado__RunUserStoryTests</members>
@@ -689,6 +754,10 @@
         <members>copado__SetDefaultAutomationTemplate</members>
         <members>copado__SetDefaultAutomationTemplateTest</members>
         <members>copado__SetDefaultStepOrder</members>
+        <members>copado__SetJobStepApiName</members>
+        <members>copado__SetJobStepApiNameTest</members>
+        <members>copado__SetJobTemplateApiName</members>
+        <members>copado__SetJobTemplateApiNameTest</members>
         <members>copado__SetPropertyParents</members>
         <members>copado__SetPropertyParentsTest</members>
         <members>copado__Settings</members>
@@ -710,6 +779,7 @@
         <members>copado__StandardResourcesSelector</members>
         <members>copado__StaticCodeAnalysisSettingsExt</members>
         <members>copado__StaticResourcesSelector</members>
+        <members>copado__StepCallback</members>
         <members>copado__StepEditionController</members>
         <members>copado__StepExpression</members>
         <members>copado__StepTriggerHandler</members>
@@ -780,6 +850,7 @@
         <members>copado__TestEncodePasswordTrigger</members>
         <members>copado__TestEnvironmentTrigger</members>
         <members>copado__TestExecuteTestRunExtension</members>
+        <members>copado__TestExtensionMock</members>
         <members>copado__TestExternalCI</members>
         <members>copado__TestFeatureAccessHelper</members>
         <members>copado__TestFeatureHelper</members>
@@ -844,6 +915,7 @@
         <members>copado__TestTestBatch</members>
         <members>copado__TestTestMethodsUtilities</members>
         <members>copado__TestTestRunTriggerHandler</members>
+        <members>copado__TestTypesSelector</members>
         <members>copado__TestUserStoryApexTestResultsExtension</members>
         <members>copado__TestUserStoryAssignmentSetController</members>
         <members>copado__TestUserStoryCodeAnalysisRequest</members>
@@ -906,6 +978,9 @@
         <members>copado__Test_WorkPushService</members>
         <members>copado__Test_WorkSetService</members>
         <members>copado__Test_WorkSubmitService</members>
+        <members>copado__TestsManagerCtrl</members>
+        <members>copado__TestsManagerCtrlTest</members>
+        <members>copado__TestsSelector</members>
         <members>copado__TriggerFactory</members>
         <members>copado__UIDesignHelper</members>
         <members>copado__UnlockPackageService</members>
