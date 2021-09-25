@@ -42,6 +42,11 @@
         </picklistValues>
     </fields>
     <fields>
+        <help><!-- Please check to make sure that the bicycle has a discount. --></help>
+        <label><!-- Discount --></label>
+        <name>Discount__c</name>
+    </fields>
+    <fields>
         <label><!-- Type --></label>
         <name>Type__c</name>
         <picklistValues>
