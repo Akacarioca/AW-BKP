@@ -157,6 +157,11 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>slackv2:messageViewer</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentInstanceProperties>
                     <name>displayOption</name>
                     <value>BOTH</value>

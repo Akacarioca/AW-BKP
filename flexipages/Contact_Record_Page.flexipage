@@ -162,6 +162,11 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>slackv2:messageViewer</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentInstanceProperties>
                     <name>tabs</name>
                     <value>sidebartabs</value>
