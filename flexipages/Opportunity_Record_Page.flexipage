@@ -9,6 +9,21 @@
                         <valueListItems>
                             <value>DeepClone</value>
                         </valueListItems>
+                        <valueListItems>
+                            <value>CustomButton.Opportunity.slackv2__Send_to_Slack</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>Opportunity.slackv2__Slack_Alerts</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>Global.slackv2__Slack_Alerts</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>RecordShareHierarchy</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>Share</value>
+                        </valueListItems>
                     </valueList>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
