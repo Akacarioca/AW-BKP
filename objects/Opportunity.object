@@ -1168,7 +1168,7 @@
         <description>: A close reason is required when opportunity is closed lost.</description>
         <errorConditionFormula>ISPICKVAL( StageName ,&quot;Closed Lost&quot;)  &amp;&amp;  ISBLANK( Close_Reason__c )</errorConditionFormula>
         <errorDisplayField>Close_Reason__c</errorDisplayField>
-        <errorMessage>You must enter a close reason when opportunity is closed lost.👀</errorMessage>
+        <errorMessage>You must enter a Close Reason when Opportunity is Closed Lost.👀</errorMessage>
     </validationRules>
     <webLinks>
         <fullName>slackv2__Send_to_Slack</fullName>
