@@ -17,7 +17,7 @@
     <enableNetworksEnabled>true</enableNetworksEnabled>
     <enableOotbProfExtUserOpsEnable>false</enableOotbProfExtUserOpsEnable>
     <enablePRMAccRelPref>false</enablePRMAccRelPref>
-    <enablePreventBadgeGuestAccess>false</enablePreventBadgeGuestAccess>
+    <enablePreventBadgeGuestAccess>true</enablePreventBadgeGuestAccess>
     <enableRelaxPartnerAccountFieldPref>false</enableRelaxPartnerAccountFieldPref>
     <enableUnsupportedBrowserModalPref>true</enableUnsupportedBrowserModalPref>
 </CommunitiesSettings>
