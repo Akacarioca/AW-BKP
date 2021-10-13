@@ -5118,6 +5118,10 @@
     </customMetadataTypeAccesses>
     <customPermissions>
         <enabled>true</enabled>
+        <name>Update_Opp_in_Stage_Closed_Won</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
         <name>copado__Edit_Git_Promotion_Step</name>
     </customPermissions>
     <customPermissions>

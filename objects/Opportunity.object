@@ -1163,6 +1163,16 @@
         <errorMessage>Amount must be over 1M</errorMessage>
     </validationRules>
     <validationRules>
+        <fullName>Cant_change_Stage_in_Closed_Won</fullName>
+        <active>true</active>
+        <description>The USer does not have the ability to change an Opportunity with Stage in Closed Won.</description>
+        <errorConditionFormula>ISCHANGED( StageName )  &amp;&amp; 
+ TEXT( PRIORVALUE( StageName ) )  = &quot;Closed Won&quot;  &amp;&amp; 
+ NOT( $Permission.Update_Opp_in_Stage_Closed_Won )</errorConditionFormula>
+        <errorDisplayField>StageName</errorDisplayField>
+        <errorMessage>You can&apos;t change Stage from &quot;Closed Won&quot;</errorMessage>
+    </validationRules>
+    <validationRules>
         <fullName>Close_reason_required_when_lost</fullName>
         <active>true</active>
         <description>: A close reason is required when opportunity is closed lost.</description>
