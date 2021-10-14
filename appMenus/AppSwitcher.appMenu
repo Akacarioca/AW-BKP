@@ -104,4 +104,8 @@
         <name>adapps__Optimizer_Plus</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Q9__Elements</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>
