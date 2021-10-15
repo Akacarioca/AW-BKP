@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Q9__ActionStatus</members>
-        <members>Q9__ElementsExtension</members>
-        <members>Q9__ElementsMultiselectPicklist</members>
-        <members>Q9__ElementsNeedHelpLink</members>
-        <name>ApexComponent</name>
+        <members>DataCloudCompanyMatch</members>
+        <members>DataCloudGeoLocation</members>
+        <members>DataCloudLeadAppend</members>
+        <name>CleanDataService</name>
     </types>
     <version>52.0</version>
 </Package>
