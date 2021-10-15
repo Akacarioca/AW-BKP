@@ -851,6 +851,14 @@
         <name>copado__Test_scratch_orgs_cannot_be_used_for_dev</name>
     </validationRules>
     <webLinks>
+        <label><!-- Send_to_Slack --></label>
+        <name>Send_to_Slack</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Slack_Alerts --></label>
+        <name>Slack_Alerts</name>
+    </webLinks>
+    <webLinks>
         <label><!-- User_Story_Bundle --></label>
         <name>User_Story_Bundle</name>
     </webLinks>

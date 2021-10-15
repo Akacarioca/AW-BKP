@@ -4880,6 +4880,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>slack_tst_User_Story</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>slackv2__HexUtil</apexClass>
         <enabled>true</enabled>
     </classAccesses>
