@@ -13,6 +13,7 @@
                     <value>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Whiteboard Lightning Within Your Org&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Let&apos;s try placing the components you have out of the box or put Placeholders for components you want to build.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;color: rgb(107, 109, 112);&quot;&gt;(Edit this Page to add Mockup Placeholders, Images, Tables, etc. through the Lightning App Builder)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;Lightning can let you explore in ways you couldn&apos;t with classic.&lt;/b&gt;&lt;/p&gt;</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:richText</componentName>
+                <identifier>flexipage_richText</identifier>
             </componentInstance>
         </itemInstances>
         <name>region1</name>
@@ -38,6 +39,7 @@
                     <value>(For placeholders or notes)</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupHeader</componentName>
+                <identifier>ltng_mockupHeader</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -51,6 +53,7 @@
                     <value>&lt;p&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;&amp;lt;List of Accounts&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Name&lt;/li&gt;&lt;li&gt;Organization Id&lt;/li&gt;&lt;li&gt;Address?&lt;/li&gt;&lt;/ul&gt;</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:richText</componentName>
+                <identifier>flexipage_richText2</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -72,6 +75,7 @@
                     <value>(Or explicitly set size if desired)</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupHeader</componentName>
+                <identifier>ltng_mockupHeader2</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -97,6 +101,7 @@
                     <value>List of Accounts</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupPlaceholder</componentName>
+                <identifier>ltng_mockupPlaceholder</identifier>
             </componentInstance>
         </itemInstances>
         <name>region2</name>
@@ -122,6 +127,7 @@
                     <value>info</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupAlert</componentName>
+                <identifier>ltng_mockupAlert</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -143,6 +149,7 @@
                     <value>(Put wireframes or mock-ups to tell the story of what would be here)</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupHeader</componentName>
+                <identifier>ltng_mockupHeader3</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -167,6 +174,7 @@
                     <value>/lightning/n/mockcomp__ltng_MockupExampleRecordPage</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupImage</componentName>
+                <identifier>ltng_mockupImage</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -180,6 +188,7 @@
                     <value>false</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupFileHelper</componentName>
+                <identifier>ltng_mockupFileHelper</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -201,6 +210,7 @@
                     <value>To explore how data could look differently when working on Phones, Tablets or Desktops</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupHeader</componentName>
+                <identifier>ltng_mockupHeader4</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -214,6 +224,7 @@
                     <value>First, Last, Address, Town, State, Zip\n John,Doe,120 jefferson st.,Riverside, NJ, 08075\n Jack,McGinnis,220 hobo Av.,Phila, PA,09119 \n &quot;John &quot;&quot;Da Man&quot;&quot;&quot;,Repici,120 Jefferson St.,Riverside, NJ,08075 \n Stephen,Tyler,&quot;7452 Terrace &quot;&quot;At the Plaza&quot;&quot; road&quot;,SomeTown,SD, 91234\n ,Blankman,,SomeTown, SD, 00298\n  &quot;Joan &apos;the bone&apos; Anne&quot;,Jet,&quot;9th, at Terrace plc&quot;,Desert City,CO,00123</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupTable</componentName>
+                <identifier>ltng_mockupTable</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -227,6 +238,7 @@
                     <value>&lt;p style=&quot;text-align: right;&quot;&gt;(NOTE: simply change the CSV to update what the table should show)&lt;/p&gt;</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:richText</componentName>
+                <identifier>flexipage_richText3</identifier>
             </componentInstance>
         </itemInstances>
         <name>region3</name>

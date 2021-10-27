@@ -34,6 +34,7 @@
                     <value>340</value>
                 </componentInstanceProperties>
                 <componentName>az0:orgLimits</componentName>
+                <identifier>az0_orgLimits</identifier>
             </componentInstance>
         </itemInstances>
         <name>utilityItems</name>

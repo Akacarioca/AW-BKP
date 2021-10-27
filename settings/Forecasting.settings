@@ -80,19 +80,10 @@
     </forecastingCategoryMappings>
     <forecastingTypeSettings>
         <active>true</active>
-        <adjustmentsSettings>
-            <enableAdjustments>false</enableAdjustments>
-            <enableOwnerAdjustments>false</enableOwnerAdjustments>
-        </adjustmentsSettings>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>openpipeline</displayedCategoryApiNames>
-        <forecastRangeSettings>
-            <beginning>0</beginning>
-            <displaying>6</displaying>
-            <periodType>Month</periodType>
-        </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>openpipeline</forecastedCategoryApiNames>
@@ -381,26 +372,14 @@
             <field>00N0P000007WVC9</field>
             <field>TERR2_DESC</field>
         </opportunityListFieldsUnselectedSettings>
-        <quotasSettings>
-            <showQuotas>false</showQuotas>
-        </quotasSettings>
         <territory2ModelName>Test_Model</territory2ModelName>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
-        <adjustmentsSettings>
-            <enableAdjustments>false</enableAdjustments>
-            <enableOwnerAdjustments>false</enableOwnerAdjustments>
-        </adjustmentsSettings>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>openpipeline</displayedCategoryApiNames>
-        <forecastRangeSettings>
-            <beginning>0</beginning>
-            <displaying>6</displaying>
-            <periodType>Month</periodType>
-        </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>openpipeline</forecastedCategoryApiNames>
@@ -694,26 +673,14 @@
             <field>00N0P000007WVC9</field>
             <field>TERR2_DESC</field>
         </opportunityListFieldsUnselectedSettings>
-        <quotasSettings>
-            <showQuotas>false</showQuotas>
-        </quotasSettings>
         <territory2ModelName>Test_Model</territory2ModelName>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
-        <adjustmentsSettings>
-            <enableAdjustments>false</enableAdjustments>
-            <enableOwnerAdjustments>false</enableOwnerAdjustments>
-        </adjustmentsSettings>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>openpipeline</displayedCategoryApiNames>
-        <forecastRangeSettings>
-            <beginning>0</beginning>
-            <displaying>6</displaying>
-            <periodType>Month</periodType>
-        </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>openpipeline</forecastedCategoryApiNames>
@@ -1007,26 +974,14 @@
             <field>00N0P000007WVC9</field>
             <field>TERR2_DESC</field>
         </opportunityListFieldsUnselectedSettings>
-        <quotasSettings>
-            <showQuotas>false</showQuotas>
-        </quotasSettings>
         <territory2ModelName>Test_Model</territory2ModelName>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
-        <adjustmentsSettings>
-            <enableAdjustments>false</enableAdjustments>
-            <enableOwnerAdjustments>false</enableOwnerAdjustments>
-        </adjustmentsSettings>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>openpipeline</displayedCategoryApiNames>
-        <forecastRangeSettings>
-            <beginning>0</beginning>
-            <displaying>6</displaying>
-            <periodType>Month</periodType>
-        </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>openpipeline</forecastedCategoryApiNames>
@@ -1315,26 +1270,14 @@
             <field>00N0P000007WVC9</field>
             <field>TERR2_DESC</field>
         </opportunityListFieldsUnselectedSettings>
-        <quotasSettings>
-            <showQuotas>false</showQuotas>
-        </quotasSettings>
         <territory2ModelName>Test_Model</territory2ModelName>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
-        <adjustmentsSettings>
-            <enableAdjustments>false</enableAdjustments>
-            <enableOwnerAdjustments>false</enableOwnerAdjustments>
-        </adjustmentsSettings>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>openpipeline</displayedCategoryApiNames>
-        <forecastRangeSettings>
-            <beginning>0</beginning>
-            <displaying>6</displaying>
-            <periodType>Month</periodType>
-        </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>openpipeline</forecastedCategoryApiNames>
@@ -1628,26 +1571,14 @@
             <field>00N0P000007WVC9</field>
             <field>TERR2_DESC</field>
         </opportunityListFieldsUnselectedSettings>
-        <quotasSettings>
-            <showQuotas>false</showQuotas>
-        </quotasSettings>
         <territory2ModelName>Test_Model</territory2ModelName>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
-        <adjustmentsSettings>
-            <enableAdjustments>false</enableAdjustments>
-            <enableOwnerAdjustments>false</enableOwnerAdjustments>
-        </adjustmentsSettings>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>openpipeline</displayedCategoryApiNames>
-        <forecastRangeSettings>
-            <beginning>0</beginning>
-            <displaying>6</displaying>
-            <periodType>Month</periodType>
-        </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>openpipeline</forecastedCategoryApiNames>
@@ -1936,26 +1867,14 @@
             <field>00N0P000007WVC9</field>
             <field>TERR2_DESC</field>
         </opportunityListFieldsUnselectedSettings>
-        <quotasSettings>
-            <showQuotas>false</showQuotas>
-        </quotasSettings>
         <territory2ModelName>Test_Model</territory2ModelName>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
-        <adjustmentsSettings>
-            <enableAdjustments>false</enableAdjustments>
-            <enableOwnerAdjustments>false</enableOwnerAdjustments>
-        </adjustmentsSettings>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>openpipeline</displayedCategoryApiNames>
-        <forecastRangeSettings>
-            <beginning>0</beginning>
-            <displaying>6</displaying>
-            <periodType>Month</periodType>
-        </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>openpipeline</forecastedCategoryApiNames>
@@ -2244,26 +2163,14 @@
             <field>00N0P000007WVC9</field>
             <field>TERR2_DESC</field>
         </opportunityListFieldsUnselectedSettings>
-        <quotasSettings>
-            <showQuotas>false</showQuotas>
-        </quotasSettings>
         <territory2ModelName>Test_Model</territory2ModelName>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
-        <adjustmentsSettings>
-            <enableAdjustments>false</enableAdjustments>
-            <enableOwnerAdjustments>false</enableOwnerAdjustments>
-        </adjustmentsSettings>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>openpipeline</displayedCategoryApiNames>
-        <forecastRangeSettings>
-            <beginning>0</beginning>
-            <displaying>6</displaying>
-            <periodType>Month</periodType>
-        </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>openpipeline</forecastedCategoryApiNames>
@@ -2552,26 +2459,14 @@
             <field>00N0P000007WVC9</field>
             <field>TERR2_DESC</field>
         </opportunityListFieldsUnselectedSettings>
-        <quotasSettings>
-            <showQuotas>false</showQuotas>
-        </quotasSettings>
         <territory2ModelName>Test_Model</territory2ModelName>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>true</active>
-        <adjustmentsSettings>
-            <enableAdjustments>false</enableAdjustments>
-            <enableOwnerAdjustments>false</enableOwnerAdjustments>
-        </adjustmentsSettings>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>openpipeline</displayedCategoryApiNames>
-        <forecastRangeSettings>
-            <beginning>0</beginning>
-            <displaying>6</displaying>
-            <periodType>Month</periodType>
-        </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>openpipeline</forecastedCategoryApiNames>
@@ -2860,25 +2755,13 @@
             <field>TERR2_NAME</field>
             <field>TERR2_DESC</field>
         </opportunityListFieldsUnselectedSettings>
-        <quotasSettings>
-            <showQuotas>false</showQuotas>
-        </quotasSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
-        <adjustmentsSettings>
-            <enableAdjustments>false</enableAdjustments>
-            <enableOwnerAdjustments>false</enableOwnerAdjustments>
-        </adjustmentsSettings>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>openpipeline</displayedCategoryApiNames>
-        <forecastRangeSettings>
-            <beginning>0</beginning>
-            <displaying>6</displaying>
-            <periodType>Month</periodType>
-        </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>openpipeline</forecastedCategoryApiNames>
@@ -3167,25 +3050,13 @@
             <field>TERR2_NAME</field>
             <field>TERR2_DESC</field>
         </opportunityListFieldsUnselectedSettings>
-        <quotasSettings>
-            <showQuotas>false</showQuotas>
-        </quotasSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
-        <adjustmentsSettings>
-            <enableAdjustments>false</enableAdjustments>
-            <enableOwnerAdjustments>false</enableOwnerAdjustments>
-        </adjustmentsSettings>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>openpipeline</displayedCategoryApiNames>
-        <forecastRangeSettings>
-            <beginning>0</beginning>
-            <displaying>6</displaying>
-            <periodType>Month</periodType>
-        </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>openpipeline</forecastedCategoryApiNames>
@@ -3479,25 +3350,13 @@
             <field>TERR2_NAME</field>
             <field>TERR2_DESC</field>
         </opportunityListFieldsUnselectedSettings>
-        <quotasSettings>
-            <showQuotas>false</showQuotas>
-        </quotasSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
-        <adjustmentsSettings>
-            <enableAdjustments>false</enableAdjustments>
-            <enableOwnerAdjustments>false</enableOwnerAdjustments>
-        </adjustmentsSettings>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>openpipeline</displayedCategoryApiNames>
-        <forecastRangeSettings>
-            <beginning>0</beginning>
-            <displaying>6</displaying>
-            <periodType>Month</periodType>
-        </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>openpipeline</forecastedCategoryApiNames>
@@ -3786,25 +3645,13 @@
             <field>TERR2_NAME</field>
             <field>TERR2_DESC</field>
         </opportunityListFieldsUnselectedSettings>
-        <quotasSettings>
-            <showQuotas>false</showQuotas>
-        </quotasSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
-        <adjustmentsSettings>
-            <enableAdjustments>false</enableAdjustments>
-            <enableOwnerAdjustments>false</enableOwnerAdjustments>
-        </adjustmentsSettings>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>openpipeline</displayedCategoryApiNames>
-        <forecastRangeSettings>
-            <beginning>0</beginning>
-            <displaying>6</displaying>
-            <periodType>Month</periodType>
-        </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>openpipeline</forecastedCategoryApiNames>
@@ -4098,25 +3945,13 @@
             <field>TERR2_NAME</field>
             <field>TERR2_DESC</field>
         </opportunityListFieldsUnselectedSettings>
-        <quotasSettings>
-            <showQuotas>false</showQuotas>
-        </quotasSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
-        <adjustmentsSettings>
-            <enableAdjustments>false</enableAdjustments>
-            <enableOwnerAdjustments>false</enableOwnerAdjustments>
-        </adjustmentsSettings>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>openpipeline</displayedCategoryApiNames>
-        <forecastRangeSettings>
-            <beginning>0</beginning>
-            <displaying>6</displaying>
-            <periodType>Month</periodType>
-        </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>openpipeline</forecastedCategoryApiNames>
@@ -4405,25 +4240,13 @@
             <field>TERR2_NAME</field>
             <field>TERR2_DESC</field>
         </opportunityListFieldsUnselectedSettings>
-        <quotasSettings>
-            <showQuotas>false</showQuotas>
-        </quotasSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
-        <adjustmentsSettings>
-            <enableAdjustments>false</enableAdjustments>
-            <enableOwnerAdjustments>false</enableOwnerAdjustments>
-        </adjustmentsSettings>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>openpipeline</displayedCategoryApiNames>
-        <forecastRangeSettings>
-            <beginning>0</beginning>
-            <displaying>6</displaying>
-            <periodType>Month</periodType>
-        </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>openpipeline</forecastedCategoryApiNames>
@@ -4717,25 +4540,13 @@
             <field>TERR2_NAME</field>
             <field>TERR2_DESC</field>
         </opportunityListFieldsUnselectedSettings>
-        <quotasSettings>
-            <showQuotas>false</showQuotas>
-        </quotasSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
-        <adjustmentsSettings>
-            <enableAdjustments>false</enableAdjustments>
-            <enableOwnerAdjustments>false</enableOwnerAdjustments>
-        </adjustmentsSettings>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>openpipeline</displayedCategoryApiNames>
-        <forecastRangeSettings>
-            <beginning>0</beginning>
-            <displaying>6</displaying>
-            <periodType>Month</periodType>
-        </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>openpipeline</forecastedCategoryApiNames>
@@ -5024,25 +4835,13 @@
             <field>TERR2_NAME</field>
             <field>TERR2_DESC</field>
         </opportunityListFieldsUnselectedSettings>
-        <quotasSettings>
-            <showQuotas>false</showQuotas>
-        </quotasSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
-        <adjustmentsSettings>
-            <enableAdjustments>false</enableAdjustments>
-            <enableOwnerAdjustments>false</enableOwnerAdjustments>
-        </adjustmentsSettings>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>openpipeline</displayedCategoryApiNames>
-        <forecastRangeSettings>
-            <beginning>0</beginning>
-            <displaying>6</displaying>
-            <periodType>Month</periodType>
-        </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>openpipeline</forecastedCategoryApiNames>
@@ -5336,25 +5135,13 @@
             <field>TERR2_NAME</field>
             <field>TERR2_DESC</field>
         </opportunityListFieldsUnselectedSettings>
-        <quotasSettings>
-            <showQuotas>false</showQuotas>
-        </quotasSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
-        <adjustmentsSettings>
-            <enableAdjustments>false</enableAdjustments>
-            <enableOwnerAdjustments>false</enableOwnerAdjustments>
-        </adjustmentsSettings>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>openpipeline</displayedCategoryApiNames>
-        <forecastRangeSettings>
-            <beginning>0</beginning>
-            <displaying>6</displaying>
-            <periodType>Month</periodType>
-        </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>openpipeline</forecastedCategoryApiNames>
@@ -5643,25 +5430,13 @@
             <field>TERR2_NAME</field>
             <field>TERR2_DESC</field>
         </opportunityListFieldsUnselectedSettings>
-        <quotasSettings>
-            <showQuotas>false</showQuotas>
-        </quotasSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
-        <adjustmentsSettings>
-            <enableAdjustments>false</enableAdjustments>
-            <enableOwnerAdjustments>false</enableOwnerAdjustments>
-        </adjustmentsSettings>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>openpipeline</displayedCategoryApiNames>
-        <forecastRangeSettings>
-            <beginning>0</beginning>
-            <displaying>6</displaying>
-            <periodType>Month</periodType>
-        </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>openpipeline</forecastedCategoryApiNames>
@@ -5955,25 +5730,13 @@
             <field>TERR2_NAME</field>
             <field>TERR2_DESC</field>
         </opportunityListFieldsUnselectedSettings>
-        <quotasSettings>
-            <showQuotas>false</showQuotas>
-        </quotasSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
-        <adjustmentsSettings>
-            <enableAdjustments>false</enableAdjustments>
-            <enableOwnerAdjustments>false</enableOwnerAdjustments>
-        </adjustmentsSettings>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseforecast</displayedCategoryApiNames>
         <displayedCategoryApiNames>openpipeline</displayedCategoryApiNames>
-        <forecastRangeSettings>
-            <beginning>0</beginning>
-            <displaying>6</displaying>
-            <periodType>Month</periodType>
-        </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>openpipeline</forecastedCategoryApiNames>
@@ -6262,8 +6025,17 @@
             <field>TERR2_NAME</field>
             <field>TERR2_DESC</field>
         </opportunityListFieldsUnselectedSettings>
-        <quotasSettings>
-            <showQuotas>false</showQuotas>
-        </quotasSettings>
     </forecastingTypeSettings>
+    <globalAdjustmentsSettings>
+        <enableAdjustments>false</enableAdjustments>
+        <enableOwnerAdjustments>false</enableOwnerAdjustments>
+    </globalAdjustmentsSettings>
+    <globalForecastRangeSettings>
+        <beginning>0</beginning>
+        <displaying>6</displaying>
+        <periodType>Month</periodType>
+    </globalForecastRangeSettings>
+    <globalQuotasSettings>
+        <showQuotas>false</showQuotas>
+    </globalQuotasSettings>
 </ForecastingSettings>

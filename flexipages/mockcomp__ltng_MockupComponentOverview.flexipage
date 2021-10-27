@@ -13,6 +13,7 @@
                     <value>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Whiteboard Lightning Within Your Org&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Let&apos;s try placing the components you have out of the box or put Placeholders for components you want to build.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;(Edit this Page to add Mockup Placeholders, Images, Tables, etc. through the Lightning App Builder)&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;Lightning can let you explore in ways you couldn&apos;t with classic.&lt;/b&gt;&lt;/p&gt;</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:richText</componentName>
+                <identifier>flexipage_richText</identifier>
             </componentInstance>
         </itemInstances>
         <name>region1</name>
@@ -30,6 +31,7 @@
                     <value>&lt;p&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;Mockup Alert&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;(Configurable Alert that can be hidden or shown)&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;A configurable Lightning Design System Alert - useful for showing a dismiss-able Error, Notification or Warning.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Theme&lt;/b&gt; is customizable from one of the different &lt;a href=&quot;https://www.lightningdesignsystem.com/icons&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Alert Theme Variations&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Icon&lt;/b&gt; can be any of the Utility icons from &lt;a href=&quot;https://www.lightningdesignsystem.com/icons/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;lightning design system/icons&lt;/a&gt; (ex: clock, info, help, etc)&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;NOTE: it can be easily Hidden (or shown) by toggling the &apos;Is Shown?&apos; property in the App Builder.&lt;/p&gt;</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:richText</componentName>
+                <identifier>flexipage_richText2</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -51,6 +53,7 @@
                     <value>info</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupAlert</componentName>
+                <identifier>ltng_mockupAlert</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -64,11 +67,13 @@
                     <value>Name, Description\n Is Shown?,Whether the Alert should be shown - or not	\n Theme, The Alert Variation (info/warning/error/offline)\n Icon Name, from lightningdesignsystem.com/icons\n Message, Message to show within the Alert</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupTable</componentName>
+                <identifier>ltng_mockupTable</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentName>mockcomp:ltng_mockupSpacer</componentName>
+                <identifier>ltng_mockupSpacer</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -82,6 +87,7 @@
                     <value>&lt;p&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Mockup Header&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;(Configurable Header for creating sections)&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;A configurable &lt;a href=&quot;https://www.lightningdesignsystem.com/components/page-headers/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Lightning Design System Page Header&lt;/a&gt; - useful for defining sections.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Icon Category&lt;/b&gt; - is one of the icon category groups provided by &lt;a href=&quot;https://www.lightningdesignsystem.com/icons/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Lightning Design System/icons&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Icon Name&lt;/b&gt; - is then the name of that icon within the category.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;ex: category: standard, icon: account&lt;/p&gt;&lt;p&gt;or category: custom, icon: custom14&lt;/p&gt;&lt;p&gt;etc.&lt;/p&gt;</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:richText</componentName>
+                <identifier>flexipage_richText3</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -103,6 +109,7 @@
                     <value>Example Subtitle</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupHeader</componentName>
+                <identifier>ltng_mockupHeader</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -116,11 +123,13 @@
                     <value>Name,Description\n Title,Large Title of the spacer\n Sub-Title,Smaller title (beneath the Title)\n Icon Category,Category from lightningdesignsystem.com/icons\n Icon Name,from lightningdesignsystem.com/icons</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupTable</componentName>
+                <identifier>ltng_mockupTable2</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentName>mockcomp:ltng_mockupSpacer</componentName>
+                <identifier>ltng_mockupSpacer2</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -134,6 +143,7 @@
                     <value>&lt;p&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Standard Rich Text&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;(Simple way to capture notes inline)&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;The standard Rich Text component is available out-of-the-box, but should not be overlooked as a way to capture information, such as:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Notes&lt;/li&gt;&lt;li&gt;Lists&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.lightningdesignsystem.com/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Hyperlinks&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;PRO TIP&lt;/b&gt;: they can also be conditionally hidden to only appear in the App Builder, by adding a Filter (within the App Builder) to conditions that won&apos;t be true.&lt;/p&gt;</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:richText</componentName>
+                <identifier>flexipage_richText4</identifier>
             </componentInstance>
         </itemInstances>
         <name>region2</name>
@@ -151,6 +161,7 @@
                     <value>&lt;p&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Mockup Placeholder&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;(Minimal placeholder to quickly capture ideas)&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;A minimal component for quickly capturing ideas and demonstrate sizing.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Note that the height and width support CSS sizing, so proportional sizing can also be supported.&lt;/p&gt;</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:richText</componentName>
+                <identifier>flexipage_richText5</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -176,6 +187,7 @@
                     <value>Mockup Placeholder</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupPlaceholder</componentName>
+                <identifier>ltng_mockupPlaceholder</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -189,11 +201,13 @@
                     <value>Name,Description\n Title,Large Title of the spacer\n Sub-Title,Smaller title (beneath the Title)\n Height,CSS Height. (ex: `auto` or `200px`)\n Width,CSS Width. (ex: ex: `100%` or `200px`)</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupTable</componentName>
+                <identifier>ltng_mockupTable3</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentName>mockcomp:ltng_mockupSpacer</componentName>
+                <identifier>ltng_mockupSpacer3</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -207,6 +221,7 @@
                     <value>&lt;p&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Mockup Table&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;(Inline Editable Table)&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;There are times where there is no better alternative for showing a table of information.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;The Mockup Table is inline editable directly on the page, as it converts back and forth from CSV Format.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Double Click the table to easily edit information within meeting, or use Mocking Services (like &lt;a href=&quot;https://mockaroo.com/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Mockaroo&lt;/a&gt; or &lt;a href=&quot;https://www.generatedata.com/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;GenerateData.com&lt;/a&gt;)&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;NOTE: The App Builder is the source of truth.&lt;/p&gt;&lt;p&gt;&lt;b&gt;To preserve changes:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;click the Export to Clipboard button&lt;/b&gt;&lt;/li&gt;&lt;li&gt;then &lt;b&gt;paste within the TableCSV field of App Builder.&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:richText</componentName>
+                <identifier>flexipage_richText6</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -220,6 +235,7 @@
                     <value>Row, Header A, Header B\n1, 1:A, 1:B\n2, 2:A, 2:B</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupTable</componentName>
+                <identifier>ltng_mockupTable4</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -233,11 +249,13 @@
                     <value>Name,Description \n tablecsv,CSV format of data in the table\nisResponsive,Whether to show the table differently on mobile.</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupTable</componentName>
+                <identifier>ltng_mockupTable5</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentName>mockcomp:ltng_mockupSpacer</componentName>
+                <identifier>ltng_mockupSpacer4</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -251,6 +269,7 @@
                     <value>&lt;p&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Mockup Spacer&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;(Simple divider between areas)&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Configurable Horizontal Rule to separate areas.&lt;/p&gt;</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:richText</componentName>
+                <identifier>flexipage_richText7</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -264,6 +283,7 @@
                     <value>Row, Header\nAdditional CSS,Any css to apply (colors, etc)</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupTable</componentName>
+                <identifier>ltng_mockupTable6</identifier>
             </componentInstance>
         </itemInstances>
         <name>region3</name>
@@ -293,6 +313,7 @@
                     <value>/lightning/n/mockcomp__ltng_MockupExampleRecordPage</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupImage</componentName>
+                <identifier>ltng_mockupImage</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -306,6 +327,7 @@
                     <value>&lt;p&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Mockup File Image&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;(Present ideas through images that can be updated on the page)&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;There are times where the best option is showing an image to get an idea across.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;The Mockup File Image works with the Mockup File Helper, to directly update images without navigating away.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;The images also can be used as links to navigate between pages &lt;span style=&quot;color: rgb(107, 109, 112);&quot;&gt;(navigating on click)&lt;/span&gt;.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Note that the height and width support CSS sizing, so proportional sizing can also be supported.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;For example, this allows &lt;b&gt;images to be responsive&lt;/b&gt;&lt;/p&gt;&lt;p&gt;(proportionally size), by setting&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Height: `auto`&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt; Width: `100%`&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:richText</componentName>
+                <identifier>flexipage_richText8</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -319,6 +341,7 @@
                     <value>100%</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupFileImage</componentName>
+                <identifier>ltng_mockupFileImage</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -340,6 +363,7 @@
                     <value>mockcomp__ltng_ExampleComponent</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupImage</componentName>
+                <identifier>ltng_mockupImage2</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -353,11 +377,13 @@
                     <value>Name,Description\n  Document,Picklist of the Documents we could show\n  Description,The Alt text shown for the image\n  OnClick Address,URL to navigate to on click.\n  Height CSS,CSS Height. (ex: `auto` or `200px`)\n  Width CSS,CSS Width. (ex: ex: `100%` or `200px`)</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupTable</componentName>
+                <identifier>ltng_mockupTable7</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentName>mockcomp:ltng_mockupSpacer</componentName>
+                <identifier>ltng_mockupSpacer5</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -371,6 +397,7 @@
                     <value>&lt;p&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Mockup File Helper&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;(Utility component to upload file images)&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;This utility component can be added to your page, to let you create (or update) files without navigating away.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Simply type the name and select the File to update.  &lt;b&gt;Updating the file will immediately update the Mockups using that File.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Note, prefixes are supported to make searching for files easier. Please see the help documentation for more.&lt;/p&gt;</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:richText</componentName>
+                <identifier>flexipage_richText9</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -384,6 +411,7 @@
                     <value>false</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupFileHelper</componentName>
+                <identifier>ltng_mockupFileHelper</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -397,11 +425,13 @@
                     <value>Name,Description\n Show Spacer?,Whether or not a space is added below (avoid cutoff)\n Is Collapsible?,Whether the header collapses..</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupTable</componentName>
+                <identifier>ltng_mockupTable8</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentName>mockcomp:ltng_mockupSpacer</componentName>
+                <identifier>ltng_mockupSpacer6</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -415,6 +445,7 @@
                     <value>&lt;p&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Mockup Image&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;(Quicker image component, that is harder to update)&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;If speed is a concern for showing mockup images (like for a presentation), use Mockup Images.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;As these use Static Resources instead of Files, they are slightly more difficult to update, but are faster to load and are easier to migrate.&lt;/p&gt;</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:richText</componentName>
+                <identifier>flexipage_richText10</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -436,6 +467,7 @@
                     <value>mockcomp__ltng_ExamplePlaceholderImage</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupImage</componentName>
+                <identifier>ltng_mockupImage3</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -449,6 +481,7 @@
                     <value>Name,Description\n Resource name,Picklist of resource names or use Manual Name below.\n Manual Resource Name,The exact namename of the static resource to use\n Description,The Alt text shown for the image\n OnClick Address,URL to navigate to on click.\n Height CSS,CSS Height. (ex: `auto` or `200px`)\n Width CSS,CSS Width. (ex: ex: `100%` or `200px`)</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupTable</componentName>
+                <identifier>ltng_mockupTable9</identifier>
             </componentInstance>
         </itemInstances>
         <name>region4</name>

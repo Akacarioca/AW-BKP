@@ -4,6 +4,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>mdv:visualizer</componentName>
+                <identifier>visualizer</identifier>
             </componentInstance>
         </itemInstances>
         <name>region1</name>
@@ -13,6 +14,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>mdv:metadataselector</componentName>
+                <identifier>metadataselector</identifier>
             </componentInstance>
         </itemInstances>
         <name>region2</name>

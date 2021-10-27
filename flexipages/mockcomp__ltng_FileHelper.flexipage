@@ -12,6 +12,7 @@
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupFileHelper</componentName>
+                <identifier>ltng_mockupFileHelper</identifier>
             </componentInstance>
         </itemInstances>
         <name>main</name>

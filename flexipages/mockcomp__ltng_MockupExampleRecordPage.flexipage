@@ -20,6 +20,7 @@
                     <value>mockcomp__ltng_RecordHeader</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupImage</componentName>
+                <identifier>ltng_mockupImage</identifier>
             </componentInstance>
         </itemInstances>
         <name>region1</name>
@@ -45,6 +46,7 @@
                     <value>warning</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupAlert</componentName>
+                <identifier>ltng_mockupAlert</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -69,6 +71,7 @@
                     <name>targetAddress</name>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupImage</componentName>
+                <identifier>ltng_mockupImage2</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -82,6 +85,7 @@
                     <value>Policy Number,first_name,last_name,email,State,Start Date\n 2470598106,Joscelin,Frostdick,jfrostdick0@privacy.gov.au,MA,1974\n 7839708817,Jourdan,Baus,jbaus1@bigcartel.com,MN,2003\n 7403866403,Biron,Plowright,bplowright2@free.fr,CA,1975\n 1222868698,Glynnis,Maclaine,gmaclaine3@irs.gov,AL,1952\n 2967750626,Baily,Kiddye,bkiddye4@so-net.ne.jp,TX,1973</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupTable</componentName>
+                <identifier>ltng_mockupTable</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -106,6 +110,7 @@
                     <value>Customer 360 Dashboard</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupPlaceholder</componentName>
+                <identifier>ltng_mockupPlaceholder</identifier>
             </componentInstance>
         </itemInstances>
         <name>region2</name>
@@ -135,6 +140,7 @@
                     <value>/lightning/n/mockcomp__ltng_MockupComponentOverview</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupImage</componentName>
+                <identifier>ltng_mockupImage3</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -156,6 +162,7 @@
                     <value>Button Bar</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupPlaceholder</componentName>
+                <identifier>ltng_mockupPlaceholder2</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -176,6 +183,7 @@
                     <name>subTitle</name>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupHeader</componentName>
+                <identifier>ltng_mockupHeader</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -189,6 +197,7 @@
                     <value>&lt;ul&gt;&lt;li&gt;Date Options:&lt;ul&gt;&lt;li&gt;Year to Date | Month to Date&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;$ / Month&lt;/li&gt;&lt;li&gt;Last Year Spend&lt;/li&gt;&lt;li&gt;Pipeline | Commit | Actual&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:richText</componentName>
+                <identifier>flexipage_richText</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -210,6 +219,7 @@
                     <value>mockcomp__ltng_VisualFlow</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupImage</componentName>
+                <identifier>ltng_mockupImage4</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -231,6 +241,7 @@
                     <value>mockcomp__ltng_ActivityTimeline</value>
                 </componentInstanceProperties>
                 <componentName>mockcomp:ltng_mockupImage</componentName>
+                <identifier>ltng_mockupImage5</identifier>
             </componentInstance>
         </itemInstances>
         <name>region3</name>
