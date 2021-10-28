@@ -164,4 +164,12 @@
         <name>Slack</name>
         <type>ConnectedApp</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>copado__Copado_Plan</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>copado__Copado_Plan_Lightning</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>
