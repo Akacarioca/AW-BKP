@@ -9297,6 +9297,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <searchResultsAdditionalFields>copado__Story_Points_SFDC__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>copado__Story_Points_Other__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>copado__Status__c</searchResultsAdditionalFields>
+        <searchResultsCustomButtons>copado__Create_Bundle</searchResultsCustomButtons>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>

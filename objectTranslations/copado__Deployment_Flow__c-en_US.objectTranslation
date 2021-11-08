@@ -55,6 +55,7 @@
         </picklistValues>
     </fields>
     <fields>
+        <help><!-- List of steps to be used when deploying promoted user stories to a destination environment. --></help>
         <label><!-- Deployment Automation --></label>
         <lookupFilter>
             <errorMessage><!-- Only active automation templates are allowed --></errorMessage>
@@ -180,6 +181,7 @@ This value will prefill the order by field on related Promotion record creation 
         </picklistValues>
     </fields>
     <fields>
+        <help><!-- List of steps to be used when merging user stories before deployment --></help>
         <label><!-- Promotion Automation --></label>
         <lookupFilter>
             <errorMessage><!-- Only active automation templates are allowed --></errorMessage>

@@ -23,4 +23,6 @@
     <tabs>copado__External_CI_Setting__c</tabs>
     <tabs>copado__External_CI_Job__c</tabs>
     <tabs>copado__Data_Template__c</tabs>
+    <tabs>copado__Deployment_Job__c</tabs>
+    <tabs>copado__Artifact_Version__c</tabs>
 </CustomApplication>

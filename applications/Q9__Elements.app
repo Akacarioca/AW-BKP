@@ -6,4 +6,6 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Elements</label>
     <tabs>Q9__Elements_Settings</tabs>
+    <tabs>copado__Deployment_Job__c</tabs>
+    <tabs>copado__Artifact_Version__c</tabs>
 </CustomApplication>

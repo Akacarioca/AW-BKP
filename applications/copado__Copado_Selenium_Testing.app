@@ -16,4 +16,6 @@
     <tabs>copado__Account_Summary</tabs>
     <tabs>copado__Scheduled_Job__c</tabs>
     <tabs>copado__Selenium_Locator__c</tabs>
+    <tabs>copado__Deployment_Job__c</tabs>
+    <tabs>copado__Artifact_Version__c</tabs>
 </CustomApplication>

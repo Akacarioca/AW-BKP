@@ -14733,7 +14733,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>copado__User_Story__c.copado__Git_Repository__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -14818,7 +14818,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>copado__User_Story__c.copado__Platform__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -18833,6 +18833,7 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
+        <personAccountDefault>true</personAccountDefault>
         <recordType>copado__Artifact__c.copado__Git_Artifact</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
@@ -18844,7 +18845,7 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>copado__Artifact__c.copado__User_Story_Bundle</recordType>
-        <visible>false</visible>
+        <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
@@ -18958,7 +18959,7 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>copado__User_Story__c.copado__Utility</recordType>
-        <visible>false</visible>
+        <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>AboutBlacklist</tab>
@@ -19077,6 +19078,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>copado__Artifact_Version__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>copado__Artifact__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -19142,6 +19147,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>copado__Deployment_Flow__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>copado__Deployment_Job__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

@@ -186,6 +186,12 @@
                     <default>false</default>
                     <label>Scheduled</label>
                 </value>
+                <value>
+                    <fullName>Disabled</fullName>
+                    <color>#33FF33</color>
+                    <default>false</default>
+                    <label>Disabled</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>

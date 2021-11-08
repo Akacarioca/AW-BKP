@@ -371,6 +371,14 @@ The class must implement the MCCallBack interface.</inlineHelpText>
     <label>Function</label>
     <listViews>
         <fullName>copado__All</fullName>
+        <columns>NAME</columns>
+        <columns>copado__Type__c</columns>
+        <columns>copado__Description__c</columns>
+        <columns>copado__API_Name__c</columns>
+        <columns>copado__Image_Name__c</columns>
+        <columns>copado__Callback_Type__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
@@ -379,7 +387,15 @@ The class must implement the MCCallBack interface.</inlineHelpText>
         <type>Text</type>
     </nameField>
     <pluralLabel>Functions</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts>
+        <searchResultsAdditionalFields>copado__Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__API_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Image_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Callback_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>UPDATEDBY_USER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATED_DATE</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
         <fullName>copado__Function_Name_must_Be_Alpha_Numeric</fullName>

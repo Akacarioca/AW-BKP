@@ -17,4 +17,6 @@
     <tabs>copado__Git_Backup__c</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
+    <tabs>copado__Deployment_Job__c</tabs>
+    <tabs>copado__Artifact_Version__c</tabs>
 </CustomApplication>

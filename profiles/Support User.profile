@@ -16705,6 +16705,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>copado__Artifact_Version__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>copado__Artifact__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -16771,6 +16775,10 @@
     <tabVisibilities>
         <tab>copado__Deployment_Flow__c</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>copado__Deployment_Job__c</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>copado__Deployment__c</tab>

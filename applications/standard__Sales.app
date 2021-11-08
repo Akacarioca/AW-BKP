@@ -21,4 +21,6 @@
     <tabs>Appointment__c</tabs>
     <tabs>Doctor__c</tabs>
     <tabs>Bicycle__c</tabs>
+    <tabs>copado__Deployment_Job__c</tabs>
+    <tabs>copado__Artifact_Version__c</tabs>
 </CustomApplication>
