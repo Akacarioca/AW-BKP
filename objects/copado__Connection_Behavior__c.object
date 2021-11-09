@@ -188,7 +188,6 @@
                 </value>
                 <value>
                     <fullName>Disabled</fullName>
-                    <color>#33FF33</color>
                     <default>false</default>
                     <label>Disabled</label>
                 </value>
