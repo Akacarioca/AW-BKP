@@ -1618,18 +1618,6 @@
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
-            <enhancedLookupEnabled>true</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>true</lookupAutoCompleteEnabled>
-            <name>ltngsharing__PrivateTestObject__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>true</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>true</lookupAutoCompleteEnabled>
-            <name>ltngsharing__ReadOnlyTestObject__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>slackv2__Message_Destination__c</name>
