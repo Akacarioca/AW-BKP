@@ -47,22 +47,22 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Q9__ElementsObjectSummary__c.Q9__ErrorLog__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Q9__ElementsObjectSummary__c.Q9__LastCreatedDateLog__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Q9__ElementsObjectSummary__c.Q9__LastModifiedDateLog__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Q9__ElementsObjectSummary__c.Q9__RecordCountLog__c</field>
         <readable>true</readable>
     </fieldPermissions>

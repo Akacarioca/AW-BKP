@@ -204,6 +204,14 @@
         </valueSet>
     </fields>
     <label>Sync Log</label>
+    <listViews>
+        <fullName>Q9__All</fullName>
+        <columns>NAME</columns>
+        <columns>Q9__Log__c</columns>
+        <columns>Q9__Type__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
         <displayFormat>SL-{0000}</displayFormat>
         <label>Sync Log Name</label>
