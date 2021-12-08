@@ -5087,6 +5087,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>slack_tst_Applicant</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>slack_tst_User_Story</apexClass>
         <enabled>true</enabled>
     </classAccesses>
