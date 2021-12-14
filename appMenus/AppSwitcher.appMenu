@@ -176,4 +176,8 @@
         <name>standard__Optimizer</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>qsyd_FE__File_Explorer</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>

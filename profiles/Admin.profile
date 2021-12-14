@@ -96,6 +96,11 @@
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>qsyd_FE__File_Explorer</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>slackv2__Slack_Setup</application>
         <default>false</default>
         <visible>true</visible>
@@ -5087,6 +5092,70 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>qsyd_FE__TriggerHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__TriggerHandler_Test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__qsydFileExplorerController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__qsydFileExplorerControllerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__qsyd_ContentDocumentTriggerHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__qsyd_ContentDocumentTriggerHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__qsyd_File</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__qsyd_FileList</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__qsyd_Folder</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__qsyd_FolderList</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__qsyd_FolderTemplate</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__qsyd_IItem</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__qsyd_IItemList</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__qsyd_Item</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__qsyd_ItemFactory</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__qsyd_ItemList</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>slack_tst_Applicant</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -5362,6 +5431,10 @@
     <customPermissions>
         <enabled>true</enabled>
         <name>copado__Enable_Vlocity_Integration</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>qsyd_FE__File_Explorer</name>
     </customPermissions>
     <customSettingAccesses>
         <enabled>true</enabled>
@@ -14970,6 +15043,86 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>qsyd_FE__FileExplorerFile__c.qsyd_FE__ContentDocumentId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>qsyd_FE__FileExplorerFile__c.qsyd_FE__ContentSize__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>qsyd_FE__FileExplorerFile__c.qsyd_FE__FileExtension__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>qsyd_FE__FileExplorerFile__c.qsyd_FE__FileOwner__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>qsyd_FE__FileExplorerFile__c.qsyd_FE__FileType__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>qsyd_FE__FileExplorerFile__c.qsyd_FE__Folder__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>qsyd_FE__FileExplorerFile__c.qsyd_FE__IsDeleted__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>qsyd_FE__FileExplorerFile__c.qsyd_FE__Label__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>qsyd_FE__FileExplorerFile__c.qsyd_FE__LinkedEntityId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>qsyd_FE__FileExplorerFile__c.qsyd_FE__Tags__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>qsyd_FE__FileExplorerFolderTemplate__c.qsyd_FE__Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>qsyd_FE__FileExplorerFolderTemplate__c.qsyd_FE__IsActive__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>qsyd_FE__FileExplorerFolder__c.qsyd_FE__Folder__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>qsyd_FE__FileExplorerFolder__c.qsyd_FE__IsDeleted__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>qsyd_FE__FileExplorerFolder__c.qsyd_FE__Label__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>qsyd_FE__FileExplorerFolder__c.qsyd_FE__TemplateFolderId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>slackv2__Message_Destination__c.slackv2__Channel_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -17924,6 +18077,33 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>qsyd_FE__FileExplorerFile__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>qsyd_FE__FileExplorerFolderTemplate__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>qsyd_FE__FileExplorerFolder__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>slackv2__Message_Destination__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -19354,6 +19534,18 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>mockcomp__ltng_MockupExampleRecordPage</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>qsyd_FE__FileExplorerFile__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>qsyd_FE__FileExplorerFolderTemplate__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>qsyd_FE__FileExplorerFolder__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

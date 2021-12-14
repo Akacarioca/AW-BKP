@@ -96,6 +96,11 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>qsyd_FE__File_Explorer</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>slackv2__Slack_Setup</application>
         <default>false</default>
         <visible>false</visible>
@@ -5084,6 +5089,70 @@
     </classAccesses>
     <classAccesses>
         <apexClass>mockcomp__ltng_staticResourceHelperCtrl</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__TriggerHandler</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__TriggerHandler_Test</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__qsydFileExplorerController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__qsydFileExplorerControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__qsyd_ContentDocumentTriggerHandler</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__qsyd_ContentDocumentTriggerHandlerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__qsyd_File</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__qsyd_FileList</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__qsyd_Folder</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__qsyd_FolderList</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__qsyd_FolderTemplate</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__qsyd_IItem</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__qsyd_IItemList</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__qsyd_Item</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__qsyd_ItemFactory</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>qsyd_FE__qsyd_ItemList</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -14902,6 +14971,86 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>qsyd_FE__FileExplorerFile__c.qsyd_FE__ContentDocumentId__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>qsyd_FE__FileExplorerFile__c.qsyd_FE__ContentSize__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>qsyd_FE__FileExplorerFile__c.qsyd_FE__FileExtension__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>qsyd_FE__FileExplorerFile__c.qsyd_FE__FileOwner__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>qsyd_FE__FileExplorerFile__c.qsyd_FE__FileType__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>qsyd_FE__FileExplorerFile__c.qsyd_FE__Folder__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>qsyd_FE__FileExplorerFile__c.qsyd_FE__IsDeleted__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>qsyd_FE__FileExplorerFile__c.qsyd_FE__Label__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>qsyd_FE__FileExplorerFile__c.qsyd_FE__LinkedEntityId__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>qsyd_FE__FileExplorerFile__c.qsyd_FE__Tags__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>qsyd_FE__FileExplorerFolderTemplate__c.qsyd_FE__Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>qsyd_FE__FileExplorerFolderTemplate__c.qsyd_FE__IsActive__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>qsyd_FE__FileExplorerFolder__c.qsyd_FE__Folder__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>qsyd_FE__FileExplorerFolder__c.qsyd_FE__IsDeleted__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>qsyd_FE__FileExplorerFolder__c.qsyd_FE__Label__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>qsyd_FE__FileExplorerFolder__c.qsyd_FE__TemplateFolderId__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>slackv2__Message_Destination__c.slackv2__Channel_Id__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -16980,6 +17129,18 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>mockcomp__ltng_MockupExampleRecordPage</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>qsyd_FE__FileExplorerFile__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>qsyd_FE__FileExplorerFolderTemplate__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>qsyd_FE__FileExplorerFolder__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
