@@ -12,6 +12,7 @@
             <operation>equals</operation>
             <value>Surgeon</value>
         </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingOwnerRules>
         <fullName>Ownership_Based</fullName>

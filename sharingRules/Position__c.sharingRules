@@ -12,6 +12,7 @@
             <operation>equals</operation>
             <value>Open</value>
         </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingOwnerRules>
         <fullName>Share_Positions_Between_Recruiters</fullName>
