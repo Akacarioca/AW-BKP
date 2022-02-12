@@ -12,6 +12,7 @@
             <operation>equals</operation>
             <value>True</value>
         </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingOwnerRules>
         <fullName>Share_All_Opportunities_with_Global_Sales_Reps</fullName>

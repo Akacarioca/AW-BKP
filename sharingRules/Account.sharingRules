@@ -17,6 +17,7 @@
             <operation>equals</operation>
             <value>Hot 🔥</value>
         </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingOwnerRules>
         <fullName>test</fullName>
