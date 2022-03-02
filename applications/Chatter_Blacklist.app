@@ -4,6 +4,7 @@
     <description>Chatter Blacklist provides the ability to specify words or phrases on a blacklist which, when included in a Chatter post will be scrubbed for compliance with company standards such as no swearing, racist or sexist comments, product code words etc.</description>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Chatter Blacklist</label>
     <tabs>AboutBlacklist</tabs>
     <tabs>Blacklisted_Word__c</tabs>

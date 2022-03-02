@@ -9,6 +9,7 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Salesforce Optimizer (Beta)</label>
     <navType>Standard</navType>
     <tabs>adapps__Results</tabs>
