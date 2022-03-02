@@ -4,4 +4,5 @@
     <desktop>true</desktop>
     <masterLabel>New Custom Notification</masterLabel>
     <mobile>true</mobile>
+    <slack>false</slack>
 </CustomNotificationType>

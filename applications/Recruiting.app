@@ -4,6 +4,7 @@
     <description>Custom app for the HR department</description>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Recruiting</label>
     <logo>SharedDocuments/AW_Computing_logo.png</logo>
     <tabs>standard-Chatter</tabs>
