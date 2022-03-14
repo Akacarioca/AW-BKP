@@ -802,6 +802,12 @@
     </listViews>
     <listViews>
         <fullName>MyOpportunities</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.RECORDTYPE</columns>
         <filterScope>Mine</filterScope>
         <label>My Opportunities</label>
     </listViews>
