@@ -612,8 +612,8 @@
         <columns>OPPORTUNITY.AMOUNT</columns>
         <columns>OPPORTUNITY.CLOSE_DATE</columns>
         <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.RECORDTYPE</columns>
         <columns>OPPORTUNITY.FORECAST_CATEGORY</columns>
-        <columns>CORE.USERS.ALIAS</columns>
         <filterScope>Everything</filterScope>
         <label>All Opportunities</label>
     </listViews>

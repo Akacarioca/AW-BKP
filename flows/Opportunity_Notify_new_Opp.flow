@@ -243,7 +243,7 @@ Please follow up before the Close Date  ({!myVariable_current.CloseDate} - 2)</s
     </processMetadataValues>
     <processType>Workflow</processType>
     <startElementReference>myDecision</startElementReference>
-    <status>Active</status>
+    <status>Obsolete</status>
     <variables>
         <name>myCollection_myRule_1_A3recipientIds</name>
         <dataType>String</dataType>
