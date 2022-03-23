@@ -20,12 +20,12 @@
         <label><!-- Execution Sequence --></label>
         <name>copado__ExecutionSequence__c</name>
         <picklistValues>
-            <masterLabel>after</masterLabel>
-            <translation><!-- after --></translation>
+            <masterLabel>After Deployment</masterLabel>
+            <translation><!-- After Deployment --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>before</masterLabel>
-            <translation><!-- before --></translation>
+            <masterLabel>Before Deployment</masterLabel>
+            <translation><!-- Before Deployment --></translation>
         </picklistValues>
     </fields>
     <fields>

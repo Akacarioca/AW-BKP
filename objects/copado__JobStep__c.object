@@ -141,7 +141,7 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>copado__Job_Step</compactLayoutAssignment>
     <compactLayouts>
         <fullName>copado__Job_Step</fullName>
         <fields>Name</fields>
@@ -224,12 +224,12 @@
                 <value>
                     <fullName>before</fullName>
                     <default>false</default>
-                    <label>before</label>
+                    <label>Before Deployment</label>
                 </value>
                 <value>
                     <fullName>after</fullName>
                     <default>false</default>
-                    <label>after</label>
+                    <label>After Deployment</label>
                 </value>
             </valueSetDefinition>
         </valueSet>

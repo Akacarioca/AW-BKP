@@ -141,7 +141,7 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>copado__Job_Execution</compactLayoutAssignment>
     <compactLayouts>
         <fullName>copado__Job_Execution</fullName>
         <fields>Name</fields>

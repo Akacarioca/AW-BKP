@@ -17,11 +17,11 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>copado__Users__c</field>
+                <field>copado__Application__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>copado__Application__c</field>
+                <field>copado__Users__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
