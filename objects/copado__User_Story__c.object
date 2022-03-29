@@ -7436,6 +7436,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <fullName>copado__All</fullName>
         <columns>NAME</columns>
         <columns>copado__User_Story_Title__c</columns>
+        <columns>copado__Org_Credential__c</columns>
         <columns>copado__userStory_Role__c</columns>
         <columns>copado__userStory_need__c</columns>
         <columns>copado__userStory_reason__c</columns>
