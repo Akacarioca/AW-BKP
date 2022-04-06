@@ -180,4 +180,8 @@
         <name>qsyd_FE__File_Explorer</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>copado__CopadoTests</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>

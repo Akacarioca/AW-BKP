@@ -9,9 +9,8 @@
         <delayDays>1</delayDays>
         <displayType>DockedComposer</displayType>
         <header>Welcome to Data Sets</header>
-        <isPublished>true</isPublished>
+        <isPublished>false</isPublished>
         <masterLabel>Data Set Walkthrough Step 1</masterLabel>
-        <publishedDate>2021-04-12</publishedDate>
         <shouldDisplayActionButton>true</shouldDisplayActionButton>
         <shouldIgnoreGlobalDelay>true</shouldIgnoreGlobalDelay>
         <startDate>2021-02-16</startDate>

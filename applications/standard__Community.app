@@ -20,4 +20,5 @@
     <tabs>Doctor__c</tabs>
     <tabs>copado__Deployment_Job__c</tabs>
     <tabs>copado__Artifact_Version__c</tabs>
+    <tabs>copado__Quality_Gate__c</tabs>
 </CustomApplication>

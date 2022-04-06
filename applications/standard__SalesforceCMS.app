@@ -12,6 +12,7 @@
     <tabs>standard-CmsExperiences</tabs>
     <tabs>copado__Deployment_Job__c</tabs>
     <tabs>copado__Artifact_Version__c</tabs>
+    <tabs>copado__Quality_Gate__c</tabs>
     <uiType>Lightning</uiType>
     <workspaceConfig>
         <mappings>
@@ -19,6 +20,9 @@
         </mappings>
         <mappings>
             <tab>copado__Deployment_Job__c</tab>
+        </mappings>
+        <mappings>
+            <tab>copado__Quality_Gate__c</tab>
         </mappings>
         <mappings>
             <tab>standard-CmsAuthorHome</tab>
