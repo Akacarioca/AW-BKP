@@ -11984,11 +11984,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Deployment_Flow__c.copado__Deployment_Automation__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>copado__Deployment_Flow__c.copado__Deployment_Job_Template__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -12050,11 +12045,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>copado__Deployment_Flow__c.copado__Order_by__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow__c.copado__Promotion_Automation__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -12484,11 +12474,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Environment__c.copado__Deployment_Automation_Override__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>copado__Environment__c.copado__Deployment_Job_Template_Override__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -12555,11 +12540,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>copado__Environment__c.copado__Promotion_Job_Template_Override__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Environment__c.copado__Promotion_Override__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

@@ -258,35 +258,6 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>copado__Deployment_Automation_Override__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <deprecated>false</deprecated>
-        <externalId>false</externalId>
-        <inlineHelpText>Select an Automation Template to override the default Deployment Behaviour defined in the Pipeline</inlineHelpText>
-        <label>Deployment Automation Override</label>
-        <lookupFilter>
-            <active>true</active>
-            <errorMessage>Only active automation templates are allowed</errorMessage>
-            <filterItems>
-                <field>copado__Deployment__c.RecordTypeId</field>
-                <operation>equals</operation>
-                <value>Automation Template</value>
-            </filterItems>
-            <filterItems>
-                <field>copado__Deployment__c.copado__Active__c</field>
-                <operation>equals</operation>
-                <value>True</value>
-            </filterItems>
-            <isOptional>false</isOptional>
-        </lookupFilter>
-        <referenceTo>copado__Deployment__c</referenceTo>
-        <relationshipLabel>Environments (Deployment Automation Override)</relationshipLabel>
-        <relationshipName>DeploymentAutomationEnvironments</relationshipName>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>copado__Deployment_Job_Template_Override__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
@@ -521,35 +492,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>copado__Promotion_Override__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <deprecated>false</deprecated>
-        <externalId>false</externalId>
-        <inlineHelpText>Select an Automation Template to override the default Promotion Behaviour defined in the Pipeline</inlineHelpText>
-        <label>Promotion Automation Override</label>
-        <lookupFilter>
-            <active>true</active>
-            <errorMessage>Only active automation templates are allowed</errorMessage>
-            <filterItems>
-                <field>copado__Deployment__c.RecordTypeId</field>
-                <operation>equals</operation>
-                <value>Automation Template</value>
-            </filterItems>
-            <filterItems>
-                <field>copado__Deployment__c.copado__Active__c</field>
-                <operation>equals</operation>
-                <value>True</value>
-            </filterItems>
-            <isOptional>false</isOptional>
-        </lookupFilter>
-        <referenceTo>copado__Deployment__c</referenceTo>
-        <relationshipLabel>Environments (Promotion Automation Override)</relationshipLabel>
-        <relationshipName>PromotionAutomationsEnvironments</relationshipName>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>copado__Run_all_tests__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
@@ -676,17 +618,6 @@ copado__Deployment_Job_Template_Override__c == copado__CommitJobTemplateOverride
 ))
 )</errorConditionFormula>
         <errorMessage>An environment cannot have the same job template for Commit, Promote and Deploy.</errorMessage>
-    </validationRules>
-    <validationRules>
-        <fullName>copado__Unique_Template_for_promote_and_deploy</fullName>
-        <active>true</active>
-        <description>An environment cannot have the same automation template for both Promote and Deploy</description>
-        <errorConditionFormula>AND(
-   NOT(ISBLANK(copado__Promotion_Override__c)),
-   copado__Promotion_Override__c == copado__Deployment_Automation_Override__c
-)</errorConditionFormula>
-        <errorDisplayField>copado__Deployment_Automation_Override__c</errorDisplayField>
-        <errorMessage>An environment cannot have the same automation template for both Promote and Deploy</errorMessage>
     </validationRules>
     <visibility>Public</visibility>
     <webLinks>

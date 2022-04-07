@@ -25,6 +25,14 @@
                 <behavior>Edit</behavior>
                 <field>copado__Active__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>copado__Sprint_Wall_FieldSet_Name__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>copado__Description__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
@@ -66,6 +74,29 @@
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
+        <fields>copado__Project__c</fields>
+        <fields>copado__Release__c</fields>
+        <fields>copado__Start_Date__c</fields>
+        <fields>copado__End_Date__c</fields>
+        <fields>copado__Status__c</fields>
+        <relatedList>copado__Sprint__c.copado__Team__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <fields>copado__User_Story_Title__c</fields>
+        <fields>copado__userStory_Role__c</fields>
+        <fields>copado__userStory_reason__c</fields>
+        <fields>copado__userStory_need__c</fields>
+        <fields>copado__Status__c</fields>
+        <fields>copado__Close_Date__c</fields>
+        <fields>copado__Project__c</fields>
+        <relatedList>copado__User_Story__c.copado__Team__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <relatedList>RelatedNoteList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
         <fields>copado__Deliverable__c</fields>
         <fields>copado__Dependency_Status__c</fields>
         <fields>copado__Provider_Team__c</fields>
@@ -82,22 +113,13 @@
         <fields>copado__Provider_User_Story__c</fields>
         <relatedList>copado__Team_Dependency__c.copado__Provider_Team__c</relatedList>
     </relatedLists>
-    <relatedLists>
-        <fields>NAME</fields>
-        <fields>copado__Project__c</fields>
-        <fields>copado__Release__c</fields>
-        <fields>copado__Start_Date__c</fields>
-        <fields>copado__End_Date__c</fields>
-        <fields>copado__Status__c</fields>
-        <relatedList>copado__Sprint__c.copado__Team__c</relatedList>
-    </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
     <showInteractionLogPanel>false</showInteractionLogPanel>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h0Y0000053DcL</masterLabel>
+        <masterLabel>00h0P00000UOvnq</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

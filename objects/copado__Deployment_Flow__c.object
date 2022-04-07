@@ -283,36 +283,6 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>copado__Deployment_Automation__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <deprecated>false</deprecated>
-        <externalId>false</externalId>
-        <inlineHelpText>List of steps to be used when deploying promoted user stories to a destination environment.</inlineHelpText>
-        <label>Deployment Automation</label>
-        <lookupFilter>
-            <active>true</active>
-            <errorMessage>Only active automation templates are allowed</errorMessage>
-            <filterItems>
-                <field>copado__Deployment__c.RecordTypeId</field>
-                <operation>equals</operation>
-                <value>Automation Template</value>
-            </filterItems>
-            <filterItems>
-                <field>copado__Deployment__c.copado__Active__c</field>
-                <operation>equals</operation>
-                <value>True</value>
-            </filterItems>
-            <isOptional>false</isOptional>
-        </lookupFilter>
-        <referenceTo>copado__Deployment__c</referenceTo>
-        <relationshipLabel>Pipelines (Deployment Automation)</relationshipLabel>
-        <relationshipName>DeploymentPipelines</relationshipName>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>copado__Deployment_Job_Template__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
@@ -570,36 +540,6 @@ This value will prefill the order by field on related Promotion record creation 
         </valueSet>
     </fields>
     <fields>
-        <fullName>copado__Promotion_Automation__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <deprecated>false</deprecated>
-        <externalId>false</externalId>
-        <inlineHelpText>List of steps to be used when merging user stories before deployment</inlineHelpText>
-        <label>Promotion Automation</label>
-        <lookupFilter>
-            <active>true</active>
-            <errorMessage>Only active automation templates are allowed</errorMessage>
-            <filterItems>
-                <field>copado__Deployment__c.RecordTypeId</field>
-                <operation>equals</operation>
-                <value>Automation Template</value>
-            </filterItems>
-            <filterItems>
-                <field>copado__Deployment__c.copado__Active__c</field>
-                <operation>equals</operation>
-                <value>True</value>
-            </filterItems>
-            <isOptional>false</isOptional>
-        </lookupFilter>
-        <referenceTo>copado__Deployment__c</referenceTo>
-        <relationshipLabel>Pipelines</relationshipLabel>
-        <relationshipName>Pipelines</relationshipName>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>copado__Promotion_Job_Template__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
@@ -687,17 +627,6 @@ copado__Deployment_Job_Template__c == copado__CommitJobTemplate__c
 ))
 )</errorConditionFormula>
         <errorMessage>A pipeline cannot have the same job template for Commit, Promote and Deploy.</errorMessage>
-    </validationRules>
-    <validationRules>
-        <fullName>copado__Unique_Template_for_promote_and_deploy</fullName>
-        <active>true</active>
-        <description>A pipeline cannot have the same template for both Promote and Deploy</description>
-        <errorConditionFormula>AND(
-  NOT(ISBLANK(copado__Promotion_Automation__c)), 
-  copado__Promotion_Automation__c ==  copado__Deployment_Automation__c
-)</errorConditionFormula>
-        <errorDisplayField>copado__Deployment_Automation__c</errorDisplayField>
-        <errorMessage>A pipeline cannot have the same template for both Promote and Deploy</errorMessage>
     </validationRules>
     <visibility>Public</visibility>
     <webLinks>

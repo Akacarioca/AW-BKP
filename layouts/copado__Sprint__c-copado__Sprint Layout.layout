@@ -279,7 +279,6 @@
         </platformActionListItems>
     </platformActionList>
     <relatedLists>
-        <customButtons>copado__Mass_Add_User_Stories_Sprint</customButtons>
         <fields>NAME</fields>
         <fields>copado__User_Story_Title__c</fields>
         <fields>copado__userStory_Role__c</fields>
