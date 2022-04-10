@@ -9,7 +9,7 @@
         <name>copado__Introduction__c</name>
     </fields>
     <fields>
-        <label><!-- Org --></label>
+        <label><!-- Credential --></label>
         <name>copado__Org__c</name>
     </fields>
     <fields>
@@ -90,6 +90,17 @@
         <name>copado__User_Story__c</name>
         <relationshipLabel><!-- Test Scripts (User Story) --></relationshipLabel>
     </fields>
+    <layouts>
+        <layout>Test Script Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <webLinks>
         <label><!-- Add_Test_Script_Steps --></label>
         <name>copado__Add_Test_Script_Steps</name>

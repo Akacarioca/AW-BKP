@@ -3,6 +3,8 @@
 The following Opportunity has been created.  
 Opportunity:  {!Opportunity.Name}
 Account: {!Opportunity.Account}
+Account Owner: {!Account.OwnerFullName}
+Account Owner Id: {!Account.OwnerId}
 Contact Name:  {!Contact.Name} 
 Amount: {!Opportunity.Amount}
 Close Date: {!Opportunity.CloseDate}

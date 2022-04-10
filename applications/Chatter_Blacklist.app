@@ -10,4 +10,7 @@
     <tabs>Blacklisted_Word__c</tabs>
     <tabs>Blacklist_Audit__c</tabs>
     <tabs>TODO__c</tabs>
+    <tabs>copado__Deployment_Job__c</tabs>
+    <tabs>copado__Artifact_Version__c</tabs>
+    <tabs>copado__Quality_Gate__c</tabs>
 </CustomApplication>

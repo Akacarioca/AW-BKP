@@ -72,6 +72,16 @@
         <fullName>ContactAccessLevel</fullName>
     </fields>
     <fields>
+        <fullName>Custom_Created_By__c</fullName>
+        <description>Example of Custom Field</description>
+        <externalId>false</externalId>
+        <formula>CreatedBy.Username</formula>
+        <label>Custom Created By</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>OpportunityAccessLevel</fullName>
     </fields>
     <fields>

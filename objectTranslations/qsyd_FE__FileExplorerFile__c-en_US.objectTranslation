@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Content Document Id --></label>
+        <name>qsyd_FE__ContentDocumentId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Content Size --></label>
+        <name>qsyd_FE__ContentSize__c</name>
+    </fields>
+    <fields>
+        <help><!-- File Extension --></help>
+        <label><!-- File Extension --></label>
+        <name>qsyd_FE__FileExtension__c</name>
+    </fields>
+    <fields>
+        <help><!-- Content Document Owner --></help>
+        <label><!-- File Owner --></label>
+        <name>qsyd_FE__FileOwner__c</name>
+        <relationshipLabel><!-- File Explorer Files --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- File Type --></help>
+        <label><!-- File Type --></label>
+        <name>qsyd_FE__FileType__c</name>
+    </fields>
+    <fields>
+        <help><!-- File folder --></help>
+        <label><!-- Folder --></label>
+        <name>qsyd_FE__Folder__c</name>
+        <relationshipLabel><!-- Files --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Is Deleted? --></label>
+        <name>qsyd_FE__IsDeleted__c</name>
+    </fields>
+    <fields>
+        <help><!-- File label --></help>
+        <label><!-- Label --></label>
+        <name>qsyd_FE__Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- Linked Entity Id --></label>
+        <name>qsyd_FE__LinkedEntityId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tags --></label>
+        <name>qsyd_FE__Tags__c</name>
+        <picklistValues>
+            <masterLabel>Invoice</masterLabel>
+            <translation><!-- Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passport</masterLabel>
+            <translation><!-- Passport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validation</masterLabel>
+            <translation><!-- Validation --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

@@ -7,4 +7,7 @@
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Elements</label>
     <tabs>Q9__Elements_Settings</tabs>
+    <tabs>copado__Deployment_Job__c</tabs>
+    <tabs>copado__Artifact_Version__c</tabs>
+    <tabs>copado__Quality_Gate__c</tabs>
 </CustomApplication>

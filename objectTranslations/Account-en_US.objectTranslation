@@ -26,6 +26,10 @@
         <name>Has_Support_Plan__c</name>
     </fields>
     <fields>
+        <label><!-- Number of Opportunities --></label>
+        <name>Number_of_Opportunities__c</name>
+    </fields>
+    <fields>
         <label><!-- PO Box --></label>
         <name>PO_Box__c</name>
     </fields>
@@ -146,6 +150,44 @@
             <translation><!-- West US --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Customer Account Layout</layout>
+        <sections>
+            <label><!-- Sales Region --></label>
+            <section>Sales Region</section>
+        </sections>
+        <sections>
+            <label><!-- Support Plan Information --></label>
+            <section>Support Plan Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Feed Customer Account Layout</layout>
+        <sections>
+            <label><!-- Sales Region --></label>
+            <section>Sales Region</section>
+        </sections>
+        <sections>
+            <label><!-- Support Plan Information --></label>
+            <section>Support Plan Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Account Spotlight --></label>
+        <name>Account_Spotlight</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Contact --></label>
+        <name>New_Contact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send to Slack --></label>
+        <name>slackv2__Send_to_Slack</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Slack Alerts --></label>
+        <name>slackv2__Slack_Alerts</name>
+    </quickActions>
     <recordTypes>
         <description><!-- For customers and prospects. --></description>
         <label><!-- Customer Account --></label>
@@ -173,6 +215,10 @@
         <name>AltavistaNews</name>
     </webLinks>
     <webLinks>
+        <label><!-- Conta_Nova --></label>
+        <name>Conta_Nova</name>
+    </webLinks>
+    <webLinks>
         <label><!-- GoogleMaps --></label>
         <name>GoogleMaps</name>
     </webLinks>
@@ -191,5 +237,13 @@
     <webLinks>
         <label><!-- YahooMaps --></label>
         <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_to_Slack --></label>
+        <name>slackv2__Send_to_Slack</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Slack_Alerts --></label>
+        <name>slackv2__Slack_Alerts</name>
     </webLinks>
 </CustomObjectTranslation>

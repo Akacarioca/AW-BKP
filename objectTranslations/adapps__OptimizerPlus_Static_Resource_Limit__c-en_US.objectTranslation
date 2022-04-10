@@ -37,4 +37,11 @@
         <label><!-- Used --></label>
         <name>adapps__Used__c</name>
     </fields>
+    <layouts>
+        <layout>Static Resource Limit Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

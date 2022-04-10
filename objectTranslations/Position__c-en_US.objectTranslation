@@ -42,6 +42,10 @@
         <relationshipLabel><!-- Positions --></relationshipLabel>
     </fields>
     <fields>
+        <label><!-- Job Applications --></label>
+        <name>Job_Applications__c</name>
+    </fields>
+    <fields>
         <label><!-- Job Description --></label>
         <name>Job_Description__c</name>
     </fields>
@@ -173,5 +177,12 @@
             <translation><!-- Open --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Position Layout</layout>
+        <sections>
+            <label><!-- Experience &amp; Education --></label>
+            <section>Experience &amp; Education</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

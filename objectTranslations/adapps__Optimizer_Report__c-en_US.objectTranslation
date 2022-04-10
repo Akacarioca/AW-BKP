@@ -16,4 +16,11 @@
         <label><!-- Is Standard --></label>
         <name>adapps__Is_Standard__c</name>
     </fields>
+    <layouts>
+        <layout>Optimizer Report Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

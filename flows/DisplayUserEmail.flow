@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>50.0</apiVersion>
+    <interviewLabel>DisplayUserEamil {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>DisplayUserEmail</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <screens>
+        <name>Display_Email</name>
+        <label>Display Email</label>
+        <locationX>767</locationX>
+        <locationY>205</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>Email</name>
+            <fieldText>&lt;p&gt;Your email is &lt;span style=&quot;color: rgb(225, 42, 42);&quot;&gt;{!$User.Email}&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>ProfileName</name>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;color: rgb(11, 73, 231);&quot;&gt;&lt;span class=&quot;ql-cursor&quot;&gt;﻿&lt;/span&gt;&lt;/span&gt;Your Profile Name is &lt;span style=&quot;color: rgb(13, 170, 228);&quot;&gt;{!$Profile.Name}&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>UserRole</name>
+            <fieldText>&lt;p&gt;Your User Role Name is &lt;span style=&quot;color: rgb(17, 234, 24);&quot;&gt;{!$UserRole.Name}&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>OrganizationName</name>
+            <fieldText>&lt;p&gt;Your Organization Name is &lt;span style=&quot;color: rgb(62, 48, 211);&quot;&gt;{!$Organization.Name}&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>CurrentDateTime</name>
+            <fieldText>&lt;p&gt;Current Date/Time is {!$Flow.CurrentDateTime}&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>641</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>Display_Email</targetReference>
+        </connector>
+    </start>
+    <status>Draft</status>
+</Flow>

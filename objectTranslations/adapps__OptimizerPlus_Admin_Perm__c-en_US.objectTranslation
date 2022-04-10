@@ -29,4 +29,11 @@
         <label><!-- Status --></label>
         <name>adapps__Status__c</name>
     </fields>
+    <layouts>
+        <layout>Administrator Permissions Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

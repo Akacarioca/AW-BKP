@@ -5,8 +5,8 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Copado Developer</label>
-    <logo>copado__Copado/copado__Copado_Logo.png</logo>
     <tabs>copado__Org__c</tabs>
     <tabs>copado__Project__c</tabs>
     <tabs>copado__User_Story__c</tabs>
@@ -14,4 +14,7 @@
     <tabs>copado__Deployment__c</tabs>
     <tabs>copado__Promotion__c</tabs>
     <tabs>copado__Pipeline_Manager</tabs>
+    <tabs>copado__Deployment_Job__c</tabs>
+    <tabs>copado__Artifact_Version__c</tabs>
+    <tabs>copado__Quality_Gate__c</tabs>
 </CustomApplication>

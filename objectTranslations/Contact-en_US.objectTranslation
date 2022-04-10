@@ -37,6 +37,14 @@
             <translation><!-- Purchasing --></translation>
         </picklistValues>
     </fields>
+    <quickActions>
+        <label><!-- Send to Slack --></label>
+        <name>slackv2__Send_to_Slack</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Slack Alerts --></label>
+        <name>slackv2__Slack_Alerts</name>
+    </quickActions>
     <webLinks>
         <label><!-- GoogleMaps --></label>
         <name>GoogleMaps</name>
@@ -56,5 +64,13 @@
     <webLinks>
         <label><!-- YahooWeather --></label>
         <name>YahooWeather</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_to_Slack --></label>
+        <name>slackv2__Send_to_Slack</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Slack_Alerts --></label>
+        <name>slackv2__Slack_Alerts</name>
     </webLinks>
 </CustomObjectTranslation>

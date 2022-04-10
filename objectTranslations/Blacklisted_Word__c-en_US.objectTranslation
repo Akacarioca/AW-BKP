@@ -47,5 +47,12 @@ Don&apos;t forget to add \b at the start and end if you want to match on a whole
         <label><!-- is Active --></label>
         <name>is_Active__c</name>
     </fields>
+    <layouts>
+        <layout>Blacklisted Word Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

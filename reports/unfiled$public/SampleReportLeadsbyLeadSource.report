@@ -24,6 +24,7 @@
     <columns>
         <field>EMAIL</field>
     </columns>
+    <currency>USD</currency>
     <description>How many leads has each lead source generated for me?</description>
     <format>Summary</format>
     <groupingsDown>
@@ -32,6 +33,10 @@
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
     <name>Sample Report: Leads by Lead Source</name>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
     <reportType>LeadList</reportType>
     <scope>org</scope>
     <showDetails>false</showDetails>
@@ -39,6 +44,6 @@
     <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
         <dateColumn>CREATED_DATE</dateColumn>
-        <interval>INTERVAL_CURNEXT1</interval>
+        <interval>INTERVAL_CUSTOM</interval>
     </timeFrameFilter>
 </Report>

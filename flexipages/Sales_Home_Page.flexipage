@@ -48,11 +48,15 @@
                     <value>CompanyPerformanceDashboard</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
+                    <name>height</name>
+                    <value>5000</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
                     <name>hideOnError</name>
-                    <value>true</value>
+                    <value>false</value>
                 </componentInstanceProperties>
                 <componentName>desktopDashboards:embeddedDashboard</componentName>
-                <identifier>desktopDashboards_embeddedDashboard</identifier>
+                <identifier>desktopDashboards_embeddedDashboard2</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-5ebf79d5-deaa-4a38-b21d-1289da01ca33</name>
@@ -163,6 +167,20 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentInstanceProperties>
+                    <name>flowLayout</name>
+                    <value>twoColumn</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>flowName</name>
+                    <value>CreateAccountAndContact</value>
+                </componentInstanceProperties>
+                <componentName>flowruntime:interview</componentName>
+                <identifier>flowruntime_interview</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentName>runtime_sales_activities:todayTaskContainer</componentName>
                 <identifier>runtime_sales_activities_todayTaskContainer</identifier>
             </componentInstance>
@@ -203,10 +221,26 @@
                 <identifier>flexipage_accordion</identifier>
             </componentInstance>
         </itemInstances>
-        <name>bottomRight</name>
-        <type>Region</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentName>home:heroChart</componentName>
+                <identifier>home_heroChart</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>flowLayout</name>
+                    <value>twoColumn</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>flowName</name>
+                    <value>SumOf2Fields</value>
+                </componentInstanceProperties>
+                <componentName>flowruntime:interview</componentName>
+                <identifier>flowruntime_interview2</identifier>
+            </componentInstance>
+        </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
@@ -229,6 +263,10 @@
                 <identifier>flexipage_recentItems</identifier>
             </componentInstance>
         </itemInstances>
+        <name>bottomRight</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
@@ -245,8 +283,32 @@
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <componentName>home:heroChart</componentName>
-                <identifier>home_heroChart</identifier>
+                <componentName>MHolt:countdownTimer</componentName>
+                <identifier>MHolt_countdownTimer1</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>dashboardName</name>
+                    <value>X1_User_Adoption_Logins</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>height</name>
+                    <value>8000</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>hideOnError</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentName>desktopDashboards:embeddedDashboard</componentName>
+                <identifier>desktopDashboards_embeddedDashboard</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>az0:orgLimits</componentName>
+                <identifier>az0_orgLimits1</identifier>
             </componentInstance>
         </itemInstances>
         <name>sidebar</name>

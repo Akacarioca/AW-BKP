@@ -43,6 +43,10 @@
         <name>copadovsm__Start_Date__c</name>
     </fields>
     <fields>
+        <label><!-- Status --></label>
+        <name>copadovsm__Status__c</name>
+    </fields>
+    <fields>
         <label><!-- Type --></label>
         <name>copadovsm__Type__c</name>
         <picklistValues>
@@ -58,4 +62,15 @@
         <label><!-- Work Item Id --></label>
         <name>copadovsm__Work_Item_Id__c</name>
     </fields>
+    <layouts>
+        <layout>Event Layout</layout>
+        <sections>
+            <label><!-- Calculations --></label>
+            <section>Calculations</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

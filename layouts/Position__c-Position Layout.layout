@@ -23,6 +23,10 @@
                 <behavior>Edit</behavior>
                 <field>Pay_Grade__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Job_Applications__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

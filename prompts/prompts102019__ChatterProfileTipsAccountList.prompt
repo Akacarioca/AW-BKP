@@ -21,8 +21,15 @@
         <targetPageType>standard__objectPage</targetPageType>
         <timesToDisplay>1</timesToDisplay>
         <title>Introduce Yourself to Others</title>
+        <uiFormulaRule>
+            <criteria>
+                <leftValue>{!$User.Profile.Key}</leftValue>
+                <operator>EQUAL</operator>
+                <rightValue>Admin</rightValue>
+            </criteria>
+        </uiFormulaRule>
         <userAccess>Everyone</userAccess>
-        <userProfileAccess>Everyone</userProfileAccess>
+        <userProfileAccess>SpecificProfiles</userProfileAccess>
         <versionNumber>1</versionNumber>
     </promptVersions>
 </Prompt>

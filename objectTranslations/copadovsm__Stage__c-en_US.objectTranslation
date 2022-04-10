@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
+        <label><!-- Active --></label>
+        <name>copadovsm__Active__c</name>
+    </fields>
+    <fields>
         <help><!-- A brief description of the Stage. --></help>
         <label><!-- Description --></label>
         <name>copadovsm__Description__c</name>
@@ -36,4 +40,11 @@
         <label><!-- Waiting Time Threshold --></label>
         <name>copadovsm__Waiting_Time_Threshold__c</name>
     </fields>
+    <layouts>
+        <layout>Stage Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

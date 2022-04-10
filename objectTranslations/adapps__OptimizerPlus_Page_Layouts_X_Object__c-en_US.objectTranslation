@@ -37,4 +37,11 @@
         <label><!-- Status --></label>
         <name>adapps__Status__c</name>
     </fields>
+    <layouts>
+        <layout>Page Layouts Per Object Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

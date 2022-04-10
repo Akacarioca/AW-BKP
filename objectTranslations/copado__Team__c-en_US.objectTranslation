@@ -101,7 +101,22 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Description --></label>
+        <name>copado__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sprint Wall FieldSet Name --></label>
+        <name>copado__Sprint_Wall_FieldSet_Name__c</name>
+    </fields>
+    <fields>
         <label><!-- Vision --></label>
         <name>copado__Vision__c</name>
     </fields>
+    <layouts>
+        <layout>Team Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

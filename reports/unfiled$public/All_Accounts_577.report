@@ -4,9 +4,6 @@
         <field>DUE_DATE</field>
     </columns>
     <columns>
-        <field>USERS.NAME</field>
-    </columns>
-    <columns>
         <field>ACCOUNT.NAME</field>
     </columns>
     <columns>
@@ -22,7 +19,12 @@
         <field>LAST_UPDATE</field>
     </columns>
     <currency>USD</currency>
-    <format>Tabular</format>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>USERS.NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
     <name>All Accounts</name>
     <params>
         <name>co</name>

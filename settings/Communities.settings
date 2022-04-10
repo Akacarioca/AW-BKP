@@ -16,7 +16,7 @@
     <enableInviteChatterGuestEnabled>true</enableInviteChatterGuestEnabled>
     <enableNameFieldsUserPIIEnabled>false</enableNameFieldsUserPIIEnabled>
     <enableNetworksEnabled>true</enableNetworksEnabled>
-    <enableOotbProfExtUserOpsEnable>true</enableOotbProfExtUserOpsEnable>
+    <enableOotbProfExtUserOpsEnable>false</enableOotbProfExtUserOpsEnable>
     <enablePRMAccRelPref>false</enablePRMAccRelPref>
     <enablePreventBadgeGuestAccess>true</enablePreventBadgeGuestAccess>
     <enableRelaxPartnerAccountFieldPref>false</enableRelaxPartnerAccountFieldPref>

@@ -18,6 +18,7 @@
         <notifyAssignee>false</notifyAssignee>
         <operation>Formula</operation>
         <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
     </fieldUpdates>
     <rules>
         <fullName>copado__Deployment Completed</fullName>
@@ -25,7 +26,7 @@
             <name>copado__Deployment_Completed_email_alert</name>
             <type>Alert</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <criteriaItems>
             <field>copado__Deployment__c.copado__Send_Deployment_Complete_email__c</field>
             <operation>equals</operation>
@@ -35,6 +36,11 @@
             <field>copado__Deployment__c.copado__Status__c</field>
             <operation>equals</operation>
             <value>Completed Successfully,Completed with Errors,Cancelled</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>User.UserType</field>
+            <operation>notEqual</operation>
+            <value>Automated Process</value>
         </criteriaItems>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>

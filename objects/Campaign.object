@@ -181,6 +181,85 @@
         <fullName>CurrencyIsoCode</fullName>
     </fields>
     <fields>
+        <fullName>DB_Campaign_Tactic__c</fullName>
+        <description>This is a field that is installed by and used with the Adoption Dashboard AppExchange package. If your org already has a similar field, you can change the reports that are part of the Adoption Dashboard package to use your custom field and then delete this field.</description>
+        <externalId>false</externalId>
+        <label>DB Campaign Tactic</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Type</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Print Advertisement</fullName>
+                    <default>false</default>
+                    <label>Print Advertisement</label>
+                </value>
+                <value>
+                    <fullName>Email</fullName>
+                    <default>false</default>
+                    <label>Email</label>
+                </value>
+                <value>
+                    <fullName>Employment Seminars</fullName>
+                    <default>false</default>
+                    <label>Employment Seminars</label>
+                </value>
+                <value>
+                    <fullName>Webinars</fullName>
+                    <default>false</default>
+                    <label>Webinars</label>
+                </value>
+                <value>
+                    <fullName>Public Relations</fullName>
+                    <default>false</default>
+                    <label>Public Relations</label>
+                </value>
+                <value>
+                    <fullName>Partners</fullName>
+                    <default>false</default>
+                    <label>Partners</label>
+                </value>
+                <value>
+                    <fullName>Referral Program</fullName>
+                    <default>false</default>
+                    <label>Referral Program</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Lunches</fullName>
+                    <default>false</default>
+                    <label>Lunches</label>
+                </value>
+                <value>
+                    <fullName>Direct Mail</fullName>
+                    <default>false</default>
+                    <label>Direct Mail</label>
+                </value>
+                <value>
+                    <fullName>Sales Call Down</fullName>
+                    <default>false</default>
+                    <label>Sales Call Down</label>
+                </value>
+                <value>
+                    <fullName>Online Banners/Ads</fullName>
+                    <default>false</default>
+                    <label>Online Banners/Ads</label>
+                </value>
+                <value>
+                    <fullName>Internal Website</fullName>
+                    <default>false</default>
+                    <label>Internal Website</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
     </fields>
     <fields>
@@ -381,6 +460,61 @@
         <description>Record type for a campaign initiative</description>
         <label>Campaign Initiative</label>
         <picklistValues>
+            <picklist>DB_Campaign_Tactic__c</picklist>
+            <values>
+                <fullName>Direct Mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employment Seminars</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal Website</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunches</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Online Banners%2FAds</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partners</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Print Advertisement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public Relations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Referral Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Call Down</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Webinars</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Status</picklist>
             <values>
                 <fullName>Aborted</fullName>
@@ -445,6 +579,61 @@
         <description>Record type for a conference campaign</description>
         <label>Conference Campaign</label>
         <picklistValues>
+            <picklist>DB_Campaign_Tactic__c</picklist>
+            <values>
+                <fullName>Direct Mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employment Seminars</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal Website</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunches</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Online Banners%2FAds</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partners</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Print Advertisement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public Relations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Referral Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Call Down</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Webinars</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Status</picklist>
             <values>
                 <fullName>Aborted</fullName>
@@ -485,6 +674,61 @@
         <description>Record type for an email campaign</description>
         <label>Email Campaign</label>
         <picklistValues>
+            <picklist>DB_Campaign_Tactic__c</picklist>
+            <values>
+                <fullName>Direct Mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employment Seminars</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal Website</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunches</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Online Banners%2FAds</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partners</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Print Advertisement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public Relations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Referral Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Call Down</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Webinars</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Status</picklist>
             <values>
                 <fullName>Aborted</fullName>
@@ -524,6 +768,61 @@
         <active>true</active>
         <description>Record type for a telemarketing campaign</description>
         <label>Telemarketing Campaign</label>
+        <picklistValues>
+            <picklist>DB_Campaign_Tactic__c</picklist>
+            <values>
+                <fullName>Direct Mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employment Seminars</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal Website</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunches</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Online Banners%2FAds</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partners</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Print Advertisement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public Relations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Referral Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Call Down</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Webinars</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>Status</picklist>
             <values>

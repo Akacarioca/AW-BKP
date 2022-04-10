@@ -73,9 +73,32 @@
         <label><!-- Years In Previous Position --></label>
         <name>Years_In_Previous_Position__c</name>
     </fields>
+    <layouts>
+        <layout>Applicant Layout</layout>
+        <sections>
+            <label><!-- Experience &amp; Education --></label>
+            <section>Experience &amp; Education</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Send to Slack --></label>
+        <name>Send_to_Slack</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Slack Alerts --></label>
+        <name>Slack_Alerts</name>
+    </quickActions>
     <sharingReasons>
         <label><!-- ApplicantApexSharingReason --></label>
         <name>ApplicantApexSharingReason</name>
     </sharingReasons>
     <startsWith>Vowel</startsWith>
+    <webLinks>
+        <label><!-- Send_to_Slack --></label>
+        <name>Send_to_Slack</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Slack_Alerts --></label>
+        <name>Slack_Alerts</name>
+    </webLinks>
 </CustomObjectTranslation>

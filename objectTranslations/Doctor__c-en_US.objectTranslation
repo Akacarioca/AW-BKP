@@ -49,6 +49,13 @@
         <label><!-- Year of Graduation --></label>
         <name>Year_of_Graduation__c</name>
     </fields>
+    <layouts>
+        <layout>Doctor Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <sharingReasons>
         <label><!-- Location --></label>
         <name>Location</name>

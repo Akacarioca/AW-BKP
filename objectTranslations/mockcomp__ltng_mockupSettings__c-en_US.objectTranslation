@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- If checked, then mockup images will be cached, allowing them to load much faster for presentations. --></help>
+        <label><!-- Enable Mock Image Caching --></label>
+        <name>mockcomp__Enable_Mock_Image_Caching__c</name>
+    </fields>
+    <fields>
+        <help><!-- Maximum number of results to return when searching for files or static resources. --></help>
+        <label><!-- Max Search Results --></label>
+        <name>mockcomp__Max_Search_Results__c</name>
+    </fields>
+    <fields>
+        <help><!-- If provided, only file with titles that include this text will be shown in the Mockup File Image App Builder selection. --></help>
+        <label><!-- Mock Image File Filter --></label>
+        <name>mockcomp__Mock_Image_File_Filter__c</name>
+    </fields>
+</CustomObjectTranslation>
