@@ -151,6 +151,11 @@
     <fields>
         <fullName>SellerType</fullName>
     </fields>
+    <listViews>
+        <fullName>All_Sellers</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Sellers</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>ActiveFromDate</customTabListAdditionalFields>
         <customTabListAdditionalFields>ActiveToDate</customTabListAdditionalFields>
@@ -159,5 +164,5 @@
         <searchResultsAdditionalFields>ActiveToDate</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>SalesAmount</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>Private</sharingModel>
+    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

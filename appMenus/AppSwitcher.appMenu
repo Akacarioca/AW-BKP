@@ -184,4 +184,12 @@
         <name>copado__CopadoTests</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>standard__AllTabSet</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__OnlineSales</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>
