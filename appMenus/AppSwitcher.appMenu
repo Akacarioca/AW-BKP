@@ -192,4 +192,8 @@
         <name>standard__OnlineSales</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>DevOps_Center</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
 </AppMenu>
