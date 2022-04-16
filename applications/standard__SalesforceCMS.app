@@ -13,6 +13,7 @@
     <tabs>copado__Deployment_Job__c</tabs>
     <tabs>copado__Artifact_Version__c</tabs>
     <tabs>copado__Quality_Gate__c</tabs>
+    <tabs>sf_devops__Environment__c</tabs>
     <uiType>Lightning</uiType>
     <workspaceConfig>
         <mappings>
@@ -23,6 +24,9 @@
         </mappings>
         <mappings>
             <tab>copado__Quality_Gate__c</tab>
+        </mappings>
+        <mappings>
+            <tab>sf_devops__Environment__c</tab>
         </mappings>
         <mappings>
             <tab>standard-CmsAuthorHome</tab>

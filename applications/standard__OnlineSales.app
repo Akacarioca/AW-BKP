@@ -7,5 +7,6 @@
     <label>Online Sales</label>
     <navType>Standard</navType>
     <tabs>standard-OnlineSalesHome</tabs>
+    <tabs>sf_devops__Environment__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

@@ -22194,6 +22194,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>sf_devops__Environment__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>sf_devops__Project__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>

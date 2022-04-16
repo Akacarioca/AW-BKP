@@ -230,6 +230,11 @@
         <type>Checkbox</type>
     </fields>
     <label>Environment</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
         <label>Environment Name</label>
         <type>Text</type>
