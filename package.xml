@@ -27,6 +27,7 @@
         <members>Position_Record_Page</members>
         <members>Price_Book_Record_Page</members>
         <members>Product_Record_Page</members>
+        <members>Quality_Gate1</members>
         <members>Sales_Home_Page</members>
         <members>Support_Home_Page</members>
         <members>Test_Record_Page1</members>
