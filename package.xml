@@ -64,6 +64,8 @@
         <members>copado__Pipeline_Record_Page_Multicloud</members>
         <members>copado__Promotion_Record_Page</members>
         <members>copado__Quality_Gate</members>
+        <members>copado__Quality_Gate_Rule_Condition_Record_Page</members>
+        <members>copado__Quality_Gate_Rule_Record_Page</members>
         <members>copado__Record_Matching_Formula</members>
         <members>copado__Result_Record_Page</members>
         <members>copado__SCA_Result_Layout</members>
@@ -77,6 +79,7 @@
         <members>copado__User_Story_Commit</members>
         <members>copado__User_Story_Commit_Record_Page</members>
         <members>copado__User_Story_Data_Commit_Record_Page</members>
+        <members>copado__User_Story_Dependency_Record_Page</members>
         <members>copado__User_Story_Layout</members>
         <members>copado__User_Story_Metadata_Record_Page</members>
         <members>copado__User_Story_Record_Page</members>
