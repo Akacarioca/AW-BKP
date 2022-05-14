@@ -21832,6 +21832,7 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
+        <personAccountDefault>true</personAccountDefault>
         <recordType>Case.Product_Support</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
@@ -21842,6 +21843,7 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
+        <personAccountDefault>true</personAccountDefault>
         <recordType>Lead.Telemarketing_Lead</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
