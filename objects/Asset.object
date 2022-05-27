@@ -145,7 +145,7 @@
     </fields>
     <fields>
         <fullName>ExternalIdentifier</fullName>
-        <inlineHelpText>ID of matching record in an external system.</inlineHelpText>
+        <inlineHelpText>ID do registro correspondente no sistema externo.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -167,7 +167,7 @@
     </fields>
     <fields>
         <fullName>ManufactureDate</fullName>
-        <inlineHelpText>Date when the asset was manufactured.</inlineHelpText>
+        <inlineHelpText>Data em que o ativo foi fabricado.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -222,7 +222,7 @@
     </fields>
     <fields>
         <fullName>StatusReason</fullName>
-        <inlineHelpText>Explanation of the device status.</inlineHelpText>
+        <inlineHelpText>Explicação do status do dispositivo.</inlineHelpText>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
@@ -235,7 +235,7 @@
     </fields>
     <fields>
         <fullName>Uuid</fullName>
-        <inlineHelpText>Unique string identifying the asset.</inlineHelpText>
+        <inlineHelpText>String única identificando o ativo.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <listViews>

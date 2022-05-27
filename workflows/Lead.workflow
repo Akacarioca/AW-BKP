@@ -28,7 +28,7 @@
         <criteriaItems>
             <field>Lead.IsConverted</field>
             <operation>equals</operation>
-            <value>False</value>
+            <value>Falso</value>
         </criteriaItems>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
         <workflowTimeTriggers>

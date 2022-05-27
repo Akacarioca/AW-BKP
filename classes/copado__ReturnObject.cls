@@ -1,9 +1,9 @@
 /*
-This file is generated and isn't the actual source code for this
-managed global class.
-This read-only file shows the class's global constructors,
-methods, variables, and properties.
-To enable code to compile, all methods return null.
+Esse campo é gerado e não é o código fonte real para essa
+classe global gerenciada.
+Esse arquivo somente leitura mostra os construtores globais de classe,
+métodos, variáveis e propriedades.
+Para permitir a compilação do código, todos os métodos retornam nulo.
 */
 @RestResource(urlMapping='/ReturnObject/*')
 global class ReturnObject {

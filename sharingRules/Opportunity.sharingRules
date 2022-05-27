@@ -10,7 +10,7 @@
         <criteriaItems>
             <field>IsWon</field>
             <operation>equals</operation>
-            <value>True</value>
+            <value>Verdadeiro</value>
         </criteriaItems>
         <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
