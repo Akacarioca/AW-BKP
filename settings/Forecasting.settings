@@ -100,75 +100,75 @@
         <name>Test_Model</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
-            <label>Nome da oportunidade</label>
+            <label>Opportunity Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Nome de conta</label>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
-            <label>Valor</label>
+            <label>Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Data de fechamento</label>
+            <label>Close Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Fase</label>
+            <label>Stage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidade (%)</label>
+            <label>Probability (%)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FORECAST_CATEGORY</field>
-            <label>Categoria de previsão</label>
+            <label>Forecast Category</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
-            <label>Nome completo do proprietário</label>
+            <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_NAME</field>
-            <label>Nome do Território</label>
+            <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número do contrato</label>
+            <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.NAME</field>
-            <label>Nome do contrato</label>
+            <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
-            <label>Moeda da oportunidade</label>
+            <label>Opportunity Currency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
-            <label>Alias do proprietário da oportunidade</label>
+            <label>Opportunity Owner Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.FIRST_NAME</field>
-            <label>Primeiro nome do proprietário</label>
+            <label>Owner First Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.LAST_NAME</field>
-            <label>Sobrenome do proprietário</label>
+            <label>Owner Last Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>DESCRIPTION</field>
-            <label>Descrição</label>
+            <label>Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Receita esperada</label>
+            <label>Expected Revenue</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origem do lead</label>
+            <label>Lead Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
@@ -176,63 +176,63 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PRIVATE</field>
-            <label>Particular</label>
+            <label>Private</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
-            <label>Quantidade</label>
+            <label>Quantity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
+            <label>Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
-            <label>Última modificação pelo alias</label>
+            <label>Last Modified By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CREATEDBY_USER.ALIAS</field>
-            <label>Criado por alias</label>
+            <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
-            <label>Fechado</label>
+            <label>Closed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.WON</field>
-            <label>Ganhos</label>
+            <label>Won</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.SITE</field>
-            <label>Local da conta</label>
+            <label>Account Site</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Ano fiscal</label>
+            <label>Fiscal Year</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
+            <label>Fiscal Quarter</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Período fiscal</label>
+            <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Tipo de registro de oportunidade</label>
+            <label>Opportunity Record Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última atividade</label>
+            <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Data de criação</label>
+            <label>Created Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Data da última modificação</label>
+            <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000006N3n5</field>
@@ -312,7 +312,7 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_DESC</field>
-            <label>Descrição do Território</label>
+            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -396,79 +396,79 @@
         <name>Test_Model1_ProductFamily</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
-            <label>Nome da oportunidade</label>
+            <label>Opportunity Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Nome de conta</label>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>SPLITAMOUNT</field>
-            <label>Valor previsto</label>
+            <label>Forecasted Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Data de fechamento</label>
+            <label>Close Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Fase</label>
+            <label>Stage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidade (%)</label>
+            <label>Probability (%)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FORECAST_CATEGORY</field>
-            <label>Categoria de previsão</label>
+            <label>Forecast Category</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
-            <label>Nome completo do proprietário</label>
+            <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_NAME</field>
-            <label>Nome do Território</label>
+            <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número do contrato</label>
+            <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.NAME</field>
-            <label>Nome do contrato</label>
+            <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
-            <label>Moeda da oportunidade</label>
+            <label>Opportunity Currency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
-            <label>Valor</label>
+            <label>Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
-            <label>Alias do proprietário da oportunidade</label>
+            <label>Opportunity Owner Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.FIRST_NAME</field>
-            <label>Primeiro nome do proprietário</label>
+            <label>Owner First Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.LAST_NAME</field>
-            <label>Sobrenome do proprietário</label>
+            <label>Owner Last Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>DESCRIPTION</field>
-            <label>Descrição</label>
+            <label>Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Receita esperada</label>
+            <label>Expected Revenue</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origem do lead</label>
+            <label>Lead Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
@@ -476,63 +476,63 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PRIVATE</field>
-            <label>Particular</label>
+            <label>Private</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
-            <label>Quantidade</label>
+            <label>Quantity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
+            <label>Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
-            <label>Última modificação pelo alias</label>
+            <label>Last Modified By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CREATEDBY_USER.ALIAS</field>
-            <label>Criado por alias</label>
+            <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
-            <label>Fechado</label>
+            <label>Closed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.WON</field>
-            <label>Ganhos</label>
+            <label>Won</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.SITE</field>
-            <label>Local da conta</label>
+            <label>Account Site</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Ano fiscal</label>
+            <label>Fiscal Year</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
+            <label>Fiscal Quarter</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Período fiscal</label>
+            <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Tipo de registro de oportunidade</label>
+            <label>Opportunity Record Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última atividade</label>
+            <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Data de criação</label>
+            <label>Created Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Data da última modificação</label>
+            <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000006N3n5</field>
@@ -612,7 +612,7 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_DESC</field>
-            <label>Descrição do Território</label>
+            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -697,79 +697,79 @@
         <name>Test_Model1</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
-            <label>Nome da oportunidade</label>
+            <label>Opportunity Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Nome da conta</label>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>SPLITAMOUNT</field>
-            <label>Valor previsto</label>
+            <label>Forecasted Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Data de fechamento</label>
+            <label>Close Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Fase</label>
+            <label>Stage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidade (%)</label>
+            <label>Probability (%)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FORECAST_CATEGORY</field>
-            <label>Categoria de previsão</label>
+            <label>Forecast Category</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
-            <label>Nome completo do proprietário</label>
+            <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_NAME</field>
-            <label>Nome do Território</label>
+            <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número do contrato</label>
+            <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.NAME</field>
-            <label>Nome do contrato</label>
+            <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
-            <label>Moeda da oportunidade</label>
+            <label>Opportunity Currency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
-            <label>Valor</label>
+            <label>Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
-            <label>Alias do proprietário da oportunidade</label>
+            <label>Opportunity Owner Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.FIRST_NAME</field>
-            <label>Primeiro nome do proprietário</label>
+            <label>Owner First Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.LAST_NAME</field>
-            <label>Sobrenome do proprietário</label>
+            <label>Owner Last Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>DESCRIPTION</field>
-            <label>Descrição</label>
+            <label>Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Receita esperada</label>
+            <label>Expected Revenue</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origem do lead</label>
+            <label>Lead Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
@@ -777,63 +777,63 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PRIVATE</field>
-            <label>Particular</label>
+            <label>Private</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
-            <label>Quantidade</label>
+            <label>Quantity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
+            <label>Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
-            <label>Última modificação pelo alias</label>
+            <label>Last Modified By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CREATEDBY_USER.ALIAS</field>
-            <label>Criado por alias</label>
+            <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
-            <label>Fechado</label>
+            <label>Closed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.WON</field>
-            <label>Ganhos</label>
+            <label>Won</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.SITE</field>
-            <label>Local da conta</label>
+            <label>Account Site</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Ano fiscal</label>
+            <label>Fiscal Year</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
+            <label>Fiscal Quarter</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Período fiscal</label>
+            <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Tipo de registro de oportunidade</label>
+            <label>Opportunity Record Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última atividade</label>
+            <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Data de criação</label>
+            <label>Created Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Data da última modificação</label>
+            <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000006N3n5</field>
@@ -913,7 +913,7 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_DESC</field>
-            <label>Descrição do Território</label>
+            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -998,79 +998,79 @@
         <name>Test_Model2</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
-            <label>Nome da oportunidade</label>
+            <label>Opportunity Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Nome da conta</label>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
-            <label>Quantidade</label>
+            <label>Quantity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Data de fechamento</label>
+            <label>Close Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Fase</label>
+            <label>Stage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidade (%)</label>
+            <label>Probability (%)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FORECAST_CATEGORY</field>
-            <label>Categoria de previsão</label>
+            <label>Forecast Category</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
-            <label>Nome completo do proprietário</label>
+            <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_NAME</field>
-            <label>Nome do Território</label>
+            <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número do contrato</label>
+            <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.NAME</field>
-            <label>Nome do contrato</label>
+            <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
-            <label>Moeda da oportunidade</label>
+            <label>Opportunity Currency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
-            <label>Valor</label>
+            <label>Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
-            <label>Alias do proprietário da oportunidade</label>
+            <label>Opportunity Owner Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.FIRST_NAME</field>
-            <label>Primeiro nome do proprietário</label>
+            <label>Owner First Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.LAST_NAME</field>
-            <label>Sobrenome do proprietário</label>
+            <label>Owner Last Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>DESCRIPTION</field>
-            <label>Descrição</label>
+            <label>Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Receita esperada</label>
+            <label>Expected Revenue</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origem do lead</label>
+            <label>Lead Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
@@ -1078,59 +1078,59 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PRIVATE</field>
-            <label>Particular</label>
+            <label>Private</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
+            <label>Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
-            <label>Última modificação pelo alias</label>
+            <label>Last Modified By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CREATEDBY_USER.ALIAS</field>
-            <label>Criado por alias</label>
+            <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
-            <label>Fechado</label>
+            <label>Closed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.WON</field>
-            <label>Ganhos</label>
+            <label>Won</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.SITE</field>
-            <label>Local da conta</label>
+            <label>Account Site</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Ano fiscal</label>
+            <label>Fiscal Year</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
+            <label>Fiscal Quarter</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Período fiscal</label>
+            <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Tipo de registro de oportunidade</label>
+            <label>Opportunity Record Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última atividade</label>
+            <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Data de criação</label>
+            <label>Created Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Data da última modificação</label>
+            <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000006N3n5</field>
@@ -1210,7 +1210,7 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_DESC</field>
-            <label>Descrição do Território</label>
+            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -1294,79 +1294,79 @@
         <name>Test_Model3</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
-            <label>Nome da oportunidade</label>
+            <label>Opportunity Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Nome da conta</label>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>SPLITAMOUNT</field>
-            <label>Valor previsto</label>
+            <label>Forecasted Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Data de fechamento</label>
+            <label>Close Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Fase</label>
+            <label>Stage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidade (%)</label>
+            <label>Probability (%)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FORECAST_CATEGORY</field>
-            <label>Categoria de previsão</label>
+            <label>Forecast Category</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
-            <label>Nome completo do proprietário</label>
+            <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_NAME</field>
-            <label>Nome do Território</label>
+            <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número do contrato</label>
+            <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.NAME</field>
-            <label>Nome do contrato</label>
+            <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
-            <label>Moeda da oportunidade</label>
+            <label>Opportunity Currency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
-            <label>Valor</label>
+            <label>Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
-            <label>Alias do proprietário da oportunidade</label>
+            <label>Opportunity Owner Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.FIRST_NAME</field>
-            <label>Primeiro nome do proprietário</label>
+            <label>Owner First Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.LAST_NAME</field>
-            <label>Sobrenome do proprietário</label>
+            <label>Owner Last Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>DESCRIPTION</field>
-            <label>Descrição</label>
+            <label>Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Receita esperada</label>
+            <label>Expected Revenue</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origem do lead</label>
+            <label>Lead Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
@@ -1374,63 +1374,63 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PRIVATE</field>
-            <label>Particular</label>
+            <label>Private</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
-            <label>Quantidade</label>
+            <label>Quantity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
+            <label>Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
-            <label>Última modificação pelo alias</label>
+            <label>Last Modified By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CREATEDBY_USER.ALIAS</field>
-            <label>Criado por alias</label>
+            <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
-            <label>Fechado</label>
+            <label>Closed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.WON</field>
-            <label>Ganhos</label>
+            <label>Won</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.SITE</field>
-            <label>Local da conta</label>
+            <label>Account Site</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Ano fiscal</label>
+            <label>Fiscal Year</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
+            <label>Fiscal Quarter</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Período fiscal</label>
+            <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Tipo de registro de oportunidade</label>
+            <label>Opportunity Record Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última atividade</label>
+            <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Data de criação</label>
+            <label>Created Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Data da última modificação</label>
+            <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000006N3n5</field>
@@ -1510,7 +1510,7 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_DESC</field>
-            <label>Descrição do Território</label>
+            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -1595,79 +1595,79 @@
         <name>Test_Model4</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
-            <label>Nome da oportunidade</label>
+            <label>Opportunity Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Nome da conta</label>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
-            <label>Quantidade</label>
+            <label>Quantity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Data de fechamento</label>
+            <label>Close Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Fase</label>
+            <label>Stage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidade (%)</label>
+            <label>Probability (%)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FORECAST_CATEGORY</field>
-            <label>Categoria de previsão</label>
+            <label>Forecast Category</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
-            <label>Nome completo do proprietário</label>
+            <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_NAME</field>
-            <label>Nome do Território</label>
+            <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número do contrato</label>
+            <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.NAME</field>
-            <label>Nome do contrato</label>
+            <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
-            <label>Moeda da oportunidade</label>
+            <label>Opportunity Currency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
-            <label>Valor</label>
+            <label>Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
-            <label>Alias do proprietário da oportunidade</label>
+            <label>Opportunity Owner Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.FIRST_NAME</field>
-            <label>Primeiro nome do proprietário</label>
+            <label>Owner First Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.LAST_NAME</field>
-            <label>Sobrenome do proprietário</label>
+            <label>Owner Last Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>DESCRIPTION</field>
-            <label>Descrição</label>
+            <label>Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Receita esperada</label>
+            <label>Expected Revenue</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origem do lead</label>
+            <label>Lead Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
@@ -1675,59 +1675,59 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PRIVATE</field>
-            <label>Particular</label>
+            <label>Private</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
+            <label>Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
-            <label>Última modificação pelo alias</label>
+            <label>Last Modified By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CREATEDBY_USER.ALIAS</field>
-            <label>Criado por alias</label>
+            <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
-            <label>Fechado</label>
+            <label>Closed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.WON</field>
-            <label>Ganhos</label>
+            <label>Won</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.SITE</field>
-            <label>Local da conta</label>
+            <label>Account Site</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Ano fiscal</label>
+            <label>Fiscal Year</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
+            <label>Fiscal Quarter</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Período fiscal</label>
+            <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Tipo de registro de oportunidade</label>
+            <label>Opportunity Record Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última atividade</label>
+            <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Data de criação</label>
+            <label>Created Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Data da última modificação</label>
+            <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000006N3n5</field>
@@ -1807,7 +1807,7 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_DESC</field>
-            <label>Descrição do Território</label>
+            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -1891,79 +1891,79 @@
         <name>Test_Model5</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
-            <label>Nome da oportunidade</label>
+            <label>Opportunity Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Nome da conta</label>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
-            <label>Quantidade</label>
+            <label>Quantity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Data de fechamento</label>
+            <label>Close Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Fase</label>
+            <label>Stage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidade (%)</label>
+            <label>Probability (%)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FORECAST_CATEGORY</field>
-            <label>Categoria de previsão</label>
+            <label>Forecast Category</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
-            <label>Nome completo do proprietário</label>
+            <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_NAME</field>
-            <label>Nome do Território</label>
+            <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número do contrato</label>
+            <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.NAME</field>
-            <label>Nome do contrato</label>
+            <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
-            <label>Moeda da oportunidade</label>
+            <label>Opportunity Currency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
-            <label>Valor</label>
+            <label>Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
-            <label>Alias do proprietário da oportunidade</label>
+            <label>Opportunity Owner Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.FIRST_NAME</field>
-            <label>Primeiro nome do proprietário</label>
+            <label>Owner First Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.LAST_NAME</field>
-            <label>Sobrenome do proprietário</label>
+            <label>Owner Last Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>DESCRIPTION</field>
-            <label>Descrição</label>
+            <label>Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Receita esperada</label>
+            <label>Expected Revenue</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origem do lead</label>
+            <label>Lead Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
@@ -1971,59 +1971,59 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PRIVATE</field>
-            <label>Particular</label>
+            <label>Private</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
+            <label>Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
-            <label>Última modificação pelo alias</label>
+            <label>Last Modified By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CREATEDBY_USER.ALIAS</field>
-            <label>Criado por alias</label>
+            <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
-            <label>Fechado</label>
+            <label>Closed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.WON</field>
-            <label>Ganhos</label>
+            <label>Won</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.SITE</field>
-            <label>Local da conta</label>
+            <label>Account Site</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Ano fiscal</label>
+            <label>Fiscal Year</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
+            <label>Fiscal Quarter</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Período fiscal</label>
+            <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Tipo de registro de oportunidade</label>
+            <label>Opportunity Record Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última atividade</label>
+            <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Data de criação</label>
+            <label>Created Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Data da última modificação</label>
+            <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000006N3n5</field>
@@ -2103,7 +2103,7 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_DESC</field>
-            <label>Descrição do Território</label>
+            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -2187,79 +2187,79 @@
         <name>Test_Model6</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
-            <label>Nome da oportunidade</label>
+            <label>Opportunity Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Nome da conta</label>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
-            <label>Quantidade</label>
+            <label>Quantity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Data de fechamento</label>
+            <label>Close Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Fase</label>
+            <label>Stage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidade (%)</label>
+            <label>Probability (%)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FORECAST_CATEGORY</field>
-            <label>Categoria de previsão</label>
+            <label>Forecast Category</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
-            <label>Nome completo do proprietário</label>
+            <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_NAME</field>
-            <label>Nome do Território</label>
+            <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número do contrato</label>
+            <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.NAME</field>
-            <label>Nome do contrato</label>
+            <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
-            <label>Moeda da oportunidade</label>
+            <label>Opportunity Currency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
-            <label>Valor</label>
+            <label>Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
-            <label>Alias do proprietário da oportunidade</label>
+            <label>Opportunity Owner Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.FIRST_NAME</field>
-            <label>Primeiro nome do proprietário</label>
+            <label>Owner First Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.LAST_NAME</field>
-            <label>Sobrenome do proprietário</label>
+            <label>Owner Last Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>DESCRIPTION</field>
-            <label>Descrição</label>
+            <label>Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Receita esperada</label>
+            <label>Expected Revenue</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origem do lead</label>
+            <label>Lead Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
@@ -2267,59 +2267,59 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PRIVATE</field>
-            <label>Particular</label>
+            <label>Private</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
+            <label>Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
-            <label>Última modificação pelo alias</label>
+            <label>Last Modified By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CREATEDBY_USER.ALIAS</field>
-            <label>Criado por alias</label>
+            <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
-            <label>Fechado</label>
+            <label>Closed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.WON</field>
-            <label>Ganhos</label>
+            <label>Won</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.SITE</field>
-            <label>Local da conta</label>
+            <label>Account Site</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Ano fiscal</label>
+            <label>Fiscal Year</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
+            <label>Fiscal Quarter</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Período fiscal</label>
+            <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Tipo de registro de oportunidade</label>
+            <label>Opportunity Record Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última atividade</label>
+            <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Data de criação</label>
+            <label>Created Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Data da última modificação</label>
+            <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000006N3n5</field>
@@ -2399,7 +2399,7 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_DESC</field>
-            <label>Descrição do Território</label>
+            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -2479,75 +2479,75 @@
         <isAmount>true</isAmount>
         <isAvailable>true</isAvailable>
         <isQuantity>false</isQuantity>
-        <masterLabel>Oportunidades</masterLabel>
+        <masterLabel>Opportunities</masterLabel>
         <name>OpportunityRevenue</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
-            <label>Nome da oportunidade</label>
+            <label>Opportunity Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Nome de conta</label>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
-            <label>Valor</label>
+            <label>Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Data de fechamento</label>
+            <label>Close Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Fase</label>
+            <label>Stage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidade (%)</label>
+            <label>Probability (%)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FORECAST_CATEGORY</field>
-            <label>Categoria de previsão</label>
+            <label>Forecast Category</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
-            <label>Nome completo do proprietário</label>
+            <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número do contrato</label>
+            <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.NAME</field>
-            <label>Nome do contrato</label>
+            <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
-            <label>Moeda da oportunidade</label>
+            <label>Opportunity Currency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
-            <label>Alias do proprietário da oportunidade</label>
+            <label>Opportunity Owner Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.FIRST_NAME</field>
-            <label>Primeiro nome do proprietário</label>
+            <label>Owner First Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.LAST_NAME</field>
-            <label>Sobrenome do proprietário</label>
+            <label>Owner Last Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>DESCRIPTION</field>
-            <label>Descrição</label>
+            <label>Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Receita esperada</label>
+            <label>Expected Revenue</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origem do lead</label>
+            <label>Lead Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
@@ -2555,63 +2555,63 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PRIVATE</field>
-            <label>Particular</label>
+            <label>Private</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
-            <label>Quantidade</label>
+            <label>Quantity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
+            <label>Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
-            <label>Última modificação pelo alias</label>
+            <label>Last Modified By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CREATEDBY_USER.ALIAS</field>
-            <label>Criado por alias</label>
+            <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
-            <label>Fechado</label>
+            <label>Closed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.WON</field>
-            <label>Ganhos</label>
+            <label>Won</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.SITE</field>
-            <label>Local da conta</label>
+            <label>Account Site</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Ano fiscal</label>
+            <label>Fiscal Year</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
+            <label>Fiscal Quarter</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Período fiscal</label>
+            <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Tipo de registro de oportunidade</label>
+            <label>Opportunity Record Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última atividade</label>
+            <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Data de criação</label>
+            <label>Created Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Data da última modificação</label>
+            <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000006N3n5</field>
@@ -2691,11 +2691,11 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_NAME</field>
-            <label>Nome do Território</label>
+            <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_DESC</field>
-            <label>Descrição do Território</label>
+            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -2774,79 +2774,79 @@
         <isAmount>false</isAmount>
         <isAvailable>true</isAvailable>
         <isQuantity>true</isQuantity>
-        <masterLabel>Oportunidades</masterLabel>
+        <masterLabel>Opportunities</masterLabel>
         <name>OpportunityQuantity</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
-            <label>Nome da oportunidade</label>
+            <label>Opportunity Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Nome de conta</label>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
-            <label>Quantidade</label>
+            <label>Quantity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Data de fechamento</label>
+            <label>Close Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Fase</label>
+            <label>Stage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidade (%)</label>
+            <label>Probability (%)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FORECAST_CATEGORY</field>
-            <label>Categoria de previsão</label>
+            <label>Forecast Category</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
-            <label>Nome completo do proprietário</label>
+            <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número do contrato</label>
+            <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.NAME</field>
-            <label>Nome do contrato</label>
+            <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
-            <label>Moeda da oportunidade</label>
+            <label>Opportunity Currency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
-            <label>Valor</label>
+            <label>Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
-            <label>Alias do proprietário da oportunidade</label>
+            <label>Opportunity Owner Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.FIRST_NAME</field>
-            <label>Primeiro nome do proprietário</label>
+            <label>Owner First Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.LAST_NAME</field>
-            <label>Sobrenome do proprietário</label>
+            <label>Owner Last Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>DESCRIPTION</field>
-            <label>Descrição</label>
+            <label>Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Receita esperada</label>
+            <label>Expected Revenue</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origem do lead</label>
+            <label>Lead Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
@@ -2854,59 +2854,59 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PRIVATE</field>
-            <label>Particular</label>
+            <label>Private</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
+            <label>Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
-            <label>Última modificação pelo alias</label>
+            <label>Last Modified By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CREATEDBY_USER.ALIAS</field>
-            <label>Criado por alias</label>
+            <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
-            <label>Fechado</label>
+            <label>Closed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.WON</field>
-            <label>Ganhos</label>
+            <label>Won</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.SITE</field>
-            <label>Local da conta</label>
+            <label>Account Site</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Ano fiscal</label>
+            <label>Fiscal Year</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
+            <label>Fiscal Quarter</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Período fiscal</label>
+            <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Tipo de registro de oportunidade</label>
+            <label>Opportunity Record Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última atividade</label>
+            <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Data de criação</label>
+            <label>Created Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Data da última modificação</label>
+            <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000006N3n5</field>
@@ -2986,11 +2986,11 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_NAME</field>
-            <label>Nome do Território</label>
+            <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_DESC</field>
-            <label>Descrição do Território</label>
+            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -3069,79 +3069,79 @@
         <isAmount>true</isAmount>
         <isAvailable>true</isAvailable>
         <isQuantity>false</isQuantity>
-        <masterLabel>Famílias de produtos</masterLabel>
+        <masterLabel>Product Families</masterLabel>
         <name>OpportunityLineItemRevenue</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
-            <label>Nome da oportunidade</label>
+            <label>Opportunity Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Nome de conta</label>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>SPLITAMOUNT</field>
-            <label>Valor previsto</label>
+            <label>Forecasted Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Data de fechamento</label>
+            <label>Close Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Fase</label>
+            <label>Stage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidade (%)</label>
+            <label>Probability (%)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FORECAST_CATEGORY</field>
-            <label>Categoria de previsão</label>
+            <label>Forecast Category</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
-            <label>Nome completo do proprietário</label>
+            <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número do contrato</label>
+            <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.NAME</field>
-            <label>Nome do contrato</label>
+            <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
-            <label>Moeda da oportunidade</label>
+            <label>Opportunity Currency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
-            <label>Valor</label>
+            <label>Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
-            <label>Alias do proprietário da oportunidade</label>
+            <label>Opportunity Owner Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.FIRST_NAME</field>
-            <label>Primeiro nome do proprietário</label>
+            <label>Owner First Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.LAST_NAME</field>
-            <label>Sobrenome do proprietário</label>
+            <label>Owner Last Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>DESCRIPTION</field>
-            <label>Descrição</label>
+            <label>Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Receita esperada</label>
+            <label>Expected Revenue</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origem do lead</label>
+            <label>Lead Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
@@ -3149,63 +3149,63 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PRIVATE</field>
-            <label>Particular</label>
+            <label>Private</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
-            <label>Quantidade</label>
+            <label>Quantity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
+            <label>Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
-            <label>Última modificação pelo alias</label>
+            <label>Last Modified By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CREATEDBY_USER.ALIAS</field>
-            <label>Criado por alias</label>
+            <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
-            <label>Fechado</label>
+            <label>Closed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.WON</field>
-            <label>Ganhos</label>
+            <label>Won</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.SITE</field>
-            <label>Local da conta</label>
+            <label>Account Site</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Ano fiscal</label>
+            <label>Fiscal Year</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
+            <label>Fiscal Quarter</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Período fiscal</label>
+            <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Tipo de registro de oportunidade</label>
+            <label>Opportunity Record Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última atividade</label>
+            <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Data de criação</label>
+            <label>Created Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Data da última modificação</label>
+            <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000006N3n5</field>
@@ -3285,11 +3285,11 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_NAME</field>
-            <label>Nome do Território</label>
+            <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_DESC</field>
-            <label>Descrição do Território</label>
+            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -3369,79 +3369,79 @@
         <isAmount>false</isAmount>
         <isAvailable>true</isAvailable>
         <isQuantity>true</isQuantity>
-        <masterLabel>Famílias de produtos</masterLabel>
+        <masterLabel>Product Families</masterLabel>
         <name>OpportunityLineItemQuantity</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
-            <label>Nome da oportunidade</label>
+            <label>Opportunity Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Nome de conta</label>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
-            <label>Quantidade</label>
+            <label>Quantity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Data de fechamento</label>
+            <label>Close Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Fase</label>
+            <label>Stage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidade (%)</label>
+            <label>Probability (%)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FORECAST_CATEGORY</field>
-            <label>Categoria de previsão</label>
+            <label>Forecast Category</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
-            <label>Nome completo do proprietário</label>
+            <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número do contrato</label>
+            <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.NAME</field>
-            <label>Nome do contrato</label>
+            <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
-            <label>Moeda da oportunidade</label>
+            <label>Opportunity Currency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
-            <label>Valor</label>
+            <label>Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
-            <label>Alias do proprietário da oportunidade</label>
+            <label>Opportunity Owner Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.FIRST_NAME</field>
-            <label>Primeiro nome do proprietário</label>
+            <label>Owner First Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.LAST_NAME</field>
-            <label>Sobrenome do proprietário</label>
+            <label>Owner Last Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>DESCRIPTION</field>
-            <label>Descrição</label>
+            <label>Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Receita esperada</label>
+            <label>Expected Revenue</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origem do lead</label>
+            <label>Lead Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
@@ -3449,59 +3449,59 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PRIVATE</field>
-            <label>Particular</label>
+            <label>Private</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
+            <label>Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
-            <label>Última modificação pelo alias</label>
+            <label>Last Modified By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CREATEDBY_USER.ALIAS</field>
-            <label>Criado por alias</label>
+            <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
-            <label>Fechado</label>
+            <label>Closed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.WON</field>
-            <label>Ganhos</label>
+            <label>Won</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.SITE</field>
-            <label>Local da conta</label>
+            <label>Account Site</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Ano fiscal</label>
+            <label>Fiscal Year</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
+            <label>Fiscal Quarter</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Período fiscal</label>
+            <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Tipo de registro de oportunidade</label>
+            <label>Opportunity Record Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última atividade</label>
+            <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Data de criação</label>
+            <label>Created Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Data da última modificação</label>
+            <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000006N3n5</field>
@@ -3581,11 +3581,11 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_NAME</field>
-            <label>Nome do Território</label>
+            <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_DESC</field>
-            <label>Descrição do Território</label>
+            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -3668,75 +3668,75 @@
         <name>OpportunityRevenueProductDate</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
-            <label>Nome da oportunidade</label>
+            <label>Opportunity Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Nome de conta</label>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>SPLITAMOUNT</field>
-            <label>Valor previsto</label>
+            <label>Forecasted Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Data de fechamento</label>
+            <label>Close Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Fase</label>
+            <label>Stage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidade (%)</label>
+            <label>Probability (%)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FORECAST_CATEGORY</field>
-            <label>Categoria de previsão</label>
+            <label>Forecast Category</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
-            <label>Nome completo do proprietário</label>
+            <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número do contrato</label>
+            <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.NAME</field>
-            <label>Nome do contrato</label>
+            <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
-            <label>Moeda da oportunidade</label>
+            <label>Opportunity Currency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
-            <label>Valor</label>
+            <label>Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
-            <label>Alias do proprietário da oportunidade</label>
+            <label>Opportunity Owner Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.FIRST_NAME</field>
-            <label>Primeiro nome do proprietário</label>
+            <label>Owner First Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.LAST_NAME</field>
-            <label>Sobrenome do proprietário</label>
+            <label>Owner Last Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>DESCRIPTION</field>
-            <label>Descrição</label>
+            <label>Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Receita esperada</label>
+            <label>Expected Revenue</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origem do lead</label>
+            <label>Lead Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
@@ -3744,63 +3744,63 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PRIVATE</field>
-            <label>Particular</label>
+            <label>Private</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
-            <label>Quantidade</label>
+            <label>Quantity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
+            <label>Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
-            <label>Última modificação pelo alias</label>
+            <label>Last Modified By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CREATEDBY_USER.ALIAS</field>
-            <label>Criado por alias</label>
+            <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
-            <label>Fechado</label>
+            <label>Closed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.WON</field>
-            <label>Ganhos</label>
+            <label>Won</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.SITE</field>
-            <label>Local da conta</label>
+            <label>Account Site</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Ano fiscal</label>
+            <label>Fiscal Year</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
+            <label>Fiscal Quarter</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Período fiscal</label>
+            <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Tipo de registro de oportunidade</label>
+            <label>Opportunity Record Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última atividade</label>
+            <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Data de criação</label>
+            <label>Created Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Data da última modificação</label>
+            <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000006N3n5</field>
@@ -3880,11 +3880,11 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_NAME</field>
-            <label>Nome do Território</label>
+            <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_DESC</field>
-            <label>Descrição do Território</label>
+            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -3968,75 +3968,75 @@
         <name>OpportunityQuantityProductDate</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
-            <label>Nome da oportunidade</label>
+            <label>Opportunity Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Nome de conta</label>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
-            <label>Quantidade</label>
+            <label>Quantity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Data de fechamento</label>
+            <label>Close Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Fase</label>
+            <label>Stage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidade (%)</label>
+            <label>Probability (%)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FORECAST_CATEGORY</field>
-            <label>Categoria de previsão</label>
+            <label>Forecast Category</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
-            <label>Nome completo do proprietário</label>
+            <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número do contrato</label>
+            <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.NAME</field>
-            <label>Nome do contrato</label>
+            <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
-            <label>Moeda da oportunidade</label>
+            <label>Opportunity Currency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
-            <label>Valor</label>
+            <label>Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
-            <label>Alias do proprietário da oportunidade</label>
+            <label>Opportunity Owner Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.FIRST_NAME</field>
-            <label>Primeiro nome do proprietário</label>
+            <label>Owner First Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.LAST_NAME</field>
-            <label>Sobrenome do proprietário</label>
+            <label>Owner Last Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>DESCRIPTION</field>
-            <label>Descrição</label>
+            <label>Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Receita esperada</label>
+            <label>Expected Revenue</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origem do lead</label>
+            <label>Lead Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
@@ -4044,59 +4044,59 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PRIVATE</field>
-            <label>Particular</label>
+            <label>Private</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
+            <label>Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
-            <label>Última modificação pelo alias</label>
+            <label>Last Modified By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CREATEDBY_USER.ALIAS</field>
-            <label>Criado por alias</label>
+            <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
-            <label>Fechado</label>
+            <label>Closed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.WON</field>
-            <label>Ganhos</label>
+            <label>Won</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.SITE</field>
-            <label>Local da conta</label>
+            <label>Account Site</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Ano fiscal</label>
+            <label>Fiscal Year</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
+            <label>Fiscal Quarter</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Período fiscal</label>
+            <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Tipo de registro de oportunidade</label>
+            <label>Opportunity Record Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última atividade</label>
+            <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Data de criação</label>
+            <label>Created Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Data da última modificação</label>
+            <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000006N3n5</field>
@@ -4176,11 +4176,11 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_NAME</field>
-            <label>Nome do Território</label>
+            <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_DESC</field>
-            <label>Descrição do Território</label>
+            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -4263,75 +4263,75 @@
         <name>LineItemRevenueProductDate</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
-            <label>Nome da oportunidade</label>
+            <label>Opportunity Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Nome da conta</label>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>SPLITAMOUNT</field>
-            <label>Valor previsto</label>
+            <label>Forecasted Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Data de fechamento</label>
+            <label>Close Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Fase</label>
+            <label>Stage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidade (%)</label>
+            <label>Probability (%)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FORECAST_CATEGORY</field>
-            <label>Categoria de previsão</label>
+            <label>Forecast Category</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
-            <label>Nome completo do proprietário</label>
+            <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número do contrato</label>
+            <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.NAME</field>
-            <label>Nome do contrato</label>
+            <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
-            <label>Moeda da oportunidade</label>
+            <label>Opportunity Currency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
-            <label>Valor</label>
+            <label>Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
-            <label>Alias do proprietário da oportunidade</label>
+            <label>Opportunity Owner Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.FIRST_NAME</field>
-            <label>Primeiro nome do proprietário</label>
+            <label>Owner First Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.LAST_NAME</field>
-            <label>Sobrenome do proprietário</label>
+            <label>Owner Last Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>DESCRIPTION</field>
-            <label>Descrição</label>
+            <label>Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Receita esperada</label>
+            <label>Expected Revenue</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origem do lead</label>
+            <label>Lead Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
@@ -4339,63 +4339,63 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PRIVATE</field>
-            <label>Particular</label>
+            <label>Private</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
-            <label>Quantidade</label>
+            <label>Quantity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
+            <label>Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
-            <label>Última modificação pelo alias</label>
+            <label>Last Modified By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CREATEDBY_USER.ALIAS</field>
-            <label>Criado por alias</label>
+            <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
-            <label>Fechado</label>
+            <label>Closed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.WON</field>
-            <label>Ganhos</label>
+            <label>Won</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.SITE</field>
-            <label>Local da conta</label>
+            <label>Account Site</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Ano fiscal</label>
+            <label>Fiscal Year</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
+            <label>Fiscal Quarter</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Período fiscal</label>
+            <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Tipo de registro de oportunidade</label>
+            <label>Opportunity Record Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última atividade</label>
+            <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Data de criação</label>
+            <label>Created Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Data da última modificação</label>
+            <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000006N3n5</field>
@@ -4475,11 +4475,11 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_NAME</field>
-            <label>Nome do Território</label>
+            <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_DESC</field>
-            <label>Descrição do Território</label>
+            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -4563,75 +4563,75 @@
         <name>LineItemQuantityProductDate</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
-            <label>Nome da oportunidade</label>
+            <label>Opportunity Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Nome da conta</label>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
-            <label>Quantidade</label>
+            <label>Quantity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Data de fechamento</label>
+            <label>Close Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Fase</label>
+            <label>Stage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidade (%)</label>
+            <label>Probability (%)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FORECAST_CATEGORY</field>
-            <label>Categoria de previsão</label>
+            <label>Forecast Category</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
-            <label>Nome completo do proprietário</label>
+            <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número do contrato</label>
+            <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.NAME</field>
-            <label>Nome do contrato</label>
+            <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
-            <label>Moeda da oportunidade</label>
+            <label>Opportunity Currency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
-            <label>Valor</label>
+            <label>Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
-            <label>Alias do proprietário da oportunidade</label>
+            <label>Opportunity Owner Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.FIRST_NAME</field>
-            <label>Primeiro nome do proprietário</label>
+            <label>Owner First Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.LAST_NAME</field>
-            <label>Sobrenome do proprietário</label>
+            <label>Owner Last Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>DESCRIPTION</field>
-            <label>Descrição</label>
+            <label>Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Receita esperada</label>
+            <label>Expected Revenue</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origem do lead</label>
+            <label>Lead Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
@@ -4639,59 +4639,59 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PRIVATE</field>
-            <label>Particular</label>
+            <label>Private</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
+            <label>Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
-            <label>Última modificação pelo alias</label>
+            <label>Last Modified By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CREATEDBY_USER.ALIAS</field>
-            <label>Criado por alias</label>
+            <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
-            <label>Fechado</label>
+            <label>Closed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.WON</field>
-            <label>Ganhos</label>
+            <label>Won</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.SITE</field>
-            <label>Local da conta</label>
+            <label>Account Site</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Ano fiscal</label>
+            <label>Fiscal Year</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
+            <label>Fiscal Quarter</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Período fiscal</label>
+            <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Tipo de registro de oportunidade</label>
+            <label>Opportunity Record Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última atividade</label>
+            <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Data de criação</label>
+            <label>Created Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Data da última modificação</label>
+            <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000006N3n5</field>
@@ -4771,11 +4771,11 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_NAME</field>
-            <label>Nome do Território</label>
+            <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_DESC</field>
-            <label>Descrição do Território</label>
+            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -4858,75 +4858,75 @@
         <name>OpportunityRevenueScheduleDate</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
-            <label>Nome da oportunidade</label>
+            <label>Opportunity Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Nome de conta</label>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>SPLITAMOUNT</field>
-            <label>Valor previsto</label>
+            <label>Forecasted Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Data de fechamento</label>
+            <label>Close Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Fase</label>
+            <label>Stage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidade (%)</label>
+            <label>Probability (%)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FORECAST_CATEGORY</field>
-            <label>Categoria de previsão</label>
+            <label>Forecast Category</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
-            <label>Nome completo do proprietário</label>
+            <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número do contrato</label>
+            <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.NAME</field>
-            <label>Nome do contrato</label>
+            <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
-            <label>Moeda da oportunidade</label>
+            <label>Opportunity Currency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
-            <label>Valor</label>
+            <label>Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
-            <label>Alias do proprietário da oportunidade</label>
+            <label>Opportunity Owner Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.FIRST_NAME</field>
-            <label>Primeiro nome do proprietário</label>
+            <label>Owner First Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.LAST_NAME</field>
-            <label>Sobrenome do proprietário</label>
+            <label>Owner Last Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>DESCRIPTION</field>
-            <label>Descrição</label>
+            <label>Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Receita esperada</label>
+            <label>Expected Revenue</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origem do lead</label>
+            <label>Lead Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
@@ -4934,63 +4934,63 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PRIVATE</field>
-            <label>Particular</label>
+            <label>Private</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
-            <label>Quantidade</label>
+            <label>Quantity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
+            <label>Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
-            <label>Última modificação pelo alias</label>
+            <label>Last Modified By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CREATEDBY_USER.ALIAS</field>
-            <label>Criado por alias</label>
+            <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
-            <label>Fechado</label>
+            <label>Closed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.WON</field>
-            <label>Ganhos</label>
+            <label>Won</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.SITE</field>
-            <label>Local da conta</label>
+            <label>Account Site</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Ano fiscal</label>
+            <label>Fiscal Year</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
+            <label>Fiscal Quarter</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Período fiscal</label>
+            <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Tipo de registro de oportunidade</label>
+            <label>Opportunity Record Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última atividade</label>
+            <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Data de criação</label>
+            <label>Created Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Data da última modificação</label>
+            <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000006N3n5</field>
@@ -5070,11 +5070,11 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_NAME</field>
-            <label>Nome do Território</label>
+            <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_DESC</field>
-            <label>Descrição do Território</label>
+            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -5158,75 +5158,75 @@
         <name>OpportunityQuantityScheduleDate</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
-            <label>Nome da oportunidade</label>
+            <label>Opportunity Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Nome de conta</label>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
-            <label>Quantidade</label>
+            <label>Quantity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Data de fechamento</label>
+            <label>Close Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Fase</label>
+            <label>Stage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidade (%)</label>
+            <label>Probability (%)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FORECAST_CATEGORY</field>
-            <label>Categoria de previsão</label>
+            <label>Forecast Category</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
-            <label>Nome completo do proprietário</label>
+            <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número do contrato</label>
+            <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.NAME</field>
-            <label>Nome do contrato</label>
+            <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
-            <label>Moeda da oportunidade</label>
+            <label>Opportunity Currency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
-            <label>Valor</label>
+            <label>Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
-            <label>Alias do proprietário da oportunidade</label>
+            <label>Opportunity Owner Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.FIRST_NAME</field>
-            <label>Primeiro nome do proprietário</label>
+            <label>Owner First Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.LAST_NAME</field>
-            <label>Sobrenome do proprietário</label>
+            <label>Owner Last Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>DESCRIPTION</field>
-            <label>Descrição</label>
+            <label>Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Receita esperada</label>
+            <label>Expected Revenue</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origem do lead</label>
+            <label>Lead Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
@@ -5234,59 +5234,59 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PRIVATE</field>
-            <label>Particular</label>
+            <label>Private</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
+            <label>Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
-            <label>Última modificação pelo alias</label>
+            <label>Last Modified By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CREATEDBY_USER.ALIAS</field>
-            <label>Criado por alias</label>
+            <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
-            <label>Fechado</label>
+            <label>Closed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.WON</field>
-            <label>Ganhos</label>
+            <label>Won</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.SITE</field>
-            <label>Local da conta</label>
+            <label>Account Site</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Ano fiscal</label>
+            <label>Fiscal Year</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
+            <label>Fiscal Quarter</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Período fiscal</label>
+            <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Tipo de registro de oportunidade</label>
+            <label>Opportunity Record Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última atividade</label>
+            <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Data de criação</label>
+            <label>Created Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Data da última modificação</label>
+            <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000006N3n5</field>
@@ -5366,11 +5366,11 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_NAME</field>
-            <label>Nome do Território</label>
+            <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_DESC</field>
-            <label>Descrição do Território</label>
+            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -5453,75 +5453,75 @@
         <name>LineItemRevenueScheduleDate</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
-            <label>Nome da oportunidade</label>
+            <label>Opportunity Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Nome da conta</label>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>SPLITAMOUNT</field>
-            <label>Valor previsto</label>
+            <label>Forecasted Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Data de fechamento</label>
+            <label>Close Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Fase</label>
+            <label>Stage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidade (%)</label>
+            <label>Probability (%)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FORECAST_CATEGORY</field>
-            <label>Categoria de previsão</label>
+            <label>Forecast Category</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
-            <label>Nome completo do proprietário</label>
+            <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número do contrato</label>
+            <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.NAME</field>
-            <label>Nome do contrato</label>
+            <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
-            <label>Moeda da oportunidade</label>
+            <label>Opportunity Currency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
-            <label>Valor</label>
+            <label>Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
-            <label>Alias do proprietário da oportunidade</label>
+            <label>Opportunity Owner Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.FIRST_NAME</field>
-            <label>Primeiro nome do proprietário</label>
+            <label>Owner First Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.LAST_NAME</field>
-            <label>Sobrenome do proprietário</label>
+            <label>Owner Last Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>DESCRIPTION</field>
-            <label>Descrição</label>
+            <label>Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Receita esperada</label>
+            <label>Expected Revenue</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origem do lead</label>
+            <label>Lead Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
@@ -5529,63 +5529,63 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PRIVATE</field>
-            <label>Particular</label>
+            <label>Private</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
-            <label>Quantidade</label>
+            <label>Quantity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
+            <label>Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
-            <label>Última modificação pelo alias</label>
+            <label>Last Modified By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CREATEDBY_USER.ALIAS</field>
-            <label>Criado por alias</label>
+            <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
-            <label>Fechado</label>
+            <label>Closed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.WON</field>
-            <label>Ganhos</label>
+            <label>Won</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.SITE</field>
-            <label>Local da conta</label>
+            <label>Account Site</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Ano fiscal</label>
+            <label>Fiscal Year</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
+            <label>Fiscal Quarter</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Período fiscal</label>
+            <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Tipo de registro de oportunidade</label>
+            <label>Opportunity Record Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última atividade</label>
+            <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Data de criação</label>
+            <label>Created Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Data da última modificação</label>
+            <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000006N3n5</field>
@@ -5665,11 +5665,11 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_NAME</field>
-            <label>Nome do Território</label>
+            <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_DESC</field>
-            <label>Descrição do Território</label>
+            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -5753,75 +5753,75 @@
         <name>LineItemQuantityScheduleDate</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
-            <label>Nome da oportunidade</label>
+            <label>Opportunity Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Nome da conta</label>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
-            <label>Quantidade</label>
+            <label>Quantity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
-            <label>Data de fechamento</label>
+            <label>Close Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.STAGE_NAME</field>
-            <label>Fase</label>
+            <label>Stage</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PROBABILITY</field>
-            <label>Probabilidade (%)</label>
+            <label>Probability (%)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FORECAST_CATEGORY</field>
-            <label>Categoria de previsão</label>
+            <label>Forecast Category</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
-            <label>Nome completo do proprietário</label>
+            <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
-            <label>Número do contrato</label>
+            <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.NAME</field>
-            <label>Nome do contrato</label>
+            <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
-            <label>Moeda da oportunidade</label>
+            <label>Opportunity Currency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
-            <label>Valor</label>
+            <label>Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
-            <label>Alias do proprietário da oportunidade</label>
+            <label>Opportunity Owner Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.FIRST_NAME</field>
-            <label>Primeiro nome do proprietário</label>
+            <label>Owner First Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.LAST_NAME</field>
-            <label>Sobrenome do proprietário</label>
+            <label>Owner Last Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>DESCRIPTION</field>
-            <label>Descrição</label>
+            <label>Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.EXP_AMOUNT</field>
-            <label>Receita esperada</label>
+            <label>Expected Revenue</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LEAD_SOURCE</field>
-            <label>Origem do lead</label>
+            <label>Lead Source</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
@@ -5829,59 +5829,59 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.PRIVATE</field>
-            <label>Particular</label>
+            <label>Private</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.TYPE</field>
-            <label>Tipo</label>
+            <label>Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
-            <label>Última modificação pelo alias</label>
+            <label>Last Modified By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CREATEDBY_USER.ALIAS</field>
-            <label>Criado por alias</label>
+            <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
-            <label>Fechado</label>
+            <label>Closed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.WON</field>
-            <label>Ganhos</label>
+            <label>Won</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.SITE</field>
-            <label>Local da conta</label>
+            <label>Account Site</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_YEAR</field>
-            <label>Ano fiscal</label>
+            <label>Fiscal Year</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
-            <label>Trimestre fiscal</label>
+            <label>Fiscal Quarter</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
-            <label>Período fiscal</label>
+            <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.RECORDTYPE</field>
-            <label>Tipo de registro de oportunidade</label>
+            <label>Opportunity Record Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
-            <label>Última atividade</label>
+            <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CREATED_DATE</field>
-            <label>Data de criação</label>
+            <label>Created Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <label>Data da última modificação</label>
+            <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0P000006N3n5</field>
@@ -5961,11 +5961,11 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_NAME</field>
-            <label>Nome do Território</label>
+            <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>TERR2_DESC</field>
-            <label>Descrição do Território</label>
+            <label>Territory Description</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>

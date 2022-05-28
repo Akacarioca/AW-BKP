@@ -31,7 +31,7 @@
         <criteriaItems>
             <field>copado__Deployment__c.copado__Send_Deployment_Complete_email__c</field>
             <operation>equals</operation>
-            <value>Verdadeiro</value>
+            <value>True</value>
         </criteriaItems>
         <criteriaItems>
             <field>copado__Deployment__c.copado__Status__c</field>
