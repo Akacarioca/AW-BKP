@@ -353,7 +353,7 @@
                                                 <apex:actionFunction name="vlocityToggle" action="{!vlocityFeatureOperations}" oncomplete="toggleVlocityCheckbox('{!AND(VlocityFeature != null,VlocityFeature.copado__Enabled__c)}');"
                                                     reRender="pbFeatures" />
                                             </apex:outputPanel>
-                                            <apex:commandButton action="{!refreshFeatures}" value="Refresh features" />
+                                            <apex:commandButton action="{!refreshFeatures}" value="{!$Label.copado__refresh_feature}" />
                                         </div>
                                     </apex:pageBlockButtons>
 

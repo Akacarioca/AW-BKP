@@ -1300,11 +1300,11 @@
                                                                     <div class="data">
                                                                         <span id="{!envWrapper.currentEnvironment.Id}_title" class="org" target="_blank" title="{!envWrapper.currentEnvironment.Name}">{!envWrapper.currentEnvironment.Name}</span><br />
                                                                         <apex:outputPanel rendered="{!envByGroup != 'Final'}">
-                                                                            <div class="branch" title="{!envWrapper.currentStep.Branch__c}">Branch
+                                                                            <div class="branch" title="{!envWrapper.currentStep.Branch__c}">{!$Label.copado__branch}
                                                                                 <span>{!envWrapper.currentStep.Branch__c}</span></div>
                                                                         </apex:outputPanel>
                                                                         <apex:outputPanel rendered="{!envByGroup == 'Final'}">
-                                                                            <div class="branch" title="{!envWrapper.currentStep.Destination_Branch__c}">Branch
+                                                                            <div class="branch" title="{!envWrapper.currentStep.Destination_Branch__c}">{!$Label.copado__branch}
                                                                                 <span>{!envWrapper.currentStep.Destination_Branch__c}</span></div>
                                                                         </apex:outputPanel>
                                                                     </div>
