@@ -156,6 +156,20 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>sf_devops__Deployment_Result__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The results of our deployment into the dev environment</description>
+        <externalId>false</externalId>
+        <label>Deployment Result</label>
+        <referenceTo>sf_devops__Deployment_Result__c</referenceTo>
+        <relationshipLabel>Back Syncs</relationshipLabel>
+        <relationshipName>Back_Syncs</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>sf_devops__Destination_Environment__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>

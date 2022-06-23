@@ -172,7 +172,7 @@
     <fields>
         <fullName>sf_devops__Branch_Name__c</fullName>
         <deprecated>false</deprecated>
-        <description>The name of the feature branch for this work item.</description>
+        <description>This field is deprecated and should not be referenced</description>
         <externalId>false</externalId>
         <label>Branch Name</label>
         <length>255</length>
@@ -184,7 +184,7 @@
     <fields>
         <fullName>sf_devops__Branch_Parent_Remote_Reference__c</fullName>
         <deprecated>false</deprecated>
-        <description>The remote reference on the source branch that our branch was created from.</description>
+        <description>This field is deprecated and should not be referenced</description>
         <externalId>false</externalId>
         <label>Branch Parent Remote Reference</label>
         <length>255</length>
@@ -196,7 +196,7 @@
     <fields>
         <fullName>sf_devops__Branch_Remote_Reference__c</fullName>
         <deprecated>false</deprecated>
-        <description>The latest remote reference on our branch.</description>
+        <description>This field is deprecated and should not be referenced</description>
         <externalId>false</externalId>
         <label>Branch Remote Reference</label>
         <length>255</length>
@@ -204,6 +204,20 @@
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Branch__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The branch that this work item is using.</description>
+        <externalId>false</externalId>
+        <label>Branch</label>
+        <referenceTo>sf_devops__Branch__c</referenceTo>
+        <relationshipLabel>Work Items</relationshipLabel>
+        <relationshipName>Work_Items</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>sf_devops__Change_Bundle__c</fullName>
@@ -265,6 +279,20 @@
         <label>Development Approved</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Development_Environment__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The environment in which this Work Item record was developed.</description>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(sf_devops__Promoted_From_Environment__r.Name),  sf_devops__Environment__r.Name, sf_devops__Promoted_From_Environment__r.Name)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>The environment in which this Work Item record was developed.</inlineHelpText>
+        <label>Development Environment</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>sf_devops__Environment__c</fullName>
@@ -371,9 +399,9 @@ IF(
     IF(
       sf_devops__Development_Approved__c, &quot;APPROVED&quot;,
       IF(
-        NOT(ISBLANK(sf_devops__Review_Link__c)), &quot;IN_REVIEW&quot;,
+        NOT(ISBLANK(sf_devops__Review_Remote_Reference__c)), &quot;IN_REVIEW&quot;,
         IF(
-          NOT(ISBLANK(sf_devops__Branch_Name__c)), &quot;IN_PROGRESS&quot;, &quot;NEW&quot;
+          NOT(ISBLANK(sf_devops__Branch__r.sf_devops__Name__c)), &quot;IN_PROGRESS&quot;, &quot;NEW&quot;
         )
       )
     )
@@ -449,11 +477,11 @@ ISBLANK( sf_devops__Development_Approved_By__c  )
 OR(
 ISNEW(),
 ISCHANGED(sf_devops__Development_Approved__c),
-ISCHANGED(sf_devops__Review_Link__c),
+ISCHANGED(sf_devops__Review_Remote_Reference__c),
 ISCHANGED(sf_devops__Promoted__c)
 ),
 sf_devops__Development_Approved__c,
-ISBLANK( sf_devops__Review_Link__c  ),
+ISBLANK( sf_devops__Review_Remote_Reference__c  ),
 NOT( sf_devops__Promoted__c)
 
 )</errorConditionFormula>
@@ -462,21 +490,9 @@ NOT( sf_devops__Promoted__c)
     <validationRules>
         <fullName>sf_devops__Branch_Without_Remote_Reference</fullName>
         <active>true</active>
-        <description>Enforce branch name, remote reference and parent remote reference are all present.</description>
-        <errorConditionFormula>AND(
-OR(
-ISNEW(),
-ISCHANGED(sf_devops__Branch_Name__c),
-ISCHANGED(sf_devops__Branch_Remote_Reference__c),
-ISCHANGED(sf_devops__Branch_Parent_Remote_Reference__c)
-),
-OR(
-ISBLANK( sf_devops__Branch_Name__c  ) &lt;&gt; ISBLANK( sf_devops__Branch_Remote_Reference__c  ),
-ISBLANK( sf_devops__Branch_Name__c  ) &lt;&gt; ISBLANK( sf_devops__Branch_Parent_Remote_Reference__c  )
-)
-
-)</errorConditionFormula>
-        <errorMessage>Branch_Name, Branch_Remote_Reference and Branch_Parent_Remote_Reference must all both set or empty.</errorMessage>
+        <description>This rule is no longer enforced</description>
+        <errorConditionFormula>FALSE</errorConditionFormula>
+        <errorMessage>Deprecated</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>sf_devops__Change_Bundle_Project</fullName>
@@ -607,34 +623,16 @@ sf_devops__Promoted__c
     <validationRules>
         <fullName>sf_devops__Remote_Reference_Without_Review</fullName>
         <active>true</active>
-        <description>Enforce if Review Remote Reference is set then Review Link is set.</description>
-        <errorConditionFormula>AND(
-OR(
-ISNEW(),
-ISCHANGED(sf_devops__Review_Link__c),
-ISCHANGED(sf_devops__Review_Remote_Reference__c)
-),
-NOT(ISBLANK(sf_devops__Review_Remote_Reference__c)),
-ISBLANK( sf_devops__Review_Link__c  )
-
-)</errorConditionFormula>
-        <errorMessage>A Work_Item with a remote reference should also have a link associated.</errorMessage>
+        <description>This rule is no longer enforced</description>
+        <errorConditionFormula>FALSE</errorConditionFormula>
+        <errorMessage>Deprecated</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>sf_devops__Review_Without_Remote_Reference</fullName>
         <active>true</active>
-        <description>Enforce if Review Remote Reference is set then Review Link is set.</description>
-        <errorConditionFormula>AND(
-OR(
-ISNEW(),
-ISCHANGED(sf_devops__Review_Link__c),
-ISCHANGED(sf_devops__Review_Remote_Reference__c)
-),
-ISBLANK(sf_devops__Review_Remote_Reference__c),
-NOT(ISBLANK( sf_devops__Review_Link__c  ))
-
-)</errorConditionFormula>
-        <errorMessage>A Work_Item with a link should also have a remote reference associated.</errorMessage>
+        <description>This rule is no longer enforced</description>
+        <errorConditionFormula>FALSE</errorConditionFormula>
+        <errorMessage>Deprecated</errorMessage>
     </validationRules>
     <visibility>Public</visibility>
 </CustomObject>

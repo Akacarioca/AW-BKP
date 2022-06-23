@@ -168,6 +168,17 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>sf_devops__Package_Directories__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Stores the filepath(s) of the sfdx-project.json&apos;s package directories</description>
+        <externalId>false</externalId>
+        <label>Sfdx-project.json&apos;s Package Directories</label>
+        <length>25000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
         <fullName>sf_devops__Platform_Repository__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>

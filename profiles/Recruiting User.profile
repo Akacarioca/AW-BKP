@@ -6127,11 +6127,27 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__AbstractMigrator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__AbstractMigratorUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__AbstractPipelineResultHandler</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__AbstractSalesforceConnection</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__AbstractSubmitResultHandler</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__AbstractSubmitResultHandlerUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -6175,6 +6191,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__AggregateGenerator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__AggregateGeneratorUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__AllowEnvOnlyWhenNoSubmissionsFTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -6183,11 +6207,31 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__AndQueryCondition</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__AndQueryConditionUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__AorRelationshipBuilder</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__AppConfigsSelector</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__AppConfigsSelectorFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__AppController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__AppControllerUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -6255,6 +6299,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__AsyncOperationResultFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__AsyncOperationResultService</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -6264,6 +6312,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__AsyncOperationResultServiceUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__AsyncOperationResultType</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -6311,14 +6363,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__BackSyncQueueable</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__BackSyncQueueableUTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__BackSyncRemoteCallback</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -6335,6 +6379,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__BackSyncServiceFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__BackSyncs</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -6347,7 +6395,63 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__Beta2MigrationService</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__BooleanQueryCondition</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__BooleanQueryConditionFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__BooleanQueryConditionUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__BranchBulkTriggerData</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__BranchBulkTriggerDataUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__BranchCreateException</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__BranchNameMigrator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__BranchService</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__BranchServiceUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__BranchValidator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__BranchValidatorFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__Branches</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__BranchesSelector</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__BranchesSelectorFTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -6380,10 +6484,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__ChangeBundleServiceFTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__ChangeBundleServiceUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -6455,6 +6555,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__CloseChangeRequestEventHandlerUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__CloudEventBuilder</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -6471,7 +6575,15 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__CloudEventServiceFTest</apexClass>
+        <apexClass>sf_devops__CloudEventServiceUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__CombinatoryQueryCondition</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__CombinatoryQueryConditionUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -6479,11 +6591,39 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__CommitBranchEventHandlerFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__CommitBranchEventHandlerUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__CommitWorkUseCase</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__CommonWorkItemRemoteCallback</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__CommonWorkItemRemoteCallbackUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__ComparisonUtils</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ComplexForceIgnoreReducer</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ComputeRemoteChangesVisibilityQueueable</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ComputeRemoteChangesVisibilityUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -6500,6 +6640,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__ControllerUtilsUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__CountGenerator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__CountGeneratorFTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -6520,6 +6668,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__CreateChangeRequestEventHandlerFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__CreateChangeRequestEventHandlerUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -6595,11 +6747,35 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__DataWithPossibleFilters</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__DateRangeFilterRequest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__DateRangeQueryCondition</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__DateRangeQueryConditionFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__DateRangeQueryConditionUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__DeeDeeSteelThreadTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__DeferredRelationshipBuilder</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__DeferredRelationshipBuilderFTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -6627,15 +6803,27 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__DeployOperationQueueable</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__DeployOperationQueueableUTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__DeployOptions</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__DeploymentResultMigrator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__DeploymentResultService</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__DeploymentResultServiceFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__DeploymentResultsSelector</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__DeploymentResultsSelectorFTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -6655,7 +6843,27 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__DistinctValueGenerator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__DistinctValueGeneratorFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__DistinctValueGeneratorUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__DmlTestUtils</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__DoubleGlobSlashForceIgnoreReducer</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__DoubleGlobSlashForceIgnoreReducerUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -6680,6 +6888,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__EditWorkItemUseCase</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__EndingForceIgnoreReducer</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__EndingForceIgnoreReducerUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -6791,6 +7007,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__EscapedSpacesForceIgnoreReducer</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__EscapedSpacesForceIgnoreReducerUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__EventService</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -6800,6 +7024,30 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__EventUtil</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ExpectedRemoteChange</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ExternalCommitInformation</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ExternalCommitProcessor</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ExternalCommitProcessorImpl</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ExternalCommitProcessorImplUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ExternalCommitWorkUseCase</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -6820,6 +7068,42 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__FetchAllChangeRequestsQueueableUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ForceIgnore</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ForceIgnoreParser</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ForceIgnoreParserCases</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ForceIgnoreParserFactory</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ForceIgnoreParserUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ForceIgnoreReducer</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ForceIgnoreReducerType</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ForceIgnoreResourceLoader</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ForceIgnoreUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -6871,6 +7155,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__GitHubCommit</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__GitHubCommitCallback</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -6880,6 +7168,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__GitHubCommitCallbackUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__GitHubCommitUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -6900,6 +7192,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__GitHubEventRestDeserializerTestData</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__GitHubFetchFile</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -6971,6 +7267,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__GitHubVcsServiceGetRemoteReferenceTester</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__GitHubVcsServiceGetRepoOwnerTester</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -6999,6 +7299,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__HashMetadataInfo</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__HerokuQueueable</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -7019,7 +7323,63 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__HiddenRemoteChangesSelector</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__HiddenRemoteChangesSelectorFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__HttpException</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__IdPairGenerator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__IdPairGeneratorUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__IdQueryCondition</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__IdQueryConditionUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__Ignore</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__IgnoreFactory</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__InspectSubmitResultHandler</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__InspectSubmitResultHandlerFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__InspectionQueueable</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__InspectionQueueableUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__IntWildcardForceIgnoreReducerUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__IntermediateWildcardForceIgnoreReducer</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -7051,6 +7411,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__InvalidRemoteReferenceException</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__InvalidRepositoryUrlException</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -7071,6 +7435,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__LeadingSlashForceIgnoreReducer</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__LeadingSlashForceIgnoreReducerUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__LimitTracker</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -7084,6 +7456,22 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__ListProjectsUseCase</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ListViewFilterDefinition</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ListViewFilterDefinitionUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ListViewSortDefinition</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ListViewSortDefinitionUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -7147,6 +7535,18 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__MergeResultMigrator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__MergeResultsSelector</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__MergeResultsSelectorFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__MergedCommitEventFilter</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -7156,6 +7556,22 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__MergedCommitEventFilterUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__MetaSlashForceIgnoreReducer</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__MetaSlashForceIgnoreReducerUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__MetacharacterForceIgnoreReducer</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__MetacharacterForceIgnoreReducerUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -7191,6 +7607,22 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__MigrationResults</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__MigrationService</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__MigrationServiceUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__Migrator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__MissingRequiredPayloadParameterException</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -7204,6 +7636,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__MockUtils</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__MultiFieldIdQueryCondition</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__MultiFieldIdQueryConditionUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -7291,6 +7731,18 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__ObjActTargetedRequestGeneratorUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ObjActivityListViewFilterDefinitionFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ObjActivityPossibleValuesGeneratorFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__ObjectActivities</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -7315,11 +7767,31 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__ObjectActivityControllerFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__ObjectActivityControllerUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__ObjectActivityFilter</apexClass>
+        <apexClass>sf_devops__ObjectActivityListViewFilterDefinition</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ObjectActivityMessageMigrator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ObjectActivityPossibleValuesGenerator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ObjectActivityQueryFilterRequest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ObjectActivitySearchTestModel</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -7331,7 +7803,19 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__ObjectActivityTargetedRequestGenerator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__ObjectActivityType</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ObjectActivityTypePairGenerator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ObjectActivityTypePairGeneratorFTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -7340,6 +7824,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__ObjectActivityUseCase</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ObjectLabelValuePair</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -7371,7 +7859,31 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__OrQueryCondition</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__OrQueryConditionUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__OrgService</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PackageDirectory</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PackageDirectoryFilter</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PackageDirectoryFilterFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PairGenerator</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -7471,6 +7983,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__PipelineRebaseError</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__PipelineService</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -7483,6 +7999,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__PipelineSlowWorkItem</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__PipelineStageBulkTriggerData</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -7492,6 +8012,18 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__PipelineStageEventServiceFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PipelineStagePairGenerator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PipelineStagePairGeneratorFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PipelineStagePairGeneratorUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -7555,7 +8087,39 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__PossibleFieldValues</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PossibleFieldValuesUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PossibleFilters</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PossibleFiltersUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PreferenceToolingResults</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ProcessExternalCommitFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__ProcessVcsEventsUseCase</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ProjectBulkTriggerData</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ProjectBulkTriggerDataUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -7584,6 +8148,18 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__ProjectEventServiceFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ProjectService</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ProjectServiceFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ProjectServiceUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -7647,6 +8223,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__QueryCondition</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__QueryFilterRequest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__QueryMetadataToolingResult</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -7659,19 +8243,27 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__QuestionMarkForceIgnoreReducer</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__QuestionMarkForceIgnoreReducerUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RangeNotationForceIgnoreReducer</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RangeNotationForceIgnoreReducerUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__RebaseQueueable</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__RebaseQueueableUTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__RebaseRemoteCallback</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__RebaseRemoteCallbackUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -7683,11 +8275,87 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__RecordCounter</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__RemoteChangeController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__RemoteChangeControllerUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RemoteChangeIgnoreResult</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RemoteChangeIgnoreResultUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RemoteChangeManualProcessor</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RemoteChangeManualProcessorFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RemoteChangeProcessor</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RemoteChangeProcessorCommitFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RemoteChangeProcessorFactory</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RemoteChangeProcessorSimplePullFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RemoteChangeProcessorTester</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RemoteChangePullingProcessor</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RemoteChangePullingProcessorFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RemoteChangePullingProcessorUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RemoteChangeSimpleProcessor</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RemoteChangeSimpleProcessorUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RemoteChangeSortWrapper</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RemoteChangeTypeProcessor</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RemoteChangeTypeProcessorUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RemoteChangeValidator</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -7719,35 +8387,15 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__RepoOpsAdhocPromotePBV1UTest</apexClass>
+        <apexClass>sf_devops__RepoOpsInspectPayloadBuilderV2UTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__RepoOpsAdhocPromotePayloadBuilderV1</apexClass>
+        <apexClass>sf_devops__RepoOpsPromotePayloadBuilderV2</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__RepoOpsCommonPromotePBV1UTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__RepoOpsCommonPromotePayloadBuilderV1</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__RepoOpsDeployPBV1UTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__RepoOpsDeployPayloadBuilderV1</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__RepoOpsVersionedPromotePBV1UTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__RepoOpsVersionedPromotePayloadBuilderV1</apexClass>
+        <apexClass>sf_devops__RepoOpsPromotePayloadBuilderV2UTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -7775,10 +8423,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__RepositoryOperationsTestConstants</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__RepositoryOpsCommitPayloadBuilderV1</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -7787,11 +8431,39 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__RepositoryOpsCommitPayloadBuilderV2</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RepositoryOpsCommitPayloadBuilderV2UTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RepositoryOpsCommonPayloadBuilder</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RepositoryOpsCommonPayloadBuilderUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__RepositoryOpsCommonPayloadBuilderV1</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__RepositoryOpsCommonPayloadBuilderV1UTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RepositoryOpsCommonPayloadBuilderV2</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RepositoryOpsCommonPayloadBuilderV2UTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RepositoryOpsInspectPayloadBuilderV2</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -7804,6 +8476,18 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__RepositoryOpsPayloadBuilderV1UTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RepositoryOpsPayloadBuilderV2</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RepositoryOpsPayloadBuilderV2FTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RepositoryOpsPayloadBuilderV2UTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -7871,7 +8555,31 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__RequirePkgDirsForActivePipeline</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RequirePkgDirsForActivePipelineFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RequireProjectName</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RequireProjectNameFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__RomeoSteelThreadTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SObjectMigrator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SObjectMigratorUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -7887,6 +8595,38 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__SearchAsserts</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SearchException</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SearchService</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SearchServiceImpl</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SearchServiceImplUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SearchTermQueryCondition</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SearchTermQueryConditionFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SearchTermQueryConditionUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__SessionService</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -7895,11 +8635,39 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__SfdxProject</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SfdxProjectJsonException</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SimpleForceIgnoreReducer</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__SimpleHttpCalloutMock</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__SimpleLoggingService</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SimpleLoggingServiceUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SlashDoubleGlobForceIgnoreReducer</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SlashDoubleGlobForceIgnoreReducerUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SortRequest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -7959,6 +8727,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__SourceMemberResultBuilder</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__SourceMemberToolingResults</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -7991,6 +8763,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__StartingForceIgnoreReducer</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__StartingForceIgnoreReducerUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__SteelThreadContext</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -8000,6 +8780,18 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__SteelThreadUseCase</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__StringQueryCondition</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__StringQueryConditionFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__StringQueryConditionUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -8015,6 +8807,18 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__SubmitComponentMigrator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__TargetSearchResults</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__TargetedRequestGenerator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__TestAbstractWorkItemContainerModel</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -8027,11 +8831,19 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__TestAorBuilder</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__TestApprovedStageModel</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__TestBackSyncBuilder</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__TestBranchBuilder</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -8051,6 +8863,18 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__TestCondition</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__TestDeployComponentBuilder</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__TestDeploymentResultBuilder</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__TestEnterpriseConnection</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -8059,7 +8883,15 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__TestHiddenRemoteChangeBuilder</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__TestLoggerUtils</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__TestMergeResultBuilder</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -8095,6 +8927,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__TestQueryResultBuilder</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__TestRemoteChangeBuilder</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -8112,6 +8948,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__TestStageModel</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__TestSubmitComponentBuilder</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -8147,11 +8987,19 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__TestWorkItemPromoteBuilder</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__TestWorkItemStageModel</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__Tester</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ToastType</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -8176,6 +9024,30 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__ToolingMetadataServiceUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ToolingPreference</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__TrailWildcardForceIgnoreReducerUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__TrailingSpacesForceIgnoreReducer</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__TrailingSpacesForceIgnoreReducerUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__TrailingWildcardForceIgnoreReducer</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__TransitionType</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -8211,6 +9083,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__UiAppStartupInfo</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiAppStartupInfoUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__UiApprovedPipelineStage</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -8243,6 +9123,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__UiBranch</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiBranchUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__UiChangeBundle</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -8256,14 +9144,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__UiCommitActivityUTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UiCommitStatus</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UiCommitStatusUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -8296,6 +9176,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__UiDependentOperationalObject</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiDeployedComponent</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiDeployedComponentUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -8352,6 +9240,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__UiEventProcessingObject</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiExpandableObjectActivity</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiExpandableObjectActivityUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -8531,7 +9427,15 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__UiPipelineStageOpenEnvWIActionUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__UiPipelineStageOpenEnvironmentAction</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiPipelineStageOpenEnvironmentWIAction</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -8695,6 +9599,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__UiPromoteActivity</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiPromoteActivityUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__UiReleaseTargetSetupAction</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -8819,6 +9731,18 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__UiWorkItemNeverActionUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiWorkItemOperationStatus</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiWorkItemOperationStatusUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__UiWorkItemPromoteActivity</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -8843,11 +9767,27 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__UiWorkItemRetryCommitAction</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiWorkItemRetryCommitActionUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__UiWorkItemStateAction</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__UiWorkItemStateActionUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiWorkItemStates</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiWorkItemStatesUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -8879,11 +9819,19 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__UnWildcardForceIgnoreReducerUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__UnableToDeleteBranchException</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__UnableToDownloadEventsException</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UnableToDownloadVcsFileException</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -8899,11 +9847,27 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__UnableToGetRemoteReferenceException</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__UnableToMergeException</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__UnableToUpdatePullRequestException</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UnescapeForceIgnoreReducer</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UnescapeForceIgnoreReducerUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UnescapeWildcardForceIgnoreReducer</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -8955,14 +9919,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__UrlController</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UrlControllerUTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__UrlService</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -8980,6 +9936,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__UserToolingServiceUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__V2SObjectReference</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -9052,6 +10012,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__VcsEventLoggerFactory</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventLoggerUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -9128,6 +10092,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__VcsPullRequest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsRemoteReference</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -9235,6 +10203,22 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__WorkItemListViewFilterDefinition</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__WorkItemListViewFilterDefinitionFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__WorkItemPossibleValuesGenerator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__WorkItemPossibleValuesGeneratorFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__WorkItemPromoteValidator</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -9256,6 +10240,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__WorkItemPromotionDateSorterFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__WorkItemQueryFilterRequest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -9292,6 +10280,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__WorkItemState</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__WorkItemStatePairGenerator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__WorkItemStatePairGeneratorUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -20220,6 +21216,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>sf_devops__Async_Operation_Result__c.sf_devops__Remote_Commands__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>sf_devops__Back_Sync__c.sf_devops__End_Revision_Counter__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -20230,7 +21231,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>sf_devops__Branch__c.sf_devops__Ignore_Rules__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>sf_devops__Change_Bundle_Install__c.sf_devops__Deployment_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Change_Bundle_Install__c.sf_devops__Deployment_Result__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -20260,12 +21271,27 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>sf_devops__Change_Submission__c.sf_devops__Inspection_Result__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>sf_devops__Change_Submission__c.sf_devops__Link__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>sf_devops__Change_Submission__c.sf_devops__Modified_Remote_Changes__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Change_Submission__c.sf_devops__Open_Beta_Migrated__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Change_Submission__c.sf_devops__Prior_Remote_Reference__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -20280,7 +21306,52 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>sf_devops__Change_Submission__c.sf_devops__Submitted_By_Name__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>sf_devops__Change_Submission__c.sf_devops__Submitted_By__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Deploy_Component__c.sf_devops__File_Path__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Deploy_Component__c.sf_devops__Force_Ignored__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Deployment_Result__c.sf_devops__Completion_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Deployment_Result__c.sf_devops__Deployment_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Deployment_Result__c.sf_devops__Full_Deploy__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Deployment_Result__c.sf_devops__Run_Tests__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Deployment_Result__c.sf_devops__Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Deployment_Result__c.sf_devops__Test_Level__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -20301,6 +21372,26 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>sf_devops__Environment__c.sf_devops__Test_Environment__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Hidden_Remote_Change__c.sf_devops__Hidden_by_Force_Ignore__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Merge_Result__c.sf_devops__Merge_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Merge_Result__c.sf_devops__Previous_Remote_Reference__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Merge_Result__c.sf_devops__Remote_Reference__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -20410,7 +21501,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>sf_devops__Project__c.sf_devops__Package_Directories__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>sf_devops__Remote_Change__c.sf_devops__Change_Submission__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Remote_Change__c.sf_devops__Source_Component__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -20441,6 +21542,21 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>sf_devops__Source_Member_Reference__c.sf_devops__Is_New__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Submit_Component__c.sf_devops__Empty__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Submit_Component__c.sf_devops__File_Path__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Submit_Component__c.sf_devops__Source_Remote_Change__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -20485,6 +21601,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>sf_devops__Work_Item_Promote__c.sf_devops__Deployment_Result__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>sf_devops__Work_Item_Promote__c.sf_devops__Rebase_Status__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -20520,6 +21641,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>sf_devops__Work_Item__c.sf_devops__Branch__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>sf_devops__Work_Item__c.sf_devops__Change_Bundle__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -20541,6 +21667,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>sf_devops__Work_Item__c.sf_devops__Development_Approved__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item__c.sf_devops__Development_Environment__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -21241,6 +22372,9 @@
         <layout>sf_devops__Back_Sync__c-sf_devops__Back Sync Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>sf_devops__Branch__c-sf_devops__Branch Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>sf_devops__Change_Bundle_Install__c-sf_devops__Change Bundle Install Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -21250,10 +22384,19 @@
         <layout>sf_devops__Change_Submission__c-sf_devops__Change Submission Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>sf_devops__Deploy_Component__c-sf_devops__Deploy Component Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>sf_devops__Deployment_Result__c-sf_devops__Deployment Result Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>sf_devops__Environment__c-sf_devops__Environment Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>sf_devops__Hidden_Remote_Change__c-sf_devops__Hidden Remote Change Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>sf_devops__Merge_Result__c-sf_devops__Merge Result Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>sf_devops__Object_Activity__c-sf_devops__Object Activity Layout</layout>
@@ -21263,9 +22406,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>sf_devops__Pipeline__c-sf_devops__Pipeline Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>sf_devops__Project__c-sf_devops__Project Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>sf_devops__Remote_Change__c-sf_devops__Remote Change Layout</layout>
@@ -21278,6 +22418,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>sf_devops__Source_Member_Reference__c-sf_devops__Source Member Reference Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>sf_devops__Submit_Component__c-sf_devops__Submit Component Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>sf_devops__Vcs_Event__c-sf_devops__VCS Event Layout</layout>

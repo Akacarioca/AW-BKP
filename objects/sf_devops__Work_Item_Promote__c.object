@@ -158,7 +158,7 @@
     <fields>
         <fullName>sf_devops__Completion_Date__c</fullName>
         <deprecated>false</deprecated>
-        <description>The date and time this promotion completed.</description>
+        <description>This field is deprecated and should not be referenced</description>
         <externalId>false</externalId>
         <label>Completion Date</label>
         <required>false</required>
@@ -168,7 +168,7 @@
     <fields>
         <fullName>sf_devops__Deployment_Id__c</fullName>
         <deprecated>false</deprecated>
-        <description>The SF deployment ID to the promotion</description>
+        <description>This field is deprecated and should not be referenced</description>
         <externalId>false</externalId>
         <label>Deployment Id</label>
         <length>255</length>
@@ -176,6 +176,33 @@
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Deployment_Result__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The results of our deployment into the target stage</description>
+        <externalId>false</externalId>
+        <label>Deployment Result</label>
+        <referenceTo>sf_devops__Deployment_Result__c</referenceTo>
+        <relationshipLabel>Work Item Promotes</relationshipLabel>
+        <relationshipName>Work_Item_Promotes</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Merge_Result__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Merge Result</label>
+        <referenceTo>sf_devops__Merge_Result__c</referenceTo>
+        <relationshipLabel>Work Item Promotes</relationshipLabel>
+        <relationshipName>Work_Item_Promotes</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>sf_devops__Pipeline_Stage__c</fullName>
@@ -209,7 +236,7 @@
     <fields>
         <fullName>sf_devops__Remote_Reference__c</fullName>
         <deprecated>false</deprecated>
-        <description>The VCS reference to the promotion</description>
+        <description>This field is deprecated and should not be referenced</description>
         <externalId>false</externalId>
         <label>Remote Reference</label>
         <length>255</length>

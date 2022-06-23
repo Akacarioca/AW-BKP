@@ -5,6 +5,10 @@
         <name>sf_devops__Description__c</name>
     </fields>
     <fields>
+        <label><!-- Sfdx-project.json&apos;s Package Directories --></label>
+        <name>sf_devops__Package_Directories__c</name>
+    </fields>
+    <fields>
         <label><!-- Platform Repository --></label>
         <name>sf_devops__Platform_Repository__c</name>
         <relationshipLabel><!-- Platform Projects --></relationshipLabel>

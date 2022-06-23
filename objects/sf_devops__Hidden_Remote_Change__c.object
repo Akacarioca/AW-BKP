@@ -156,6 +156,16 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
+        <fullName>sf_devops__Hidden_by_Force_Ignore__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Has this Hidden Remote Change been hidden by force ignore?</description>
+        <externalId>false</externalId>
+        <label>Hidden by Force Ignore</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>sf_devops__Remote_Change__c</fullName>
         <deprecated>false</deprecated>
         <description>the remote change in this join</description>

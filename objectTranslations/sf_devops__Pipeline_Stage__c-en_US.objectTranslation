@@ -9,6 +9,12 @@
         <name>sf_devops__Branch_Remote_Reference__c</name>
     </fields>
     <fields>
+        <help><!-- The branch in the VCS that this stage is associated with. --></help>
+        <label><!-- Branch --></label>
+        <name>sf_devops__Branch__c</name>
+        <relationshipLabel><!-- Pipeline Stages --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- Environment --></label>
         <name>sf_devops__Environment__c</name>
         <relationshipLabel><!-- Pipeline Stages --></relationshipLabel>
@@ -49,7 +55,7 @@
         <name>sf_devops__Versioned__c</name>
     </fields>
     <validationRules>
-        <errorMessage><!-- Branch_Name and Branch_Remote_Reference must be both set or empty. --></errorMessage>
+        <errorMessage><!-- Deprecated --></errorMessage>
         <name>sf_devops__Branch_Without_Remote_Reference</name>
     </validationRules>
     <validationRules>
@@ -61,11 +67,11 @@
         <name>sf_devops__No_New_Stages_For_Active_Pipelines</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- You can only set the Promote Review Remote Reference if you also set the Promote Review URL. --></errorMessage>
+        <errorMessage><!-- Deprecated --></errorMessage>
         <name>sf_devops__Promote_Review_Remote_Ref_Required</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- You can only set the Promote Review URL if you also set the Promote Review Remote Reference. --></errorMessage>
+        <errorMessage><!-- Deprecated --></errorMessage>
         <name>sf_devops__Promote_Review_Url_Required</name>
     </validationRules>
     <validationRules>
@@ -73,7 +79,11 @@
         <name>sf_devops__Promote_Review_Url_Versioned</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- You can&apos;t set the Promote URL on a versioned pipeline stage. --></errorMessage>
+        <errorMessage><!-- You can only set the Promote Review on a versioned or prerelease pipeline stage. --></errorMessage>
+        <name>sf_devops__Promote_Review_Versioned</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Deprecated --></errorMessage>
         <name>sf_devops__Promote_Url_Validation</name>
     </validationRules>
 </CustomObjectTranslation>

@@ -47,6 +47,10 @@
         <relationshipLabel><!-- Object Activities --></relationshipLabel>
     </fields>
     <fields>
+        <label><!-- Summary --></label>
+        <name>sf_devops__Summary__c</name>
+    </fields>
+    <fields>
         <label><!-- Target Pipeline Stage --></label>
         <name>sf_devops__Target_Pipeline_Stage__c</name>
         <relationshipLabel><!-- Target Object Activities --></relationshipLabel>

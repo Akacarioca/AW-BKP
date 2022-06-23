@@ -9,6 +9,16 @@
         <name>sf_devops__Deployment_Id__c</name>
     </fields>
     <fields>
+        <label><!-- Deployment Result --></label>
+        <name>sf_devops__Deployment_Result__c</name>
+        <relationshipLabel><!-- Work Item Promotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Merge Result --></label>
+        <name>sf_devops__Merge_Result__c</name>
+        <relationshipLabel><!-- Work Item Promotes --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- Pipeline Stage --></label>
         <name>sf_devops__Pipeline_Stage__c</name>
         <relationshipLabel><!-- Work Item Promotes --></relationshipLabel>

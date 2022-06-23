@@ -50,6 +50,10 @@
             <translation><!-- RENAME --></translation>
         </picklistValues>
     </fields>
+    <fields>
+        <label><!-- Source Component --></label>
+        <name>sf_devops__Source_Component__c</name>
+    </fields>
     <validationRules>
         <errorMessage><!-- Cannot have a Change_Submission from a different environment. --></errorMessage>
         <name>sf_devops__Project_Reference</name>

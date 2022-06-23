@@ -167,6 +167,18 @@
         <visibleLines>3</visibleLines>
     </fields>
     <fields>
+        <fullName>sf_devops__Log_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Global logging ID to be used cross platform.</description>
+        <externalId>false</externalId>
+        <label>Log Id</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>sf_devops__Message__c</fullName>
         <deprecated>false</deprecated>
         <description>If the operation is In Progress, then this will be a status message.  If the operation is in the Error status, then this is the error message.</description>
@@ -177,6 +189,29 @@
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Operation__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The operation (commit, promote, etc.) this AOR is monitoring.</description>
+        <externalId>false</externalId>
+        <label>Operation</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Remote_Commands__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The list of commands this async operation ran on the remote service</description>
+        <externalId>false</externalId>
+        <label>Remote Commands</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>7</visibleLines>
     </fields>
     <fields>
         <fullName>sf_devops__Status__c</fullName>
@@ -219,5 +254,12 @@
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <startsWith>Vowel</startsWith>
+    <validationRules>
+        <fullName>sf_devops__Operation_No_Change</fullName>
+        <active>true</active>
+        <description>Enforce the operation field cannot be changed.</description>
+        <errorConditionFormula>ISCHANGED(sf_devops__Operation__c)</errorConditionFormula>
+        <errorMessage>The Operation of an Async_Operation_Result cannot be changed.</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>

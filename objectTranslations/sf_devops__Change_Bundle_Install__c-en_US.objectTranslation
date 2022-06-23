@@ -10,6 +10,11 @@
         <name>sf_devops__Deployment_Id__c</name>
     </fields>
     <fields>
+        <label><!-- Deployment Result --></label>
+        <name>sf_devops__Deployment_Result__c</name>
+        <relationshipLabel><!-- Change Bundle Installs --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- Environment --></label>
         <name>sf_devops__Environment__c</name>
         <relationshipLabel><!-- Change Bundle Installs --></relationshipLabel>
@@ -21,6 +26,11 @@
     <fields>
         <label><!-- Merge Reference --></label>
         <name>sf_devops__Merge_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merge Result --></label>
+        <name>sf_devops__Merge_Result__c</name>
+        <relationshipLabel><!-- Change Bundle Installs --></relationshipLabel>
     </fields>
     <fields>
         <label><!-- Status --></label>

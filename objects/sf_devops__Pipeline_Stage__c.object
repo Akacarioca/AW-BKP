@@ -158,7 +158,7 @@
     <fields>
         <fullName>sf_devops__Branch_Name__c</fullName>
         <deprecated>false</deprecated>
-        <description>The name of the branch in the VCS that this stage is associated with.</description>
+        <description>This field is deprecated and should not be referenced</description>
         <externalId>false</externalId>
         <label>Branch Name</label>
         <length>255</length>
@@ -170,7 +170,7 @@
     <fields>
         <fullName>sf_devops__Branch_Remote_Reference__c</fullName>
         <deprecated>false</deprecated>
-        <description>The latest remote reference on our branch.</description>
+        <description>This field is deprecated and should not be referenced</description>
         <externalId>false</externalId>
         <label>Branch Remote Reference</label>
         <length>255</length>
@@ -178,6 +178,21 @@
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Branch__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The branch in the VCS that this stage is associated with.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The branch in the VCS that this stage is associated with.</inlineHelpText>
+        <label>Branch</label>
+        <referenceTo>sf_devops__Branch__c</referenceTo>
+        <relationshipLabel>Pipeline Stages</relationshipLabel>
+        <relationshipName>Pipeline_Stages</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>sf_devops__Environment__c</fullName>
@@ -299,18 +314,9 @@
     <validationRules>
         <fullName>sf_devops__Branch_Without_Remote_Reference</fullName>
         <active>true</active>
-        <description>Enforce branch name and remote reference are both present on active pipelines.</description>
-        <errorConditionFormula>AND(
-OR(
-ISNEW(),
-ISCHANGED(sf_devops__Branch_Name__c),
-ISCHANGED(sf_devops__Branch_Remote_Reference__c)
-),
-sf_devops__Pipeline__r.sf_devops__Activated__c, 
-ISBLANK( sf_devops__Branch_Name__c  ) &lt;&gt; ISBLANK( sf_devops__Branch_Remote_Reference__c  )
-
-)</errorConditionFormula>
-        <errorMessage>Branch_Name and Branch_Remote_Reference must be both set or empty.</errorMessage>
+        <description>This rule is no longer enforced</description>
+        <errorConditionFormula>FALSE</errorConditionFormula>
+        <errorMessage>Deprecated</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>sf_devops__No_Changes_For_Active_Pipelines</fullName>
@@ -318,10 +324,13 @@ ISBLANK( sf_devops__Branch_Name__c  ) &lt;&gt; ISBLANK( sf_devops__Branch_Remote
         <description>Do not allow changes to a stage on an active pipeline</description>
         <errorConditionFormula>AND(
  OR (
- ISCHANGED( sf_devops__Branch_Name__c ) ,
- ISCHANGED(  sf_devops__Environment__c  ) ,
- ISCHANGED(  sf_devops__Next_Stage__c  ) ,
- ISCHANGED(   sf_devops__Versioned__c   )
+    AND(
+      ISCHANGED( sf_devops__Branch__c  ), 
+      NOT(ISBLANK(PRIORVALUE(sf_devops__Branch__c)))
+    ) ,
+    ISCHANGED(  sf_devops__Environment__c  ) ,
+    ISCHANGED(  sf_devops__Next_Stage__c  ) ,
+    ISCHANGED(   sf_devops__Versioned__c   )
   ),
  sf_devops__Pipeline__r.sf_devops__Activated__c )</errorConditionFormula>
         <errorMessage>You cannot modify a Pipeline_Stage on an activated Pipeline.</errorMessage>
@@ -338,32 +347,16 @@ ISBLANK( sf_devops__Branch_Name__c  ) &lt;&gt; ISBLANK( sf_devops__Branch_Remote
     <validationRules>
         <fullName>sf_devops__Promote_Review_Remote_Ref_Required</fullName>
         <active>true</active>
-        <description>The promote Review Remote Reference can only be set if the Promote Review URL is set.</description>
-        <errorConditionFormula>AND(
- OR (
- ISCHANGED( sf_devops__Promote_Review_Remote_Reference__c ) ,
- ISCHANGED(   sf_devops__Promote_Review_Url__c   )
-  ),
-  ISBLANK(sf_devops__Promote_Review_Url__c),
-  NOT(ISBLANK(sf_devops__Promote_Review_Remote_Reference__c))
-)</errorConditionFormula>
-        <errorDisplayField>sf_devops__Promote_Review_Remote_Reference__c</errorDisplayField>
-        <errorMessage>You can only set the Promote Review Remote Reference if you also set the Promote Review URL.</errorMessage>
+        <description>This rule is no longer enforced</description>
+        <errorConditionFormula>FALSE</errorConditionFormula>
+        <errorMessage>Deprecated</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>sf_devops__Promote_Review_Url_Required</fullName>
         <active>true</active>
-        <description>The promote Review URL can only be set if the Promote Review Remote Reference is set.</description>
-        <errorConditionFormula>AND(
- OR (
- ISCHANGED( sf_devops__Promote_Review_Remote_Reference__c ) ,
- ISCHANGED(   sf_devops__Promote_Review_Url__c   )
-  ),
-  NOT(ISBLANK(sf_devops__Promote_Review_Url__c)),
-  ISBLANK(sf_devops__Promote_Review_Remote_Reference__c)
-)</errorConditionFormula>
-        <errorDisplayField>sf_devops__Promote_Review_Url__c</errorDisplayField>
-        <errorMessage>You can only set the Promote Review URL if you also set the Promote Review Remote Reference.</errorMessage>
+        <description>This rule is no longer enforced</description>
+        <errorConditionFormula>FALSE</errorConditionFormula>
+        <errorMessage>Deprecated</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>sf_devops__Promote_Review_Url_Versioned</fullName>
@@ -382,19 +375,27 @@ ISBLANK( sf_devops__Branch_Name__c  ) &lt;&gt; ISBLANK( sf_devops__Branch_Remote
         <errorMessage>You can only set the Promote Review URL on a versioned or prerelease pipeline stage.</errorMessage>
     </validationRules>
     <validationRules>
-        <fullName>sf_devops__Promote_Url_Validation</fullName>
+        <fullName>sf_devops__Promote_Review_Versioned</fullName>
         <active>true</active>
-        <description>The promote URL can only be set on non-versioned stage</description>
+        <description>The promote Review can only be set on prerelease/versioned stage</description>
         <errorConditionFormula>AND(
  OR (
- ISCHANGED( sf_devops__Promote_Url__c ) ,
- ISCHANGED(   sf_devops__Versioned__c   )
+ ISCHANGED( sf_devops__Promote_Review_Remote_Reference__c ) ,
+ ISCHANGED(   sf_devops__Versioned__c   ),
+ ISCHANGED(   sf_devops__Prerelease__c   )
   ),
-  sf_devops__Versioned__c,
-  NOT(ISBLANK(sf_devops__Promote_Url__c))
+  NOT(OR(sf_devops__Versioned__c,sf_devops__Prerelease__c)),
+  NOT(ISBLANK(sf_devops__Promote_Review_Remote_Reference__c))
 )</errorConditionFormula>
-        <errorDisplayField>sf_devops__Promote_Url__c</errorDisplayField>
-        <errorMessage>You can&apos;t set the Promote URL on a versioned pipeline stage.</errorMessage>
+        <errorDisplayField>sf_devops__Promote_Review_Remote_Reference__c</errorDisplayField>
+        <errorMessage>You can only set the Promote Review on a versioned or prerelease pipeline stage.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Promote_Url_Validation</fullName>
+        <active>true</active>
+        <description>This rule is no longer enforced</description>
+        <errorConditionFormula>FALSE</errorConditionFormula>
+        <errorMessage>Deprecated</errorMessage>
     </validationRules>
     <visibility>Public</visibility>
 </CustomObject>

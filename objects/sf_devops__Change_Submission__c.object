@@ -180,6 +180,20 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>sf_devops__Inspection_Result__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The results of the remote operation to inspect this commit.</description>
+        <externalId>false</externalId>
+        <label>Inspection Result</label>
+        <referenceTo>sf_devops__Async_Operation_Result__c</referenceTo>
+        <relationshipLabel>Inspected Change Submissions</relationshipLabel>
+        <relationshipName>Inspected_Change_Submissions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>sf_devops__Link__c</fullName>
         <deprecated>false</deprecated>
         <description>VCS specific link to this change submission.</description>
@@ -192,13 +206,35 @@
     <fields>
         <fullName>sf_devops__Modified_Remote_Changes__c</fullName>
         <deprecated>false</deprecated>
-        <description>All modified (Add/Change) Remote Changes for this submission</description>
+        <description>This field is deprecated and should not be referenced</description>
         <externalId>false</externalId>
         <label>Modified Remote Changes</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>
         <type>LongTextArea</type>
         <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Open_Beta_Migrated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Internal flag to determine if this change submission has been migrated to the open beta data model.  This field will be deleted in the future</description>
+        <externalId>false</externalId>
+        <label>Open Beta Migrated</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Prior_Remote_Reference__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The remote reference immediatly prior to this one on the branch.  This is in VCS specific format.</description>
+        <externalId>false</externalId>
+        <label>Prior Remote Reference</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>sf_devops__Remote_Reference__c</fullName>
@@ -215,7 +251,7 @@
     <fields>
         <fullName>sf_devops__Removed_Remote_Changes__c</fullName>
         <deprecated>false</deprecated>
-        <description>All removed Remote Changes for this submission</description>
+        <description>This field is deprecated and should not be referenced</description>
         <externalId>false</externalId>
         <label>Removed Remote Changes</label>
         <length>32768</length>
@@ -236,6 +272,18 @@
         <trackTrending>false</trackTrending>
         <type>MasterDetail</type>
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Submitted_By_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the user that did the submit, if the user is not in our organization.</description>
+        <externalId>false</externalId>
+        <label>Submitted By Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>sf_devops__Submitted_By__c</fullName>
@@ -283,6 +331,17 @@
     <pluralLabel>Change Submissions</pluralLabel>
     <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>sf_devops__Prior_Remote_Reference_External_Only</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+     OR(
+         ISNEW(), ISCHANGED(sf_devops__Inspection_Result__c), ISCHANGED(sf_devops__Prior_Remote_Reference__c)
+     ),
+     ISBLANK( sf_devops__Inspection_Result__c )   &lt;&gt; ISBLANK(sf_devops__Prior_Remote_Reference__c )
+    )</errorConditionFormula>
+        <errorMessage>Prior Remote Reference can only be set on change submissions that require inspection.</errorMessage>
+    </validationRules>
     <validationRules>
         <fullName>sf_devops__Work_Item_and_Repository_Same_Project</fullName>
         <active>true</active>

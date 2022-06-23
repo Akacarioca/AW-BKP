@@ -18,6 +18,11 @@
         <name>sf_devops__Branch_Remote_Reference__c</name>
     </fields>
     <fields>
+        <label><!-- Branch --></label>
+        <name>sf_devops__Branch__c</name>
+        <relationshipLabel><!-- Work Items --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- Change Bundle --></label>
         <name>sf_devops__Change_Bundle__c</name>
         <relationshipLabel><!-- Work Items --></relationshipLabel>
@@ -39,6 +44,11 @@
     <fields>
         <label><!-- Development Approved --></label>
         <name>sf_devops__Development_Approved__c</name>
+    </fields>
+    <fields>
+        <help><!-- The environment in which this Work Item record was developed. --></help>
+        <label><!-- Development Environment --></label>
+        <name>sf_devops__Development_Environment__c</name>
     </fields>
     <fields>
         <label><!-- Environment --></label>
@@ -95,7 +105,7 @@
         <name>sf_devops__Approved_Without_Review</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- Branch_Name, Branch_Remote_Reference and Branch_Parent_Remote_Reference must all both set or empty. --></errorMessage>
+        <errorMessage><!-- Deprecated --></errorMessage>
         <name>sf_devops__Branch_Without_Remote_Reference</name>
     </validationRules>
     <validationRules>
@@ -143,11 +153,11 @@
         <name>sf_devops__Promoted_Without_Approval</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- A Work_Item with a remote reference should also have a link associated. --></errorMessage>
+        <errorMessage><!-- Deprecated --></errorMessage>
         <name>sf_devops__Remote_Reference_Without_Review</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- A Work_Item with a link should also have a remote reference associated. --></errorMessage>
+        <errorMessage><!-- Deprecated --></errorMessage>
         <name>sf_devops__Review_Without_Remote_Reference</name>
     </validationRules>
 </CustomObjectTranslation>
