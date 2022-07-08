@@ -364,6 +364,30 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>Q9__DevOps</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Q9__DevOpsPartners</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Q9__DevOpsPartnersTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Q9__DevOpsREST</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Q9__DevOpsRESTTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Q9__DevOpsTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>Q9__ElementsApi</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -500,6 +524,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>Q9__IElements</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>Q9__PickListValuesPopulationScheduler</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -508,7 +536,15 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>Q9__RESTUtils</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>Q9__ScheduledDataPopulationBatch_Test</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Q9__TestInterface</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -7978,6 +8014,21 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Q9__Map__c.Q9__ElementsDiagramId__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Q9__Set_Active_Partner_Result__e.Q9__Done__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Q9__Set_Active_Partner_Result__e.Q9__Error_Message__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Q9__Set_Active_Partner_Result__e.Q9__Success__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>

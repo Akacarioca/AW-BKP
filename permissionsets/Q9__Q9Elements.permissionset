@@ -16,6 +16,10 @@
         <apexClass>Q9__ElementsSettingsControllerBundle</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>Q9__DevOps_Partner__mdt</name>
+    </customMetadataTypeAccesses>
     <fieldPermissions>
         <editable>true</editable>
         <field>Q9__BatchLog__c.Q9__JobId__c</field>
