@@ -16,6 +16,10 @@
         <apexClass>Q9__ElementsSettingsControllerBundle</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>Q9__DevOps_Partner__mdt</name>
+    </customMetadataTypeAccesses>
     <description>Allows access to Elements Settings page, along with other Elements items.</description>
     <fieldPermissions>
         <editable>true</editable>
