@@ -171,24 +171,6 @@
                 <identifier>RecordLatest_Deployment_cField1</identifier>
             </fieldInstance>
         </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldItem>Record.copado__Deployment_Job_Template_Override__c</fieldItem>
-                <identifier>RecordDeployment_Job_Template_Override__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldItem>Record.copado__Promotion_Job_Template_Override__c</fieldItem>
-                <identifier>RecordPromotion_Job_Template_Override__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldItem>Record.copado__CommitJobTemplateOverride__c</fieldItem>
-                <identifier>RecordCommitJobTemplateOverride__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
         <name>Facet-fa51b080-a562-4607-865f-b1a6e6760fdc</name>
         <type>Facet</type>
     </flexiPageRegions>

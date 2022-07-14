@@ -357,5 +357,12 @@
         <searchResultsAdditionalFields>LAST_UPDATE</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>copado__PreventUpdatingExtensionTool</fullName>
+        <active>true</active>
+        <description>This rule prevents users from modifying the Tool Configuration after the Extension Configuration is activated.</description>
+        <errorConditionFormula>AND( copado__Active__c , ISCHANGED( copado__ExtensionTool__c ) )</errorConditionFormula>
+        <errorMessage>This Extension Tool cannot be modified. Please create a new Extension Configuration record instead.</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>

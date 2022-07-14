@@ -73,6 +73,8 @@
         <members>copado__Result_Record_Page</members>
         <members>copado__SCA_Result_Layout</members>
         <members>copado__Sprint_Wall</members>
+        <members>copado__Stage_Connection_Record_Page</members>
+        <members>copado__Stage_Record_Page</members>
         <members>copado__StandardRecords</members>
         <members>copado__Static_Code_Analysis_Settings_Record_Page</members>
         <members>copado__Team_Record_Page</members>

@@ -109,4 +109,8 @@
         <name>copado__User_Story__c</name>
         <relationshipLabel><!-- Tests --></relationshipLabel>
     </fields>
+    <validationRules>
+        <errorMessage><!-- This Tool Configuration cannot be modified. Please create a new Test and select the Tool Configuration needed. --></errorMessage>
+        <name>copado__PreventUpdatingToolConfiguration</name>
+    </validationRules>
 </CustomObjectTranslation>

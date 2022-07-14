@@ -661,6 +661,12 @@
                 </visibilityRule>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>copado:publishPromotionPlatformMessage</componentName>
+                <identifier>c_publishPromotionPlatformMessage1</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>sidebar</name>
         <type>Region</type>
     </flexiPageRegions>

@@ -449,5 +449,13 @@
     <pluralLabel>Tests</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>copado__PreventUpdatingToolConfiguration</fullName>
+        <active>true</active>
+        <description>This rule prevents users from modifying the Tool Configuration after the test is created.</description>
+        <errorConditionFormula>AND( NOT( ISNEW() ) ,
+ ISCHANGED( copado__ExtensionConfiguration__c ) )</errorConditionFormula>
+        <errorMessage>This Tool Configuration cannot be modified. Please create a new Test and select the Tool Configuration needed.</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>
