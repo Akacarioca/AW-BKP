@@ -23739,7 +23739,15 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Profile2PermSet__Manage</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Profile2PermSet__Permissions_Analyzer</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Profile2PermSet__Report</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
