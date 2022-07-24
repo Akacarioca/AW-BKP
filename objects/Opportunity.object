@@ -1172,8 +1172,10 @@
         <fullName>Cant_change_Stage_in_Closed_Won</fullName>
         <active>true</active>
         <description>The USer does not have the ability to change an Opportunity with Stage in Closed Won.</description>
-        <errorConditionFormula>ISCHANGED( StageName )  &amp;&amp; 
- TEXT( PRIORVALUE( StageName ) )  = &quot;Closed Won&quot;  &amp;&amp; 
+        <errorConditionFormula>ISCHANGED( StageName ) 
+ &amp;&amp; 
+ TEXT( PRIORVALUE( StageName ) )  = &quot;Closed Won&quot; 
+ &amp;&amp; 
  NOT( $Permission.Update_Opp_in_Stage_Closed_Won )</errorConditionFormula>
         <errorDisplayField>StageName</errorDisplayField>
         <errorMessage>You can&apos;t change Stage from &quot;Closed Won&quot;</errorMessage>
