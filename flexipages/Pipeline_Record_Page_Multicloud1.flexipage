@@ -46,13 +46,6 @@
                         </valueListItems>
                         <valueListItems>
                             <value>CustomButton.copado__Deployment_Flow__c.copado__Find_Replace_Rule_Editor</value>
-                            <visibilityRule>
-                                <criteria>
-                                    <leftValue>{!Record.copado__Platform__c}</leftValue>
-                                    <operator>EQUAL</operator>
-                                    <rightValue>Salesforce</rightValue>
-                                </criteria>
-                            </visibilityRule>
                         </valueListItems>
                         <valueListItems>
                             <value>copado__Deployment_Flow__c.copado__Exclude_Completed_Stories</value>

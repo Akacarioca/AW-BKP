@@ -13,6 +13,7 @@
         <members>Deployment_Job_Record_Page</members>
         <members>Deployment_Job_Record_Page1</members>
         <members>Doctor_Record_Page</members>
+        <members>Environment_Record_Page1</members>
         <members>Function_Record_Page1</members>
         <members>Home_Page_Default</members>
         <members>Home_Page_Default1</members>
@@ -24,6 +25,7 @@
         <members>MHolt__Home_Page_Default</members>
         <members>MHolt__Home_Page_Default1</members>
         <members>Opportunity_Record_Page</members>
+        <members>Package_Record_Page1</members>
         <members>Pipeline_Record_Page_Multicloud1</members>
         <members>Position_Record_Page</members>
         <members>Price_Book_Record_Page</members>

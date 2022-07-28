@@ -222,9 +222,11 @@
     </fields>
     <fields>
         <fullName>Shipping_Address__c</fullName>
+        <businessStatus>Active</businessStatus>
         <description>Address where the Bicycle is to be shipped to.</description>
         <externalId>false</externalId>
         <label>Shipping Address</label>
+        <securityClassification>Public</securityClassification>
         <trackTrending>false</trackTrending>
         <type>Address</type>
     </fields>
