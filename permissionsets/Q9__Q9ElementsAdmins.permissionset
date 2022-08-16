@@ -5,6 +5,10 @@
         <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
+        <apexClass>Q9__DevOpsREST</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>Q9__ElementsGenericExtensionController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
