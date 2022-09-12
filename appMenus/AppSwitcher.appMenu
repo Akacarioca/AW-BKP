@@ -153,10 +153,6 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>Q9__Elements</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>slackv2__Slack_Setup</name>
         <type>CustomApplication</type>
     </appMenuItems>
