@@ -52,6 +52,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Q9__BatchLog__c.Q9__Type_String__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Q9__BatchLog__c.Q9__Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
