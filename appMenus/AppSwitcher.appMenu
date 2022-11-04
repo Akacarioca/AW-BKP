@@ -192,4 +192,8 @@
         <name>DevOps_Center</name>
         <type>ConnectedApp</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>orgplusview__OrgPlus</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>

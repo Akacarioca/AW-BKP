@@ -130,6 +130,9 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>BroadcastReason</fullName>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
     </fields>
     <fields>
@@ -149,8 +152,10 @@
     <searchLayouts>
         <customTabListAdditionalFields>TopicType</customTabListAdditionalFields>
         <customTabListAdditionalFields>IsFeatured</customTabListAdditionalFields>
+        <customTabListAdditionalFields>BroadcastReason</customTabListAdditionalFields>
         <searchResultsAdditionalFields>TopicType</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>IsFeatured</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>BroadcastReason</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
 </CustomObject>
