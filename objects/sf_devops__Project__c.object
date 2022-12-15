@@ -168,6 +168,16 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>sf_devops__Hidden__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If true, this project will not show up in the project list view.  This only affects if it is displayed in the list view.</description>
+        <externalId>false</externalId>
+        <label>Hidden</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>sf_devops__Package_Directories__c</fullName>
         <deprecated>false</deprecated>
         <description>Stores the filepath(s) of the sfdx-project.json&apos;s package directories</description>

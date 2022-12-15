@@ -125,6 +125,10 @@
         <name>sf_devops__Disable_Promoted</name>
     </validationRules>
     <validationRules>
+        <errorMessage><!-- Work Items cannot be connected to expired environments. --></errorMessage>
+        <name>sf_devops__Environment_Expired</name>
+    </validationRules>
+    <validationRules>
         <errorMessage><!-- A Work Item must belong to the same project as its Environment. --></errorMessage>
         <name>sf_devops__Environment_Project</name>
     </validationRules>

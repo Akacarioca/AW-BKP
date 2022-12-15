@@ -3,12 +3,42 @@
     <description>Provides the data access and permissions needed to set up DevOps Center projects, environments, work items, and users.</description>
     <fieldPermissions>
         <editable>true</editable>
+        <field>sf_devops__Environment__c.sf_devops__Expired__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>sf_devops__Environment__c.sf_devops__Named_Credential__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>sf_devops__Environment__c.sf_devops__Refresh_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>sf_devops__Environment__c.sf_devops__Refresh_Source__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>sf_devops__Environment__c.sf_devops__Replaces__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>sf_devops__Pipeline_Stage__c.sf_devops__Environment__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>sf_devops__Pipeline_Stage__c.sf_devops__Next_Stage__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>sf_devops__Pipeline_Stage__c.sf_devops__Swap_Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -24,6 +54,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>sf_devops__Project__c.sf_devops__Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>sf_devops__Project__c.sf_devops__Hidden__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

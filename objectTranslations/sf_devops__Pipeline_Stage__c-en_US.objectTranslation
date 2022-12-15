@@ -51,6 +51,11 @@
         <name>sf_devops__Promote_Url__c</name>
     </fields>
     <fields>
+        <label><!-- Swap Status --></label>
+        <name>sf_devops__Swap_Status__c</name>
+        <relationshipLabel><!-- Pipeline Stage Swaps --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- Versioned --></label>
         <name>sf_devops__Versioned__c</name>
     </fields>
@@ -79,7 +84,7 @@
         <name>sf_devops__Promote_Review_Url_Versioned</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- You can only set the Promote Review on a versioned or prerelease pipeline stage. --></errorMessage>
+        <errorMessage><!-- Deprecated --></errorMessage>
         <name>sf_devops__Promote_Review_Versioned</name>
     </validationRules>
     <validationRules>

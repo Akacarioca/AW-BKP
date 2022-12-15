@@ -156,6 +156,40 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>sf_devops__Check_Deploy_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Datetime when the Check Deploy was finished</description>
+        <externalId>false</externalId>
+        <label>Check Deploy Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Check_Deploy_Status__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The status of the Check Deploy.</description>
+        <externalId>false</externalId>
+        <label>Check Deploy Status</label>
+        <referenceTo>sf_devops__Async_Operation_Result__c</referenceTo>
+        <relationshipLabel>Check Deploy Results</relationshipLabel>
+        <relationshipName>Check_Deploy_Results</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Check_Deploy__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Notify this is a check deploy only</description>
+        <externalId>false</externalId>
+        <label>Check Deploy</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>sf_devops__Completion_Date__c</fullName>
         <deprecated>false</deprecated>
         <description>The Datetime when this deployment completed</description>
@@ -186,6 +220,20 @@
         <label>Full Deploy</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Number_Tests_Completed__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The total number of tests completed during this deployment</description>
+        <externalId>false</externalId>
+        <label>Number Tests Completed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>sf_devops__Run_Tests__c</fullName>

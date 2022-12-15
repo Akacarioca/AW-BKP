@@ -531,6 +531,21 @@ sf_devops__Project__c &lt;&gt; sf_devops__Change_Bundle__r.sf_devops__Project__c
         <errorMessage>A Work Item cannot have its Promoted__c field disabled once set.</errorMessage>
     </validationRules>
     <validationRules>
+        <fullName>sf_devops__Environment_Expired</fullName>
+        <active>true</active>
+        <description>Enforce we only reference environments that are not expired.</description>
+        <errorConditionFormula>AND(
+OR(
+ISNEW(),
+ISCHANGED(sf_devops__Environment__c)
+),
+NOT(ISBLANK( sf_devops__Environment__c  )),
+sf_devops__Environment__r.sf_devops__Expired__c
+
+)</errorConditionFormula>
+        <errorMessage>Work Items cannot be connected to expired environments.</errorMessage>
+    </validationRules>
+    <validationRules>
         <fullName>sf_devops__Environment_Project</fullName>
         <active>true</active>
         <description>Enforce we belong to the same project as our environment.</description>

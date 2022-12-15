@@ -294,6 +294,20 @@
         <type>Url</type>
     </fields>
     <fields>
+        <fullName>sf_devops__Swap_Status__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Feedback for the asynchronous swap operation that is happening on this stage.</description>
+        <externalId>false</externalId>
+        <label>Swap Status</label>
+        <referenceTo>sf_devops__Async_Operation_Result__c</referenceTo>
+        <relationshipLabel>Pipeline Stage Swaps</relationshipLabel>
+        <relationshipName>Pipeline_Stage_Swaps</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>sf_devops__Versioned__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
@@ -328,7 +342,6 @@
       ISCHANGED( sf_devops__Branch__c  ), 
       NOT(ISBLANK(PRIORVALUE(sf_devops__Branch__c)))
     ) ,
-    ISCHANGED(  sf_devops__Environment__c  ) ,
     ISCHANGED(  sf_devops__Next_Stage__c  ) ,
     ISCHANGED(   sf_devops__Versioned__c   )
   ),
@@ -377,18 +390,9 @@
     <validationRules>
         <fullName>sf_devops__Promote_Review_Versioned</fullName>
         <active>true</active>
-        <description>The promote Review can only be set on prerelease/versioned stage</description>
-        <errorConditionFormula>AND(
- OR (
- ISCHANGED( sf_devops__Promote_Review_Remote_Reference__c ) ,
- ISCHANGED(   sf_devops__Versioned__c   ),
- ISCHANGED(   sf_devops__Prerelease__c   )
-  ),
-  NOT(OR(sf_devops__Versioned__c,sf_devops__Prerelease__c)),
-  NOT(ISBLANK(sf_devops__Promote_Review_Remote_Reference__c))
-)</errorConditionFormula>
-        <errorDisplayField>sf_devops__Promote_Review_Remote_Reference__c</errorDisplayField>
-        <errorMessage>You can only set the Promote Review on a versioned or prerelease pipeline stage.</errorMessage>
+        <description>This rule is no longer enforced</description>
+        <errorConditionFormula>FALSE</errorConditionFormula>
+        <errorMessage>Deprecated</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>sf_devops__Promote_Url_Validation</fullName>
