@@ -3,7 +3,7 @@
     <apiVersion>50.0</apiVersion>
     <description>Desc</description>
     <dynamicChoiceSets>
-        <name>HotLEad</name>
+        <name>HotLead</name>
         <dataType>String</dataType>
         <displayField>Company</displayField>
         <filterLogic>and</filterLogic>
@@ -20,6 +20,7 @@
         <sortOrder>Asc</sortOrder>
         <valueField>Id</valueField>
     </dynamicChoiceSets>
+    <environments>Default</environments>
     <interviewLabel>Jan18thFlow02 {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Jan18thFlow02</label>
     <processMetadataValues>
@@ -50,10 +51,10 @@
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
         <fields>
-            <name>Hot_LEad</name>
-            <choiceReferences>HotLEad</choiceReferences>
+            <name>Hot_Lead</name>
+            <choiceReferences>HotLead</choiceReferences>
             <dataType>String</dataType>
-            <fieldText>Hot LEad</fieldText>
+            <fieldText>Hot Lead</fieldText>
             <fieldType>MultiSelectCheckboxes</fieldType>
             <isRequired>false</isRequired>
         </fields>
