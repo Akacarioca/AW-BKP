@@ -14156,6 +14156,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.Text__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -23887,6 +23892,9 @@
         <layout>ServiceAppointmentGroup-Service Appointment Group Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Shipment__c-Shipment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Solution-Solution Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -25121,6 +25129,10 @@
     <tabVisibilities>
         <tab>Profile2PermSet__Report</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Shipment__c</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>TODO__c</tab>

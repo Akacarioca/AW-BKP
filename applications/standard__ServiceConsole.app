@@ -190,6 +190,7 @@
     <tabs>copado__Artifact_Version__c</tabs>
     <tabs>copado__Quality_Gate__c</tabs>
     <tabs>sf_devops__Environment__c</tabs>
+    <tabs>Shipment__c</tabs>
     <workspaceConfig>
         <mappings>
             <tab>Appointment__c</tab>
@@ -202,6 +203,9 @@
         </mappings>
         <mappings>
             <tab>Knowledge_Check_Manager</tab>
+        </mappings>
+        <mappings>
+            <tab>Shipment__c</tab>
         </mappings>
         <mappings>
             <tab>Test__c</tab>

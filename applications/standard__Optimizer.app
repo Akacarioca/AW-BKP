@@ -9,8 +9,12 @@
     <tabs>standard-OrgMetric</tabs>
     <tabs>copado__Quality_Gate__c</tabs>
     <tabs>sf_devops__Environment__c</tabs>
+    <tabs>Shipment__c</tabs>
     <uiType>Lightning</uiType>
     <workspaceConfig>
+        <mappings>
+            <tab>Shipment__c</tab>
+        </mappings>
         <mappings>
             <tab>copado__Quality_Gate__c</tab>
         </mappings>

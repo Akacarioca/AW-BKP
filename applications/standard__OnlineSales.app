@@ -8,5 +8,6 @@
     <navType>Standard</navType>
     <tabs>standard-OnlineSalesHome</tabs>
     <tabs>sf_devops__Environment__c</tabs>
+    <tabs>Shipment__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

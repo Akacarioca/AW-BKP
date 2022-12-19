@@ -303,6 +303,10 @@
             <label>Sales Order No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U0000086R2x</field>
+            <label>Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007WVCE</field>
             <label>Text</label>
         </opportunityListFieldsLabelMappings>
@@ -368,6 +372,7 @@
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
+            <field>00N4U0000086R2x</field>
             <field>00N0P000007WVCE</field>
             <field>00N0P000007WVC9</field>
             <field>TERR2_DESC</field>
@@ -603,6 +608,10 @@
             <label>Sales Order No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U0000086R2x</field>
+            <label>Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007WVCE</field>
             <label>Text</label>
         </opportunityListFieldsLabelMappings>
@@ -669,6 +678,7 @@
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
+            <field>00N4U0000086R2x</field>
             <field>00N0P000007WVCE</field>
             <field>00N0P000007WVC9</field>
             <field>TERR2_DESC</field>
@@ -904,6 +914,10 @@
             <label>Sales Order No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U0000086R2x</field>
+            <label>Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007WVCE</field>
             <label>Text</label>
         </opportunityListFieldsLabelMappings>
@@ -970,6 +984,7 @@
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
+            <field>00N4U0000086R2x</field>
             <field>00N0P000007WVCE</field>
             <field>00N0P000007WVC9</field>
             <field>TERR2_DESC</field>
@@ -1201,6 +1216,10 @@
             <label>Sales Order No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U0000086R2x</field>
+            <label>Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007WVCE</field>
             <label>Text</label>
         </opportunityListFieldsLabelMappings>
@@ -1266,6 +1285,7 @@
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
+            <field>00N4U0000086R2x</field>
             <field>00N0P000007WVCE</field>
             <field>00N0P000007WVC9</field>
             <field>TERR2_DESC</field>
@@ -1501,6 +1521,10 @@
             <label>Sales Order No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U0000086R2x</field>
+            <label>Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007WVCE</field>
             <label>Text</label>
         </opportunityListFieldsLabelMappings>
@@ -1567,6 +1591,7 @@
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
+            <field>00N4U0000086R2x</field>
             <field>00N0P000007WVCE</field>
             <field>00N0P000007WVC9</field>
             <field>TERR2_DESC</field>
@@ -1798,6 +1823,10 @@
             <label>Sales Order No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U0000086R2x</field>
+            <label>Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007WVCE</field>
             <label>Text</label>
         </opportunityListFieldsLabelMappings>
@@ -1863,6 +1892,7 @@
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
+            <field>00N4U0000086R2x</field>
             <field>00N0P000007WVCE</field>
             <field>00N0P000007WVC9</field>
             <field>TERR2_DESC</field>
@@ -2094,6 +2124,10 @@
             <label>Sales Order No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U0000086R2x</field>
+            <label>Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007WVCE</field>
             <label>Text</label>
         </opportunityListFieldsLabelMappings>
@@ -2159,6 +2193,7 @@
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
+            <field>00N4U0000086R2x</field>
             <field>00N0P000007WVCE</field>
             <field>00N0P000007WVC9</field>
             <field>TERR2_DESC</field>
@@ -2390,6 +2425,10 @@
             <label>Sales Order No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U0000086R2x</field>
+            <label>Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007WVCE</field>
             <label>Text</label>
         </opportunityListFieldsLabelMappings>
@@ -2455,6 +2494,7 @@
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
+            <field>00N4U0000086R2x</field>
             <field>00N0P000007WVCE</field>
             <field>00N0P000007WVC9</field>
             <field>TERR2_DESC</field>
@@ -2682,6 +2722,10 @@
             <label>Sales Order No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U0000086R2x</field>
+            <label>Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007WVCE</field>
             <label>Text</label>
         </opportunityListFieldsLabelMappings>
@@ -2750,6 +2794,7 @@
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
+            <field>00N4U0000086R2x</field>
             <field>00N0P000007WVCE</field>
             <field>00N0P000007WVC9</field>
             <field>TERR2_NAME</field>
@@ -2977,6 +3022,10 @@
             <label>Sales Order No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U0000086R2x</field>
+            <label>Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007WVCE</field>
             <label>Text</label>
         </opportunityListFieldsLabelMappings>
@@ -3045,6 +3094,7 @@
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
+            <field>00N4U0000086R2x</field>
             <field>00N0P000007WVCE</field>
             <field>00N0P000007WVC9</field>
             <field>TERR2_NAME</field>
@@ -3276,6 +3326,10 @@
             <label>Sales Order No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U0000086R2x</field>
+            <label>Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007WVCE</field>
             <label>Text</label>
         </opportunityListFieldsLabelMappings>
@@ -3345,6 +3399,7 @@
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
+            <field>00N4U0000086R2x</field>
             <field>00N0P000007WVCE</field>
             <field>00N0P000007WVC9</field>
             <field>TERR2_NAME</field>
@@ -3572,6 +3627,10 @@
             <label>Sales Order No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U0000086R2x</field>
+            <label>Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007WVCE</field>
             <label>Text</label>
         </opportunityListFieldsLabelMappings>
@@ -3640,6 +3699,7 @@
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
+            <field>00N4U0000086R2x</field>
             <field>00N0P000007WVCE</field>
             <field>00N0P000007WVC9</field>
             <field>TERR2_NAME</field>
@@ -3871,6 +3931,10 @@
             <label>Sales Order No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U0000086R2x</field>
+            <label>Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007WVCE</field>
             <label>Text</label>
         </opportunityListFieldsLabelMappings>
@@ -3940,6 +4004,7 @@
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
+            <field>00N4U0000086R2x</field>
             <field>00N0P000007WVCE</field>
             <field>00N0P000007WVC9</field>
             <field>TERR2_NAME</field>
@@ -4167,6 +4232,10 @@
             <label>Sales Order No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U0000086R2x</field>
+            <label>Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007WVCE</field>
             <label>Text</label>
         </opportunityListFieldsLabelMappings>
@@ -4235,6 +4304,7 @@
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
+            <field>00N4U0000086R2x</field>
             <field>00N0P000007WVCE</field>
             <field>00N0P000007WVC9</field>
             <field>TERR2_NAME</field>
@@ -4466,6 +4536,10 @@
             <label>Sales Order No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U0000086R2x</field>
+            <label>Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007WVCE</field>
             <label>Text</label>
         </opportunityListFieldsLabelMappings>
@@ -4535,6 +4609,7 @@
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
+            <field>00N4U0000086R2x</field>
             <field>00N0P000007WVCE</field>
             <field>00N0P000007WVC9</field>
             <field>TERR2_NAME</field>
@@ -4762,6 +4837,10 @@
             <label>Sales Order No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U0000086R2x</field>
+            <label>Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007WVCE</field>
             <label>Text</label>
         </opportunityListFieldsLabelMappings>
@@ -4830,6 +4909,7 @@
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
+            <field>00N4U0000086R2x</field>
             <field>00N0P000007WVCE</field>
             <field>00N0P000007WVC9</field>
             <field>TERR2_NAME</field>
@@ -5061,6 +5141,10 @@
             <label>Sales Order No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U0000086R2x</field>
+            <label>Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007WVCE</field>
             <label>Text</label>
         </opportunityListFieldsLabelMappings>
@@ -5130,6 +5214,7 @@
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
+            <field>00N4U0000086R2x</field>
             <field>00N0P000007WVCE</field>
             <field>00N0P000007WVC9</field>
             <field>TERR2_NAME</field>
@@ -5357,6 +5442,10 @@
             <label>Sales Order No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U0000086R2x</field>
+            <label>Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007WVCE</field>
             <label>Text</label>
         </opportunityListFieldsLabelMappings>
@@ -5425,6 +5514,7 @@
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
+            <field>00N4U0000086R2x</field>
             <field>00N0P000007WVCE</field>
             <field>00N0P000007WVC9</field>
             <field>TERR2_NAME</field>
@@ -5656,6 +5746,10 @@
             <label>Sales Order No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U0000086R2x</field>
+            <label>Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007WVCE</field>
             <label>Text</label>
         </opportunityListFieldsLabelMappings>
@@ -5725,6 +5819,7 @@
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
+            <field>00N4U0000086R2x</field>
             <field>00N0P000007WVCE</field>
             <field>00N0P000007WVC9</field>
             <field>TERR2_NAME</field>
@@ -5952,6 +6047,10 @@
             <label>Sales Order No.</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N4U0000086R2x</field>
+            <label>Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0P000007WVCE</field>
             <label>Text</label>
         </opportunityListFieldsLabelMappings>
@@ -6020,6 +6119,7 @@
             <field>00N0P000007MDVR</field>
             <field>00N0P000006N3n0</field>
             <field>00N0P000007MDVQ</field>
+            <field>00N4U0000086R2x</field>
             <field>00N0P000007WVCE</field>
             <field>00N0P000007WVC9</field>
             <field>TERR2_NAME</field>

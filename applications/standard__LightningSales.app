@@ -108,6 +108,7 @@
     <tabs>copado__Artifact_Version__c</tabs>
     <tabs>copado__Quality_Gate__c</tabs>
     <tabs>sf_devops__Environment__c</tabs>
+    <tabs>Shipment__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>AW_Computing_UtilityBar</utilityBar>
 </CustomApplication>
