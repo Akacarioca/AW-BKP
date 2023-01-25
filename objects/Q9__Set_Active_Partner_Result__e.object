@@ -54,7 +54,7 @@
         <label>Success</label>
         <type>Checkbox</type>
     </fields>
-    <label>Set Active Partner Result</label>
+    <label>Set Active Partner Result (DEPRECATED)</label>
     <pluralLabel>Set Active Partner Results</pluralLabel>
     <publishBehavior>PublishAfterCommit</publishBehavior>
 </CustomObject>

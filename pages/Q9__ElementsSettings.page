@@ -565,7 +565,7 @@
                         </apex:pageBlockSectionItem>
                     </apex:pageBlockSection>
                     <apex:pageBlockButtons location="bottom">                        
-                        <apex:commandButton value="Set up new Schedule Job" action="{!esc.startProfileLayoutcheduleJob}" onclick="if(!onNewProfileLayoutScheduleStarting()){return false};" />
+                        <apex:commandButton value="Set up new Schedule Job" action="{!esc.startProfileLayoutScheduleJob}" onclick="if(!onNewProfileLayoutScheduleStarting()){return false};" />
                         <script>
                             function onNewProfileLayoutScheduleStarting() {
                                 const numberOfProfileLayoutScheduledJob = parseInt('{!esc.numberOfProfileLayoutScheduledJob}');
@@ -573,6 +573,40 @@
                                     return true;
                                 }
                                 var text = "A schedule job already is active to fetch the profile layout information.  Are you sure you want to add another?";
+                                return confirm(text);
+                            }
+                        </script>
+                        
+                    </apex:pageBlockButtons>
+                </apex:pageBlock>
+            </apex:tab>
+            <!-- <editor-fold desc="Schedule" defaultstate="collapsed"> -->
+            <apex:tab label="Schedule profile metadata retrieval" name="Schedule profile metadata retrieval" id="scheduleGetProfileMetadata" rendered="{!esc.isOrgConnected}">
+                <apex:pageMessages escape="false"/>
+                    <apex:pageBlock title="Schedule profile metadata retrieval">
+                    <h1 style="margin-top: 10px"><i>Set up a scheduled job to fetch profile metadata.</i></h1>
+                    <br/><br/>
+
+                    <apex:pageBlockSection columns="1">
+                        <apex:pageBlockSectionItem >
+                        <apex:outputLabel value="Schedule Hours" for="profileMetadataScheduleHours"/>
+                        <apex:input type="number" value="{!esc.profileMetadataScheduleHours}" id="profileMetadataScheduleHours" size="24"/>
+                        </apex:pageBlockSectionItem>
+                        
+                        <apex:pageBlockSectionItem >
+                        <apex:outputLabel value="Schedule Minutes" for="profileMetadataScheduleMinutes"/>
+                        <apex:input type="number" value="{!esc.profileMetadataScheduleMinutes}" id="profileMetadataScheduleMinutes" size="24"/>
+                        </apex:pageBlockSectionItem>
+                    </apex:pageBlockSection>
+                    <apex:pageBlockButtons location="bottom">                        
+                        <apex:commandButton value="Set up new Schedule Job" action="{!esc.startProfileMetadataScheduleJob}" onclick="if(!onNewProfileMetadataScheduleStarting()){return false};" />
+                        <script>
+                            function onNewProfileMetadataScheduleStarting() {
+                                const numberOfProfileMetadataScheduledJob = parseInt('{!esc.numberOfProfileMetadataScheduledJob}');
+                                if (numberOfProfileMetadataScheduledJob === 0) {
+                                    return true;
+                                }
+                                var text = "A schedule job already is active to fetch the profile metadata information.  Are you sure you want to add another?";
                                 return confirm(text);
                             }
                         </script>

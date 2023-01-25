@@ -9,6 +9,9 @@ global class DevOps {
     global DevOps() {
 
     }
+    global static Q9.DevOps.Result deleteStories(String apiKey, List<Id> devopsStoryIds) {
+        return null;
+    }
     global static Q9.DevOps.Result updateStories(String apiKey, Map<String,List<Q9.DevOps.Story>> stories) {
         return null;
     }
@@ -55,6 +58,7 @@ global class Story {
     global String description;
     global String devopsDomain;
     global String devopsId;
+    global String devopsStoryUrl;
     global String elementsId;
     global Set<String> metadata;
     global String name;
