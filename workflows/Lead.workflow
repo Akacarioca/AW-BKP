@@ -30,6 +30,7 @@
             <operation>equals</operation>
             <value>False</value>
         </criteriaItems>
+        <failedMigrationToolVersion>238.11.2</failedMigrationToolVersion>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
         <workflowTimeTriggers>
             <actions>

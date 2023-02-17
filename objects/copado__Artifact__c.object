@@ -128,11 +128,14 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <type>Default</type>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Package_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -328,7 +331,6 @@ The org credential where the unmanaged package is created from.</inlineHelpText>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
-            <restricted>true</restricted>
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
@@ -345,12 +347,6 @@ The org credential where the unmanaged package is created from.</inlineHelpText>
                     <fullName>First-Generation Package</fullName>
                     <default>false</default>
                     <label>First-Generation Package</label>
-                </value>
-                <value>
-                    <fullName>Unmanaged</fullName>
-                    <default>false</default>
-                    <isActive>false</isActive>
-                    <label>Unmanaged</label>
                 </value>
             </valueSetDefinition>
         </valueSet>

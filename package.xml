@@ -9,10 +9,13 @@
         <members>Bicycle_Record_Page1</members>
         <members>Campaign_Record_Page</members>
         <members>Case_Record_Page</members>
+        <members>ContactCenter_UtilityBar</members>
         <members>Contact_Record_Page</members>
+        <members>CrisisCenter_UtilityBar</members>
         <members>Deployment_Job_Record_Page</members>
         <members>Deployment_Job_Record_Page1</members>
         <members>Doctor_Record_Page</members>
+        <members>Environment_Record_Page1</members>
         <members>Function_Record_Page1</members>
         <members>Home_Page_Default</members>
         <members>Home_Page_Default1</members>
@@ -24,14 +27,18 @@
         <members>MHolt__Home_Page_Default</members>
         <members>MHolt__Home_Page_Default1</members>
         <members>Opportunity_Record_Page</members>
+        <members>Package_Record_Page1</members>
+        <members>Pipeline_Record_Page_Multicloud1</members>
         <members>Position_Record_Page</members>
         <members>Price_Book_Record_Page</members>
         <members>Product_Record_Page</members>
+        <members>Quality_Gate1</members>
         <members>Sales_Home_Page</members>
         <members>Support_Home_Page</members>
         <members>Test_Record_Page1</members>
         <members>User_Story_Record_Page</members>
         <members>copado__Application_Record_Page</members>
+        <members>copado__Automation_Rule_Record_Page</members>
         <members>copado__Commit_Data</members>
         <members>copado__Compliance_Finding_Record_Page</members>
         <members>copado__Compliance_Rule_Record_Page</members>
@@ -55,18 +62,24 @@
         <members>copado__License_Manager</members>
         <members>copado__Metadata_Group</members>
         <members>copado__Metadata_Item</members>
+        <members>copado__Notifications_Center</members>
         <members>copado__Org_Credential_Record_Page</members>
         <members>copado__Package_Record_Page</members>
         <members>copado__Package_Version_Record_Page</members>
+        <members>copado__Pipeline_Action_Record_Page</members>
         <members>copado__Pipeline_Connection_Record_Page</members>
         <members>copado__Pipeline_Record_Page</members>
         <members>copado__Pipeline_Record_Page_Multicloud</members>
         <members>copado__Promotion_Record_Page</members>
         <members>copado__Quality_Gate</members>
+        <members>copado__Quality_Gate_Rule_Condition_Record_Page</members>
+        <members>copado__Quality_Gate_Rule_Record_Page</members>
         <members>copado__Record_Matching_Formula</members>
         <members>copado__Result_Record_Page</members>
         <members>copado__SCA_Result_Layout</members>
         <members>copado__Sprint_Wall</members>
+        <members>copado__Stage_Connection_Record_Page</members>
+        <members>copado__Stage_Record_Page</members>
         <members>copado__StandardRecords</members>
         <members>copado__Static_Code_Analysis_Settings_Record_Page</members>
         <members>copado__Team_Record_Page</members>
@@ -76,10 +89,12 @@
         <members>copado__User_Story_Commit</members>
         <members>copado__User_Story_Commit_Record_Page</members>
         <members>copado__User_Story_Data_Commit_Record_Page</members>
+        <members>copado__User_Story_Dependency_Record_Page</members>
         <members>copado__User_Story_Layout</members>
         <members>copado__User_Story_Metadata_Record_Page</members>
         <members>copado__User_Story_Record_Page</members>
         <members>copado__User_Story_Task_Record_Page</members>
+        <members>copado__Webhook_Settings</members>
         <members>copadovsm__Process_Block_Record_Page</members>
         <members>copadovsm__Stage_Record_Page</members>
         <members>copadovsm__ValueStreamMapRecordPage</members>

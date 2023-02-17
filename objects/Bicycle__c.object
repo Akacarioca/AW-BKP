@@ -221,15 +221,14 @@
         <type>Checkbox</type>
     </fields>
     <fields>
-        <fullName>Quantity__c</fullName>
+        <fullName>Shipping_Address__c</fullName>
+        <businessStatus>Active</businessStatus>
+        <description>Address where the Bicycle is to be shipped to.</description>
         <externalId>false</externalId>
-        <label>Quantity</label>
-        <precision>7</precision>
-        <required>false</required>
-        <scale>0</scale>
+        <label>Shipping Address</label>
+        <securityClassification>Public</securityClassification>
         <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
+        <type>Address</type>
     </fields>
     <fields>
         <fullName>Type__c</fullName>

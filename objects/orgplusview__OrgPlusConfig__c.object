@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>orgplusview__Named_Credential__c</fullName>
+        <deprecated>false</deprecated>
+        <description>API Name of the Named Credential to access tooling api used in OrgPlus</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Named Credential configured for accessing tooling api</inlineHelpText>
+        <label>Named Credential</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>OrgPlus Configuration</label>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Named Credential configured for accessing tooling api --></help>
+        <label><!-- Named Credential --></label>
+        <name>orgplusview__Named_Credential__c</name>
+    </fields>
+</CustomObjectTranslation>

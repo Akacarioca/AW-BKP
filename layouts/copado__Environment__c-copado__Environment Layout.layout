@@ -160,6 +160,10 @@
     </miniLayout>
     <relatedLists>
         <fields>NAME</fields>
+        <relatedList>copado__Pipeline_Action__c.copado__Environment__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
         <relatedList>copado__System_Property__c.copado__Environment__c</relatedList>
     </relatedLists>
     <relatedLists>

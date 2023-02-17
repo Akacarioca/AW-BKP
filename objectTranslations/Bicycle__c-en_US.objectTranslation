@@ -47,8 +47,8 @@
         <name>Discount__c</name>
     </fields>
     <fields>
-        <label><!-- Quantity --></label>
-        <name>Quantity__c</name>
+        <label><!-- Shipping Address --></label>
+        <name>Shipping_Address__c</name>
     </fields>
     <fields>
         <label><!-- Type --></label>

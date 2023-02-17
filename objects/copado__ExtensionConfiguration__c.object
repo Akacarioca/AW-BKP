@@ -156,6 +156,17 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>copado__AcceptanceCriteria__c</fullName>
+        <defaultValue>&quot;{}&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Acceptance Criteria</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
         <fullName>copado__Active__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
@@ -323,6 +334,10 @@
     <listViews>
         <fullName>copado__All</fullName>
         <columns>NAME</columns>
+        <columns>copado__ExtensionApplication__c</columns>
+        <columns>copado__ExtensionTool__c</columns>
+        <columns>copado__Active__c</columns>
+        <columns>copado__TestType__c</columns>
         <columns>UPDATEDBY_USER</columns>
         <columns>LAST_UPDATE</columns>
         <filterScope>Everything</filterScope>
@@ -334,9 +349,20 @@
     </nameField>
     <pluralLabel>Extension Configurations</pluralLabel>
     <searchLayouts>
+        <searchResultsAdditionalFields>copado__ExtensionApplication__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__ExtensionTool__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Active__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__TestType__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>UPDATEDBY_USER</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>LAST_UPDATE</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>copado__PreventUpdatingExtensionTool</fullName>
+        <active>true</active>
+        <description>This rule prevents users from modifying the Tool Configuration after the Extension Configuration is activated.</description>
+        <errorConditionFormula>AND( copado__Active__c , ISCHANGED( copado__ExtensionTool__c ) )</errorConditionFormula>
+        <errorMessage>This Extension Tool cannot be modified. Please create a new Extension Configuration record instead.</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>

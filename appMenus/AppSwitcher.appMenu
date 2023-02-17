@@ -149,10 +149,6 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>Q9__Elements</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>slackv2__Slack_Setup</name>
         <type>CustomApplication</type>
     </appMenuItems>
@@ -178,6 +174,22 @@
     </appMenuItems>
     <appMenuItems>
         <name>copado__CopadoTests</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__AllTabSet</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__OnlineSales</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>DevOps_Center</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>orgplusview__OrgPlus</name>
         <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>

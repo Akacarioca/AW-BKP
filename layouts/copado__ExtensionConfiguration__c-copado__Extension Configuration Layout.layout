@@ -9,14 +9,6 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>copado__ExtensionApplication__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>copado__ExtensionTool__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
                 <field>Name</field>
             </layoutItems>
             <layoutItems>
@@ -26,6 +18,14 @@
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>copado__Extension_Name__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>copado__ExtensionApplication__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>copado__ExtensionTool__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -73,17 +73,24 @@
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
-    <miniLayout>
-        <fields>copado__ExtensionApplication__c</fields>
-        <fields>copado__ExtensionTool__c</fields>
-    </miniLayout>
+    <relatedLists>
+        <fields>NAME</fields>
+        <fields>copado__User_Story__c</fields>
+        <fields>copado__Feature__c</fields>
+        <fields>copado__Application__c</fields>
+        <fields>UPDATEDBY_USER</fields>
+        <relatedList>copado__Test__c.copado__ExtensionConfiguration__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <relatedList>RelatedFileList</relatedList>
+    </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
     <showInteractionLogPanel>false</showInteractionLogPanel>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h0900000EmqJs</masterLabel>
+        <masterLabel>00h4U00000UfeeN</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>
