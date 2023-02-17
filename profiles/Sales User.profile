@@ -227,6 +227,30 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>MHolt__GPTConfigurationUtils</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>MHolt__GPTConfigurationUtils_Test</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>MHolt__GPTCustomMetadataCallback</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>MHolt__GPTUtils</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>MHolt__GPTUtils_Test</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>MHolt__MockHttpResponseGenerator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>MHolt__PostInstallHandler</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -14012,6 +14036,26 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Location.TimeZone</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>MHolt__GPT_Response__c.MHolt__Case__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>MHolt__GPT_Response__c.MHolt__Input__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>MHolt__GPT_Response__c.MHolt__Raw_Response__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>MHolt__GPT_Response__c.MHolt__Response__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Case --></label>
+        <name>MHolt__Case__c</name>
+        <relationshipLabel><!-- GPT Responses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Input --></label>
+        <name>MHolt__Input__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Response --></label>
+        <name>MHolt__Raw_Response__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response --></label>
+        <name>MHolt__Response__c</name>
+    </fields>
+</CustomObjectTranslation>

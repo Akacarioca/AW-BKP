@@ -227,6 +227,30 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>MHolt__GPTConfigurationUtils</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>MHolt__GPTConfigurationUtils_Test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>MHolt__GPTCustomMetadataCallback</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>MHolt__GPTUtils</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>MHolt__GPTUtils_Test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>MHolt__MockHttpResponseGenerator</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>MHolt__PostInstallHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -14116,6 +14140,26 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>MHolt__GPT_Response__c.MHolt__Case__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>MHolt__GPT_Response__c.MHolt__Input__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>MHolt__GPT_Response__c.MHolt__Raw_Response__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>MHolt__GPT_Response__c.MHolt__Response__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>MHolt__Org_Expiry_Notification__e.MHolt__Expiry_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -24569,6 +24613,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>LocationTrustMeasure</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>MHolt__GPT_Response__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
