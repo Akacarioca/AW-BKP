@@ -6399,6 +6399,46 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>pkgviz__LimitsController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>pkgviz__ObjectWrappers</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>pkgviz__Package2Interface</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>pkgviz__PackageInterfaceTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>pkgviz__PackageVisualizerCtrl</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>pkgviz__PushUpgradesCalloutMock</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>pkgviz__PushUpgradesCtrl</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>pkgviz__PushUpgradesInterface</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>pkgviz__PushUpgradesInterfaceTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>pkgviz__ToolingAPICalloutMock</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>qsyd_FE__TriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -12294,6 +12334,14 @@
     <customPermissions>
         <enabled>true</enabled>
         <name>copado__Enable_Vlocity_Integration</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>pkgviz__Package_Visualizer_Core</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>pkgviz__Package_Visualizer_Push_Upgrade</name>
     </customPermissions>
     <customPermissions>
         <enabled>true</enabled>
@@ -24102,6 +24150,9 @@
         <layout>copadovsm__Value_Stream_Map_Metric__c-copadovsm__Value Stream Map Metric Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>pkgviz__Package_Visualizer_Announcement__mdt-pkgviz__Package Visualizer Announcement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>sf_devops__App_Config__mdt-sf_devops__App Config Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -27686,6 +27737,10 @@
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
+        <apexPage>pkgviz__SessionCreator</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>sf_devops__SessionIdSource</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
@@ -28378,6 +28433,14 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>orgplusview__OrgPlus</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>pkgviz__First_Generation_Package_Visualizer</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>pkgviz__X2GP_Visualizer</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

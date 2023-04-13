@@ -105,6 +105,8 @@
         <members>mockcomp__ltng_MockupComponentOverview</members>
         <members>mockcomp__ltng_MockupExampleApp</members>
         <members>mockcomp__ltng_MockupExampleRecordPage</members>
+        <members>pkgviz__First_Generation_Package_Visualizer</members>
+        <members>pkgviz__X2GP_Visualizer</members>
         <members>qsyd_FE__File_Explorer_Folder_Template_Record_Page1</members>
         <members>qsyd_FE__File_Explorer_UtilityBar</members>
         <members>qsyd_FE__Home_Page_Default</members>

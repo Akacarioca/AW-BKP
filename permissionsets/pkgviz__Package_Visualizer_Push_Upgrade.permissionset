@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <classAccesses>
+        <apexClass>pkgviz__PushUpgradesCalloutMock</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>pkgviz__PushUpgradesCtrl</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>pkgviz__PushUpgradesInterface</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>pkgviz__PushUpgradesInterfaceTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>pkgviz__Package_Visualizer_Push_Upgrade</name>
+    </customPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Package Visualizer Push Upgrade Permission</label>
+</PermissionSet>

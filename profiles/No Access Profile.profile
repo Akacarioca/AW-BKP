@@ -6399,6 +6399,46 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>pkgviz__LimitsController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>pkgviz__ObjectWrappers</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>pkgviz__Package2Interface</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>pkgviz__PackageInterfaceTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>pkgviz__PackageVisualizerCtrl</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>pkgviz__PushUpgradesCalloutMock</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>pkgviz__PushUpgradesCtrl</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>pkgviz__PushUpgradesInterface</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>pkgviz__PushUpgradesInterfaceTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>pkgviz__ToolingAPICalloutMock</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>qsyd_FE__TriggerHandler</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -24006,6 +24046,9 @@
         <layout>copadovsm__Value_Stream_Map_Metric__c-copadovsm__Value Stream Map Metric Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>pkgviz__Package_Visualizer_Announcement__mdt-pkgviz__Package Visualizer Announcement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>sf_devops__App_Config__mdt-sf_devops__App Config Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -24778,6 +24821,10 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
+        <apexPage>pkgviz__SessionCreator</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>sf_devops__SessionIdSource</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
@@ -25464,6 +25511,14 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>orgplusview__OrgPlus</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>pkgviz__First_Generation_Package_Visualizer</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>pkgviz__X2GP_Visualizer</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
