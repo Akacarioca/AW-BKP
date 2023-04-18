@@ -76,6 +76,10 @@
         <name>sf_devops__Promoted__c</name>
     </fields>
     <fields>
+        <label><!-- Rebase Remote Reference --></label>
+        <name>sf_devops__Rebase_Remote_Reference__c</name>
+    </fields>
+    <fields>
         <label><!-- Review Link --></label>
         <name>sf_devops__Review_Link__c</name>
     </fields>
@@ -155,6 +159,10 @@
     <validationRules>
         <errorMessage><!-- A WorkItem cannot be promoted if it is not Approved. --></errorMessage>
         <name>sf_devops__Promoted_Without_Approval</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Work Item cannot have its Rebase Remote Reference field set if it is un-promoted, bundled or concluded. --></errorMessage>
+        <name>sf_devops__Rebase_Remote_Reference</name>
     </validationRules>
     <validationRules>
         <errorMessage><!-- Deprecated --></errorMessage>
