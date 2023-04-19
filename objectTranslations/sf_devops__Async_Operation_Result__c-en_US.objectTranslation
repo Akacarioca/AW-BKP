@@ -5,6 +5,10 @@
         <name>sf_devops__Error_Details__c</name>
     </fields>
     <fields>
+        <label><!-- In Terminal State --></label>
+        <name>sf_devops__In_Terminal_State__c</name>
+    </fields>
+    <fields>
         <label><!-- Log Id --></label>
         <name>sf_devops__Log_Id__c</name>
     </fields>

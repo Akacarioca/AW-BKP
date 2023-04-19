@@ -51,6 +51,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Async_Operation_Result__c.sf_devops__In_Terminal_State__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>sf_devops__Async_Operation_Result__c.sf_devops__Message__c</field>
         <readable>true</readable>
@@ -76,18 +81,8 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>sf_devops__Change_Bundle_Install__c.sf_devops__Deployment_Id__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>sf_devops__Change_Bundle_Install__c.sf_devops__Deployment_Result__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>sf_devops__Change_Bundle_Install__c.sf_devops__Merge_Reference__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -112,27 +107,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>sf_devops__Change_Submission__c.sf_devops__Modified_Remote_Changes__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>sf_devops__Change_Submission__c.sf_devops__Open_Beta_Migrated__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>sf_devops__Change_Submission__c.sf_devops__Prior_Remote_Reference__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>sf_devops__Change_Submission__c.sf_devops__Remote_Reference__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>sf_devops__Change_Submission__c.sf_devops__Removed_Remote_Changes__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -272,11 +252,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>sf_devops__Object_Activity__c.sf_devops__Message__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>sf_devops__Object_Activity__c.sf_devops__Operation_Result__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -298,16 +273,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>sf_devops__Object_Activity__c.sf_devops__Work_Item__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>sf_devops__Pipeline_Stage__c.sf_devops__Branch_Name__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>sf_devops__Pipeline_Stage__c.sf_devops__Branch_Remote_Reference__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -441,16 +406,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>sf_devops__Work_Item_Promote__c.sf_devops__Completion_Date__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>sf_devops__Work_Item_Promote__c.sf_devops__Deployment_Id__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>sf_devops__Work_Item_Promote__c.sf_devops__Deployment_Result__c</field>
         <readable>true</readable>
@@ -461,11 +416,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>sf_devops__Work_Item_Promote__c.sf_devops__Remote_Reference__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>sf_devops__Work_Item_Promote__c.sf_devops__Status__c</field>
         <readable>true</readable>
@@ -473,21 +423,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>sf_devops__Work_Item__c.sf_devops__Assigned_To__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>sf_devops__Work_Item__c.sf_devops__Branch_Name__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>sf_devops__Work_Item__c.sf_devops__Branch_Parent_Remote_Reference__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>sf_devops__Work_Item__c.sf_devops__Branch_Remote_Reference__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -546,6 +481,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item__c.sf_devops__Rebase_Remote_Reference__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>sf_devops__Work_Item__c.sf_devops__Review_Remote_Reference__c</field>
         <readable>true</readable>
@@ -564,7 +504,7 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>sf_devops__Async_Operation_Result__c</object>
-        <viewAllRecords>false</viewAllRecords>
+        <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -694,7 +634,7 @@
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
-        <allowDelete>false</allowDelete>
+        <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
@@ -712,7 +652,7 @@
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
-        <allowDelete>false</allowDelete>
+        <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>

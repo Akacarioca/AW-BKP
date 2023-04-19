@@ -6794,10 +6794,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__Beta2MigrationService</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__BooleanQueryCondition</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -6828,10 +6824,6 @@
     <classAccesses>
         <apexClass>sf_devops__BranchCreateException</apexClass>
         <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__BranchNameMigrator</apexClass>
-        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__BranchService</apexClass>
@@ -7314,10 +7306,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__DeploymentResultMigrator</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__DeploymentResultService</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -7530,10 +7518,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__EnvironmentExpiredMigrator</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__EnvironmentRequiredFieldsValidator</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -7742,7 +7726,7 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__GaMigrationService</apexClass>
+        <apexClass>sf_devops__Ga2MigrationService</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -7974,10 +7958,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__InferredCbiMigrator</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__InitializeCreateEnvironmentResults</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -8170,10 +8150,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__MergeResultMigrator</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__MergeResultsSelector</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -8358,6 +8334,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__NoLocalAccessException</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__NotAuthenticatedException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -8455,10 +8435,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__ObjectActivityListViewFilterDefinition</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__ObjectActivityMessageMigrator</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -9022,6 +8998,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__RebaseOldParentMigrator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__RebaseQueueable</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -9362,6 +9342,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__RestErrorException</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__RestErrorService</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -9399,6 +9383,18 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__RestPromoteServiceFactoryUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RestQuickDeployService</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RestQuickDeployServiceFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RestQuickDeployServiceUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -9760,10 +9756,6 @@
     <classAccesses>
         <apexClass>sf_devops__SubmitChangesControllerUTest</apexClass>
         <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__SubmitComponentMigrator</apexClass>
-        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__SwapDevEnvironmentUseCase</apexClass>
@@ -11190,6 +11182,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__UnpulledChangesFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__UnsupportedOperationException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -11352,6 +11348,10 @@
     <classAccesses>
         <apexClass>sf_devops__VcsEventRegistryUTest</apexClass>
         <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventService</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__VcsEventTestUtils</apexClass>
@@ -23132,6 +23132,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Async_Operation_Result__c.sf_devops__In_Terminal_State__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>sf_devops__Async_Operation_Result__c.sf_devops__Message__c</field>
         <readable>true</readable>
@@ -23670,6 +23675,11 @@
         <editable>true</editable>
         <field>sf_devops__Work_Item__c.sf_devops__Promoted__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item__c.sf_devops__Rebase_Remote_Reference__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
