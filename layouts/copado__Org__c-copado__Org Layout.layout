@@ -215,11 +215,6 @@
             <sortOrder>18</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>Submit</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>22</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
             <actionName>PrintableView</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>19</sortOrder>
@@ -233,6 +228,11 @@
             <actionName>Share</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>21</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Submit</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>22</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>copado__Validate_Org</actionName>
