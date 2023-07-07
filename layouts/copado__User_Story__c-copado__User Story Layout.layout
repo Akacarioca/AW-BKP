@@ -488,11 +488,6 @@
             <sortOrder>22</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>copado__Commit_Files</actionName>
-            <actionType>CustomButton</actionType>
-            <sortOrder>8</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
             <actionName>copado__Send_to_Slack</actionName>
             <actionType>CustomButton</actionType>
             <sortOrder>5</sortOrder>
@@ -506,6 +501,11 @@
             <actionName>copado__Open_Org</actionName>
             <actionType>CustomButton</actionType>
             <sortOrder>7</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>copado__Commit_Files</actionName>
+            <actionType>CustomButton</actionType>
+            <sortOrder>8</sortOrder>
         </platformActionListItems>
     </platformActionList>
     <relatedLists>
