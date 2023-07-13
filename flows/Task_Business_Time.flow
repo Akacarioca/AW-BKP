@@ -145,6 +145,8 @@
                 <elementReference>myVariable_current.ActivityDate</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>Business_Time</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <processMetadataValues>
@@ -291,6 +293,8 @@
                 <elementReference>myVariable_current.ActivityDate</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>Business_Time</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>49.0</apiVersion>
     <decisions>
