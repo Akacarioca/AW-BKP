@@ -22,10 +22,12 @@
                 <elementReference>fx_BusinessMinutes</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>InvocableBusinessHoursAdd</nameSegment>
         <outputParameters>
             <assignToReference>v_ReturnedDateTime</assignToReference>
             <name>output</name>
         </outputParameters>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>49.0</apiVersion>
     <assignments>

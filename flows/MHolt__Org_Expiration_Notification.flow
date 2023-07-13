@@ -18,10 +18,12 @@
                 <elementReference>PermissionSetName</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>MHolt__UsersWithPermissionFlowHelper</nameSegment>
         <outputParameters>
             <assignToReference>Useremails</assignToReference>
             <name>output</name>
         </outputParameters>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Send_Email</name>
@@ -55,6 +57,8 @@
                 <stringValue>Notification of Org Expiry</stringValue>
             </value>
         </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>49.0</apiVersion>
     <assignments>

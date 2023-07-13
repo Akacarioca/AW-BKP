@@ -33,6 +33,8 @@
                 <stringValue>Test</stringValue>
             </value>
         </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>54.0</apiVersion>
     <interviewLabel>TestSchedluedTriggeredFlow {!$Flow.CurrentDateTime}</interviewLabel>

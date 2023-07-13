@@ -43,6 +43,8 @@
                 <stringValue>0050P000008YQOMQA4</stringValue>
             </value>
         </inputParameters>
+        <nameSegment>chatterPost</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>49.0</apiVersion>
     <assignments>
