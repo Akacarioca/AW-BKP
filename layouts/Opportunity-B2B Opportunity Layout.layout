@@ -240,6 +240,11 @@
             <sortOrder>2</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
+            <actionName>slackv2__Slack_Alerts</actionName>
+            <actionType>CustomButton</actionType>
+            <sortOrder>6</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
             <actionName>slackv2__Send_to_Slack</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>3</sortOrder>
@@ -253,11 +258,6 @@
             <actionName>Opportunity.slackv2__Send_to_Slack</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>5</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>slackv2__Slack_Alerts</actionName>
-            <actionType>CustomButton</actionType>
-            <sortOrder>6</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>RecordShareHierarchy</actionName>
