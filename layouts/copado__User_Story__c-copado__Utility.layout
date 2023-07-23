@@ -347,6 +347,11 @@
             <sortOrder>14</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
+            <actionName>Delete</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>19</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
             <actionName>copado__Copado_DX</actionName>
             <actionType>CustomButton</actionType>
             <sortOrder>15</sortOrder>
@@ -360,11 +365,6 @@
             <actionName>copado__Select_Base_Branch</actionName>
             <actionType>CustomButton</actionType>
             <sortOrder>16</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>Delete</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>19</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>Share</actionName>
