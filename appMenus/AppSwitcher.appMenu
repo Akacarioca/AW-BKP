@@ -149,10 +149,6 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>copadovsm__Value_Stream_Maps</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>slackv2__Slack_Setup</name>
         <type>CustomApplication</type>
     </appMenuItems>

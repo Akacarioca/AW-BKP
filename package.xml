@@ -95,11 +95,6 @@
         <members>copado__User_Story_Record_Page</members>
         <members>copado__User_Story_Task_Record_Page</members>
         <members>copado__Webhook_Settings</members>
-        <members>copadovsm__Process_Block_Record_Page</members>
-        <members>copadovsm__Stage_Record_Page</members>
-        <members>copadovsm__ValueStreamMapRecordPage</members>
-        <members>copadovsm__Value_Stream_Map_Record_Page</members>
-        <members>copadovsm__Value_Stream_Maps_UtilityBar</members>
         <members>mdv__Metadata_Visualizer</members>
         <members>mockcomp__ltng_FileHelper</members>
         <members>mockcomp__ltng_MockupComponentOverview</members>

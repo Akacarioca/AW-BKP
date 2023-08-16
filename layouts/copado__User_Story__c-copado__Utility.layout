@@ -66,10 +66,6 @@
                 <behavior>Edit</behavior>
                 <field>copado__Environment__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>copado__Is_Bundle__c</field>
-            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
@@ -272,17 +268,12 @@
     <platformActionList>
         <actionListContext>Record</actionListContext>
         <platformActionListItems>
-            <actionName>copado__Open_Org</actionName>
-            <actionType>CustomButton</actionType>
-            <sortOrder>4</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>copado__User_Story__c.copado__Send_to_Slack</actionName>
+            <actionName>copado__User_Story__c.Send_to_Slack</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>0</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>copado__User_Story__c.copado__Slack_Alerts</actionName>
+            <actionName>copado__User_Story__c.Slack_Alerts</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>1</sortOrder>
         </platformActionListItems>
@@ -297,14 +288,14 @@
             <sortOrder>3</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
+            <actionName>copado__Open_Org</actionName>
+            <actionType>CustomButton</actionType>
+            <sortOrder>4</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
             <actionName>copado__Ready_for_Promotion</actionName>
             <actionType>CustomButton</actionType>
             <sortOrder>5</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>copado__Run_Compliance_Scan</actionName>
-            <actionType>CustomButton</actionType>
-            <sortOrder>12</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>copado__Perform_Validation</actionName>
@@ -337,6 +328,11 @@
             <sortOrder>11</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
+            <actionName>copado__Run_Compliance_Scan</actionName>
+            <actionType>CustomButton</actionType>
+            <sortOrder>12</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
             <actionName>copado__Pull_Request</actionName>
             <actionType>CustomButton</actionType>
             <sortOrder>13</sortOrder>
@@ -350,11 +346,6 @@
             <actionName>copado__Copado_DX</actionName>
             <actionType>CustomButton</actionType>
             <sortOrder>15</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>copado__Add_Apex_Tests</actionName>
-            <actionType>CustomButton</actionType>
-            <sortOrder>20</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>copado__Select_Base_Branch</actionName>
@@ -375,6 +366,11 @@
             <actionName>Delete</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>19</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>copado__Add_Apex_Tests</actionName>
+            <actionType>CustomButton</actionType>
+            <sortOrder>20</sortOrder>
         </platformActionListItems>
     </platformActionList>
     <relatedLists>
