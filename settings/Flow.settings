@@ -17,12 +17,10 @@
     <enableFlowUseApexExceptionEmail>true</enableFlowUseApexExceptionEmail>
     <enableFlowViaRestUsesUserCtxt>true</enableFlowViaRestUsesUserCtxt>
     <enableLightningRuntimeEnabled>true</enableLightningRuntimeEnabled>
-    <isAccessToInvokedApexRequired>true</isAccessToInvokedApexRequired>
     <isApexPluginAccessModifierRespected>true</isApexPluginAccessModifierRespected>
     <isEnhancedFlowListViewVisible>true</isEnhancedFlowListViewVisible>
-    <isFlowApexContextRetired>false</isFlowApexContextRetired>
-    <isFlowBlockAccessToSessionIDEnabled>false</isFlowBlockAccessToSessionIDEnabled>
+    <isFlowBlockAccessToSessionIDEnabled>true</isFlowBlockAccessToSessionIDEnabled>
     <isManageFlowRequiredForAutomationCharts>true</isManageFlowRequiredForAutomationCharts>
     <isSupportRollbackOnErrorForApexInvocableActionsEnabled>false</isSupportRollbackOnErrorForApexInvocableActionsEnabled>
-    <isTimeResumedInSameRunContext>false</isTimeResumedInSameRunContext>
+    <isTimeResumedInSameRunContext>true</isTimeResumedInSameRunContext>
 </FlowSettings>

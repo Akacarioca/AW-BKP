@@ -70,6 +70,10 @@
             <label>Territory Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -136,6 +140,10 @@
         <forecastingObjectListLabelMappings>
             <field>DESCRIPTION</field>
             <label>Description</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
@@ -279,6 +287,8 @@
             <field>00N0P000007WVCE</field>
             <field>00N0P000007WVC9</field>
             <field>TERR2_DESC</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>Test_Model</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -356,6 +366,10 @@
             <label>Territory Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -422,6 +436,10 @@
         <forecastingObjectListLabelMappings>
             <field>DESCRIPTION</field>
             <label>Description</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
@@ -566,6 +584,8 @@
             <field>00N0P000007WVCE</field>
             <field>00N0P000007WVC9</field>
             <field>TERR2_DESC</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>Test_Model1_ProductFamily</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -643,6 +663,10 @@
             <label>Territory Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -709,6 +733,10 @@
         <forecastingObjectListLabelMappings>
             <field>DESCRIPTION</field>
             <label>Description</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
@@ -853,6 +881,8 @@
             <field>00N0P000007WVCE</field>
             <field>00N0P000007WVC9</field>
             <field>TERR2_DESC</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>Test_Model1</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -926,6 +956,10 @@
             <label>Territory Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -992,6 +1026,10 @@
         <forecastingObjectListLabelMappings>
             <field>DESCRIPTION</field>
             <label>Description</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
@@ -1135,6 +1173,8 @@
             <field>00N0P000007WVCE</field>
             <field>00N0P000007WVC9</field>
             <field>TERR2_DESC</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>Test_Model2</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -1212,6 +1252,10 @@
             <label>Territory Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -1278,6 +1322,10 @@
         <forecastingObjectListLabelMappings>
             <field>DESCRIPTION</field>
             <label>Description</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
@@ -1422,6 +1470,8 @@
             <field>00N0P000007WVCE</field>
             <field>00N0P000007WVC9</field>
             <field>TERR2_DESC</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>Test_Model3</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -1495,6 +1545,10 @@
             <label>Territory Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -1561,6 +1615,10 @@
         <forecastingObjectListLabelMappings>
             <field>DESCRIPTION</field>
             <label>Description</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
@@ -1704,6 +1762,8 @@
             <field>00N0P000007WVCE</field>
             <field>00N0P000007WVC9</field>
             <field>TERR2_DESC</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>Test_Model4</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -1777,6 +1837,10 @@
             <label>Territory Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -1843,6 +1907,10 @@
         <forecastingObjectListLabelMappings>
             <field>DESCRIPTION</field>
             <label>Description</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
@@ -1986,6 +2054,8 @@
             <field>00N0P000007WVCE</field>
             <field>00N0P000007WVC9</field>
             <field>TERR2_DESC</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>Test_Model5</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -2059,6 +2129,10 @@
             <label>Territory Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -2125,6 +2199,10 @@
         <forecastingObjectListLabelMappings>
             <field>DESCRIPTION</field>
             <label>Description</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
@@ -2268,6 +2346,8 @@
             <field>00N0P000007WVCE</field>
             <field>00N0P000007WVC9</field>
             <field>TERR2_DESC</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>Test_Model6</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -2341,6 +2421,10 @@
             <label>Territory Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -2407,6 +2491,10 @@
         <forecastingObjectListLabelMappings>
             <field>DESCRIPTION</field>
             <label>Description</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
@@ -2550,6 +2638,8 @@
             <field>00N0P000007WVC9</field>
             <field>TERR2_NAME</field>
             <field>TERR2_DESC</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>OpportunityRevenue</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -2623,6 +2713,10 @@
             <label>Territory Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -2689,6 +2783,10 @@
         <forecastingObjectListLabelMappings>
             <field>DESCRIPTION</field>
             <label>Description</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
@@ -2832,6 +2930,8 @@
             <field>00N0P000007WVC9</field>
             <field>TERR2_NAME</field>
             <field>TERR2_DESC</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>OpportunityQuantity</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -2909,6 +3009,10 @@
             <label>Territory Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -2975,6 +3079,10 @@
         <forecastingObjectListLabelMappings>
             <field>DESCRIPTION</field>
             <label>Description</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
@@ -3119,6 +3227,8 @@
             <field>00N0P000007WVC9</field>
             <field>TERR2_NAME</field>
             <field>TERR2_DESC</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>OpportunityLineItemRevenue</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -3192,6 +3302,10 @@
             <label>Territory Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -3258,6 +3372,10 @@
         <forecastingObjectListLabelMappings>
             <field>DESCRIPTION</field>
             <label>Description</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
@@ -3401,6 +3519,8 @@
             <field>00N0P000007WVC9</field>
             <field>TERR2_NAME</field>
             <field>TERR2_DESC</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>OpportunityLineItemQuantity</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -3478,6 +3598,10 @@
             <label>Territory Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -3544,6 +3668,10 @@
         <forecastingObjectListLabelMappings>
             <field>DESCRIPTION</field>
             <label>Description</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
@@ -3688,6 +3816,8 @@
             <field>00N0P000007WVC9</field>
             <field>TERR2_NAME</field>
             <field>TERR2_DESC</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>OpportunityRevenueProductDate</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -3761,6 +3891,10 @@
             <label>Territory Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -3827,6 +3961,10 @@
         <forecastingObjectListLabelMappings>
             <field>DESCRIPTION</field>
             <label>Description</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
@@ -3970,6 +4108,8 @@
             <field>00N0P000007WVC9</field>
             <field>TERR2_NAME</field>
             <field>TERR2_DESC</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>OpportunityQuantityProductDate</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -4047,6 +4187,10 @@
             <label>Territory Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -4113,6 +4257,10 @@
         <forecastingObjectListLabelMappings>
             <field>DESCRIPTION</field>
             <label>Description</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
@@ -4257,6 +4405,8 @@
             <field>00N0P000007WVC9</field>
             <field>TERR2_NAME</field>
             <field>TERR2_DESC</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>LineItemRevenueProductDate</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -4330,6 +4480,10 @@
             <label>Territory Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -4396,6 +4550,10 @@
         <forecastingObjectListLabelMappings>
             <field>DESCRIPTION</field>
             <label>Description</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
@@ -4539,6 +4697,8 @@
             <field>00N0P000007WVC9</field>
             <field>TERR2_NAME</field>
             <field>TERR2_DESC</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>LineItemQuantityProductDate</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -4616,6 +4776,10 @@
             <label>Territory Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -4682,6 +4846,10 @@
         <forecastingObjectListLabelMappings>
             <field>DESCRIPTION</field>
             <label>Description</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
@@ -4826,6 +4994,8 @@
             <field>00N0P000007WVC9</field>
             <field>TERR2_NAME</field>
             <field>TERR2_DESC</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>OpportunityRevenueScheduleDate</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -4899,6 +5069,10 @@
             <label>Territory Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -4965,6 +5139,10 @@
         <forecastingObjectListLabelMappings>
             <field>DESCRIPTION</field>
             <label>Description</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
@@ -5108,6 +5286,8 @@
             <field>00N0P000007WVC9</field>
             <field>TERR2_NAME</field>
             <field>TERR2_DESC</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>OpportunityQuantityScheduleDate</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -5185,6 +5365,10 @@
             <label>Territory Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -5251,6 +5435,10 @@
         <forecastingObjectListLabelMappings>
             <field>DESCRIPTION</field>
             <label>Description</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
@@ -5395,6 +5583,8 @@
             <field>00N0P000007WVC9</field>
             <field>TERR2_NAME</field>
             <field>TERR2_DESC</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>LineItemRevenueScheduleDate</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
@@ -5468,6 +5658,10 @@
             <label>Territory Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>ACCOUNT.SITE</field>
             <label>Account Site</label>
         </forecastingObjectListLabelMappings>
@@ -5534,6 +5728,10 @@
         <forecastingObjectListLabelMappings>
             <field>DESCRIPTION</field>
             <label>Description</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
@@ -5677,6 +5875,8 @@
             <field>00N0P000007WVC9</field>
             <field>TERR2_NAME</field>
             <field>TERR2_DESC</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
         <forecastingTypeDeveloperName>LineItemQuantityScheduleDate</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
