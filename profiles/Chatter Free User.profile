@@ -6234,6 +6234,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>pkgviz__TestGetLimitsHelper</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>pkgviz__ToolingAPICalloutMock</apexClass>
         <enabled>false</enabled>
     </classAccesses>
