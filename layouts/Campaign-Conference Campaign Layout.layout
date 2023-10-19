@@ -251,11 +251,6 @@
             <sortOrder>7</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>FeedItem.MobileSmartActions</actionName>
-            <actionType>QuickAction</actionType>
-            <sortOrder>11</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
             <actionName>NewPartnerAccount</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>8</sortOrder>
@@ -269,6 +264,11 @@
             <actionName>NewCase</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>10</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>FeedItem.MobileSmartActions</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>11</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>FeedItem.PollPost</actionName>

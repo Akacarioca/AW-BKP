@@ -311,11 +311,6 @@
             <sortOrder>7</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>NewCase</actionName>
-            <actionType>QuickAction</actionType>
-            <sortOrder>10</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
             <actionName>NewPartnerAccount</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>8</sortOrder>
@@ -324,6 +319,11 @@
             <actionName>FeedItem.TextPost</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>9</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>NewCase</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>10</sortOrder>
         </platformActionListItems>
     </platformActionList>
     <relatedContent>
